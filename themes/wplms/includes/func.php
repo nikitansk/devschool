@@ -152,9 +152,9 @@ function wplms_show_notes_discussion($unit_id){
           <?php    
               
 
-              // $per_page = get_option('comments_per_page');
-              // if(!is_numeric($per_page))
-                $per_page = 9999;
+              $per_page = get_option('comments_per_page');
+              if(!is_numeric($per_page))
+                $per_page = 5;
               
               $comments_count = get_comments(array('post_id'=>$unit_id,'count'=>true,'parent'=>0));
               $max = ceil($comments_count/$per_page);
@@ -197,129 +197,6 @@ function wplms_show_notes_discussion($unit_id){
   }
 }
 
-add_action('wplms_show_notes_discussion_assignment','wplms_show_notes_discussion_assignment',10,2);
-function wplms_show_notes_discussion_assignment($unit_id, $user_id=''){
-
-  global $post;
-   if ($user_id == ''){ 
-       $user_id = get_current_user_id();
-    }
-    $usersIDs[] = $user_id;
-
-  //administrator,instructor
-      global $wpdb;
-    $blog_id = get_current_blog_id();
-    $user_query = new WP_User_Query( array(
-        'meta_query' => array(
-            'relation' => 'OR',
-            array(
-                'key' => $wpdb->get_blog_prefix( $blog_id ) . 'capabilities',
-                'value' => 'administrator',
-                'compare' => 'like'
-            ),
-            array(
-                'key' => $wpdb->get_blog_prefix( $blog_id ) . 'capabilities',
-                'value' => 'instructor',
-                'compare' => 'like'
-            )
-        )
-    ) );
-    $users = $user_query->get_results();
-    foreach ($users as $key => $value) {
-      $usersIDs[]=$value->ID;
-    }
-
-    $usersIDs=implode( ',', $usersIDs );
-    /////////////////////////////////////////////////////
-
-  $notes_style = vibe_get_option('notes_style');
-  $unit_comments = vibe_get_option('unit_comments');
-  
-  if(isset($notes_style) && is_numeric($notes_style) && is_numeric($unit_comments) && is_user_logged_in()){
-    ?>
-      <div id="discussion" data-unit="<?php echo $unit_id; ?>" data-user="<?php echo $user_id; ?>" class="">
-      <h3 class="heading"><?php _e('Discussion','vibe'); 
-      $user_id_comment = $user_id;
-        $user_id = get_current_user_id();
-        $post_author = get_post_field('post_author',$unit_id,true);
-        $post_authors = array($post_author);
-        if(function_exists('get_coauthors')){
-          $post_authors = get_coauthors( $unit_id );
-        }
-        if( in_array($user_id,$post_authors) || current_user_can('manage_posts')) { 
-          edit_post_link(__('Manage','vibe'),'','',$unit_id);
-        }
-      ?>
-      </h3>
-      <ol class="commentlist">
-          <?php    
-              
-
-              // $per_page = get_option('comments_per_page');
-              // if(!is_numeric($per_page))
-                $per_page = 9999;
-              
-              $comments_count = get_comments(array('post_id'=>$unit_id,'count'=>true,'parent'=>0));
-              $max = ceil($comments_count/$per_page);
-
-              $offset = 0;
-              $comments = get_comments(array(
-                  'post_id' => $unit_id,
-                  'offset' => 0,
-                  //'number' => $per_page,
-                  'author__in'=>$usersIDs,
-                  'status' => 'approve',
-                  'meta_key' => 'user_id_comment',
-                  'meta_value' => $user_id_comment
-              ));
-              // $query = "SELECT * FROM $wpdb->comments 
-              //         WHERE comment_post_ID = $unit_id 
-              //         AND user_id IN ($usersIDs) 
-              //         AND comment_approved = 1
-              //         ORDER BY comment_date ASC";
-              // $comments = $wpdb->get_results( $query );
-
-             
-
-              wp_list_comments(array(
-                  'avatar_size' => 120,
-                  'callback' => 'wplms_unit_comment' //Show the latest comments at the top of the list
-              ), $comments);
-
-
-          ?>
-      </ol>
-    <?php
-
-      if($comments_count > $per_page){
-        $more = $comments_count - $per_page;
-        
-        if($max > 1){
-          ?>
-            <a class="load_more_comments right" data-page="1" data-max="<?php echo $max; ?>" data-per="<?php echo $per_page; ?>"><?php printf(__('Load more (<span>%s</span>)','vibe'),$more); ?></a>
-          <?php
-        }
-      }
-      ?>
-      <a class="add_comment"><?php printf(__('Ask Question','vibe'),$more); ?></a>
-      <div id="add_unit_comment" class="add_unit_comment_text hide">
-          <?php
-          $content = '';
-          $editor_id = 'mycustomeditor';
-
-          wp_editor( $content, $editor_id );
-
-          
-          ?>
-        <a class="button post_question"><?php _e('Post Question','vibe'); ?></a>
-        <a class="button cancel"><?php _e('Cancel','vibe'); ?></a>
-      </div>
-      </div>
-      <?php
-  }
-}
-
-
 function wplms_unit_comment($comment, $args, $depth) {
   $GLOBALS['comment'] = $comment;
   
@@ -349,8 +226,7 @@ function wplms_unit_comment($comment, $args, $depth) {
                 if(current_user_can('edit_posts')){
                 ?>  <a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ); ?>"><?php
                 }
-
-                $time_passed = human_time_diff(strtotime(get_comment_date('d.m.Y').' '.get_comment_time()),current_time('timestamp'));
+                $time_passed = human_time_diff( get_comment_time( 'U' ), current_time( 'timestamp' ) );
                   printf( __('%s ago','vibe'), $time_passed ); 
                 if(current_user_can('edit_posts')){
                 ?></a><?php
@@ -359,13 +235,9 @@ function wplms_unit_comment($comment, $args, $depth) {
           <?php if ( $comment->comment_approved == '0' ) : ?>
           <em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.' ); ?></em>
           <?php endif; ?>
-          <?php $mycomment = get_comment_text();
-          //$crayon = '<pre class="lang:html toolbar:always mark:1">' . $mycomment . '</pre>';
-            // Add Crayon to content
-            
-               echo CrayonWP::highlight($mycomment); ?>
-              <div class="reply" data-parent="<?php comment_ID()?>">
-                 <a ><?php _e('REPLY','vibe');?></a>
+              <?php comment_text(); ?>
+              <div class="reply">
+                  <a><?php _e('REPLY','vibe');?></a>
               </div>
           </div>
       </div>
@@ -1504,7 +1376,7 @@ function wplms_get_course_unfinished_unit($course_id){
       }    
   }
 
-$uid = apply_filters('wplms_get_course_unfinished_unit',$unit_id);
+$unit_id = apply_filters('wplms_get_course_unfinished_unit',$unit_id);
 $key = apply_filters('wplms_get_course_unfinished_unit_key',$key,$unit_id,$course_id);
 $flag=apply_filters('wplms_next_unit_access',true,$units[($key-1)]);
 
@@ -1690,7 +1562,7 @@ function wplms_redirect_to_course($order_id){
 
       if(isset($order_courses) && is_array($order_courses) && count($order_courses)){
           echo '<h3 class="heading">'.__('Courses Subscribed','vibe').'</h3>
-          <ul class="order_details">
+          <ul class="course_order_details">
             <li><a>'.__('COURSE','vibe').'</a>
             <strong>'.__('SUBSCRIPTION','vibe').'</strong></li>';
 
@@ -1706,7 +1578,7 @@ function wplms_redirect_to_course($order_id){
             foreach($order_courses as $order_course){
                 foreach($order_course['courses'] as $course){
                   echo '<li>
-                        <a class="course_name">'.get_the_title($course).'</a>
+                        <a class="course_name">'.get_post_field('post_title',$course).'</a>
                         <a href="'.get_permalink($course).'"  class="button">
                         '.$ostatus.'</a>'.$order_course['subs'].'
                         </li>'; 
@@ -1946,6 +1818,7 @@ add_filter('bp_course_wplms_filters','wplms_exlude_courses_directroy');
 function wplms_exlude_courses_directroy($args){
   if($args['post_type'] == 'course'){
     $user_id=get_current_user_id();
+    
     if(isset($args['meta_query']) && is_array($args['meta_query']) && is_user_logged_in()){
        foreach($args['meta_query'] as $query){
          if(isset($query) && is_array($query)){
@@ -1956,8 +1829,12 @@ function wplms_exlude_courses_directroy($args){
        }
     }
     $excluded_courses=vibe_get_option('hide_courses');
-      if(isset($excluded_courses) && is_array($excluded_courses) && !isset($args['author'])){
-        $args['post__not_in'] = $excluded_courses;
+      if(!empty($excluded_courses) && is_array($excluded_courses) && !isset($args['author'])){
+        if(!empty($args['post__not_in'])){
+          $args['post__not_in'] = array_merge($args['post__not_in'], $excluded_courses);
+        }else{
+          $args['post__not_in'] = $excluded_courses;  
+        }
       } 
   }
   return $args;    
@@ -2373,14 +2250,14 @@ if(!function_exists('bp_course_get_curriculum')){
 }
 
 
-add_action('wp_footer','wplms_modern_theme_css_Fixes');
+//add_action('wp_footer','wplms_modern_theme_css_Fixes');
 function wplms_modern_theme_css_Fixes(){
   if(class_exists('Wplms_Modern_Init')){
     wp_enqueue_style('dashicons');
     ?>
     <style>
     .archive.author .instructor_stats{color:#FFF;}.directory #buddypress div.item-list-tabs ul>li>a:hover {background: none;}.directory #buddypress ul.item-list.grid li .col-md-3, .directory #buddypress ul.item-list.grid li .col-md-6 {width:100%;}#buddypress ul.item-list.grid li div.item-title{ margin-top:15px;}#buddypress ul.item-list.grid span.activity,#buddypress ul.item-list.grid .action .meta{ text-align:center;}#buddypress ul.item-list.grid a.leave-group{float:none;}
-    .order_details a.course_name,.order_details li a{font-weight:900;font-size:15px}#members-dir-list #members-list li .item-avatar{float:left}.woocart{padding:15px}.directory #buddypress div.item-list-tabs#subnav ul>li{width:auto!important}.radio>input[type=radio]+label:before{border:1px solid #337ABD}#buddypress ul.item-list.grid li{border:1px solid #EFEFEF}.block.courseitem .block_content img{height:32px}.modern_course .block_content .modern_course_instructor img{height:48px}#buddypress .comment-reply-link:hover,#buddypress a.button:focus,#buddypress a.button:hover,#buddypress button:hover,#buddypress div.generic-button a:hover,#buddypress input[type=button]:hover,#buddypress input[type=reset]:hover,#buddypress input[type=submit]:hover,#buddypress ul.button-nav li a:hover,#buddypress ul.button-nav li.current a{color:#444}#buddypress .item-list-tabs ul li a:hover{background-color:#78c8ce}.woocommerce-page .widget ul.product_list_widget li{display:inline-block;width:100%;padding:8px 0}.woocart{border:none!important}.woocart .widget_shopping_cart{padding:15px;border:1px solid #EFEFEF;background:#FFF;margin-top:60px}.woocommerce .widget_shopping_cart .cart_list li a.remove,.woocommerce.widget_shopping_cart .cart_list li a.remove{left:96%!important;font-size:20px}.woocart span.quantity{font-size:15px}.widget ul li:last-child{border-bottom:none}.woocommerce-checkout h3.heading:after{background-color:transparent}.order_details a.button,.woocommerce button.button,.woocommerce input.button{color:#FFF!important;background-color:#337AB7!important}.switch{width:200px}#unit.page_title .instructor img{height:32px!important}.mce-container,.wp-editor-area{border:1px solid #EFEFEF!important}footer h5{color:#AAAEA8}h3.assignment_heading strong span{margin:8px}#buddypress #course-list .modern_course_single_item .modern-star-rating .dashicons{font-size:16px}#buddypress #course-list .modern_course_single_item .item-desc{display:block;margin-left:0}#buddypress #course-list.grid .modern_course_single_item .item-desc{display:none}.course_curriculum .course_lesson i{float:left;margin-right:10px}.course_curriculum .course_lesson h6{margin:0 10px 0 0;font-size:14px}.course_curriculum .course_lesson h6>a>span{color:#fff;background:#009dd8;padding:2px 8px;border-radius:2px}.activity-meta .button{padding:0!important;background:none !important;font-size:11px}input#group-creation-previous{padding:11px 20px}.woocart{background:0 0!important}a.course_button.full.button{text-transform:uppercase}#buddypress div#message-thread div.message-content{margin:10px 0;text-align:left}a.full.button:hover{color:#888!important}#comments .commentlist li .comment-body .comment-avatar{border:none}.single #comments ol.commentlist li .comment-body .comment-body-inner .comment-body-content .comment-text{width:auto}.my-account.course .item-credits a,.my-account.course .item-credits a span{color:#FFF!important}.my-account.course .item-credits a span{display:inline;width:100%}#course-list .item-avatar{max-width:280px;float:left;margin-right:20px}#buddypress ul.item-list,#buddypress ul.item-list li{width:100%;list-style:none;clear:both;margin:0;display:inline-block}#buddypress ul.item-list li{border-bottom:1px solid #f6f6f6;padding:20px 0;position:relative}#buddypress ul.item-list{border-top:1px solid #f6f6f6;padding:0}#buddypress ul.item-list li .item-desc{clear:none}#course-list .item{margin-left:300px}#buddypress ul.item-list li a{font-weight:600;display:inline-block}#course-list li .item-meta{line-height:1}#course-list li .item-meta .modern-star-rating{display:inherit!important}#course-list li p{margin:10px 1px 1px}img.avatar.avatar-150.photo{border-radius:50%}.instructor_action_buttons{border-top:none}#buddypress ul.item-list li{border-top:1px solid #f6f6f6}.course-stats button.review_course.tip{background:0 0;border:none}.total_students{margin:0}#buddypress .course_reviews .show_course_reviews .show_reviews{margin-left:-100px}#buddypress .course_curriculum .course_lesson a span{margin-left:10px}    
+    .order_details a.course_name,.order_details li a{font-weight:900;font-size:15px}#members-dir-list #members-list li .item-avatar{float:left}.woocart{padding:15px}.directory #buddypress div.item-list-tabs#subnav ul>li{width:auto!important}.radio>input[type=radio]+label:before{border:1px solid #337ABD}#buddypress .comment-reply-link:hover,#buddypress a.button:focus,#buddypress a.button:hover,#buddypress button:hover,#buddypress div.generic-button a:hover,#buddypress input[type=button]:hover,#buddypress input[type=reset]:hover,#buddypress input[type=submit]:hover,#buddypress ul.button-nav li a:hover,#buddypress ul.button-nav li.current a{color:#444}#buddypress .item-list-tabs ul li a:hover{background-color:#78c8ce}.woocommerce-page .widget ul.product_list_widget li{display:inline-block;width:100%;padding:8px 0}.woocart{border:none!important}.woocart .widget_shopping_cart{padding:15px;border:1px solid #EFEFEF;background:#FFF;margin-top:60px}.woocommerce .widget_shopping_cart .cart_list li a.remove,.woocommerce.widget_shopping_cart .cart_list li a.remove{left:96%!important;font-size:20px}.woocart span.quantity{font-size:15px}.widget ul li:last-child{border-bottom:none}.woocommerce-checkout h3.heading:after{background-color:transparent}.order_details a.button,.woocommerce button.button,.woocommerce input.button{color:#FFF!important;background-color:#337AB7!important}.switch{width:200px}#unit.page_title .instructor img{height:32px!important}.mce-container,.wp-editor-area{border:1px solid #EFEFEF!important}footer h5{color:#AAAEA8}h3.assignment_heading strong span{margin:8px}#buddypress #course-list .modern_course_single_item .modern-star-rating .dashicons{font-size:16px}#buddypress #course-list .modern_course_single_item .item-desc{display:block;margin-left:0}#buddypress #course-list.grid .modern_course_single_item .item-desc{display:none}.course_curriculum .course_lesson i{float:left;margin-right:10px}.course_curriculum .course_lesson h6{margin:0 10px 0 0;font-size:14px}.course_curriculum .course_lesson h6>a>span{color:#fff;background:#009dd8;padding:2px 8px;border-radius:2px}.activity-meta .button{padding:0!important;background:none !important;font-size:11px}input#group-creation-previous{padding:11px 20px}.woocart{background:0 0!important}a.course_button.full.button{text-transform:uppercase}#buddypress div#message-thread div.message-content{margin:10px 0;text-align:left}a.full.button:hover{color:#888!important}#comments .commentlist li .comment-body .comment-avatar{border:none}.single #comments ol.commentlist li .comment-body .comment-body-inner .comment-body-content .comment-text{width:auto}.my-account.course .item-credits a,.my-account.course .item-credits a span{color:#FFF!important}.my-account.course .item-credits a span{display:inline;width:100%}#course-list .item-avatar{max-width:280px;float:left;margin-right:20px}#buddypress ul.item-list,#buddypress ul.item-list li{width:100%;list-style:none;clear:both;margin:0;display:inline-block}#buddypress ul.item-list li{border-bottom:1px solid #f6f6f6;padding:20px 0;position:relative}#buddypress ul.item-list{border-top:1px solid #f6f6f6;padding:0}#buddypress ul.item-list li .item-desc{clear:none}#course-list .item{margin-left:300px}#buddypress ul.item-list li a{font-weight:600;display:inline-block}#course-list li .item-meta{line-height:1}#course-list li .item-meta .modern-star-rating{display:inherit!important}#course-list li p{margin:10px 1px 1px}img.avatar.avatar-150.photo{border-radius:50%}.instructor_action_buttons{border-top:none}#buddypress ul.item-list li{border-top:1px solid #f6f6f6}.course-stats button.review_course.tip{background:0 0;border:none}.total_students{margin:0}#buddypress .course_reviews .show_course_reviews .show_reviews{margin-left:-100px}#buddypress .course_curriculum .course_lesson a span{margin-left:10px}    
     </style>
     <?php
   }

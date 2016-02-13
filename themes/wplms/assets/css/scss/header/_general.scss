@@ -377,6 +377,7 @@ h2#sidelogo:hover img{
 	opacity:1;
 }
 
+.standard #alt_logo img{height:48px;padding:10px 0;}
 /*========================================================================*/
 /*   03. RESPONSIVE FIXES
 /*========================================================================*/
@@ -387,19 +388,17 @@ h2#sidelogo:hover img{
 		top:58px;
 		right:20px;
 	}
-	.sleek{
+	.sleek,.standard{
 		#trigger{
 			top:24px;
+			right:50px;
+		}
+		&.transparent{
+			right:20px;
 		}
 	}
 }
-@media (max-width: 991px) {
-	.sleek{	
-		.col-md-3.col-sm-8.col-xs-8{
-			padding-right:60px;
-		}
-	}
-}
+
 @media (max-width: 767px) {
 	
 	header{
@@ -419,6 +418,16 @@ h2#sidelogo:hover img{
 		&.mooc{
 			#logo{
 				margin:0;
+			}
+		}
+		&.standard,
+		&.sleek{
+			#trigger{
+				top:24px;
+				right:50px;
+			}
+			&.transparent{
+				right:20px;
 			}
 		}
 	}

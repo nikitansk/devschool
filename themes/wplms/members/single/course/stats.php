@@ -20,7 +20,7 @@ echo '<li>
 
 
 
-if($course_complete_status > 3){
+if($course_complete_status ){
 	//$curriculum=vibe_sanitize(get_post_meta($course->ID,'vibe_course_curriculum',false));
 	$curriculum=bp_course_get_curriculum_units($course->ID);
 	$average=array();
@@ -64,10 +64,8 @@ if($course_complete_status > 3){
 				$myavg=get_post_meta($c,$user_id,true);
 				$avg=get_post_meta($c,'average',true);
 
-				$questions = vibe_sanitize(get_post_meta($c,'quiz_questions'.$user_id,false));
- 				if(!isset($questions) || !is_array($questions)) // Fallback for Older versions
-  				$questions = vibe_sanitize(get_post_meta($c,'vibe_quiz_questions',false));
-
+				$questions = bp_course_get_quiz_questions($c,$user_id);
+				
 				if(isset($questions['marks']) && is_array($questions['marks'])){
 					$marks=$questions['marks'];
 					$max= array_sum($marks);

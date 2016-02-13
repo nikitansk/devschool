@@ -1,7 +1,7 @@
 <?php
 $id= vibe_get_bp_page_id('members');
 ?>
-<section id="memberstitle">
+<section id="title">
     <div class="<?php echo vibe_get_container(); ?>">
         <div class="row">
              <div class="col-md-12">

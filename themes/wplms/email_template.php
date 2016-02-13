@@ -25,5 +25,5 @@ if(empty($_GET['vars'])){
 	}	
 }
 
-get_footer();
+get_footer(vibe_get_footer());
 ?>

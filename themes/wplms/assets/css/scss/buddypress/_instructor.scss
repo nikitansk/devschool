@@ -34,6 +34,7 @@
 			list-style:none; 
 			padding:0;
 			clear:none;
+			float:left;
 			width:auto;
 			border:none;
 			a{
@@ -124,17 +125,17 @@
 .instructor_action_buttons{
 	display: inline-block;
 	width:100%;
-	border-top: 1px solid $bordercolor;
 	border-left: 1px solid $bordercolor;
 	li{
 		float:left;
 		position:relative;
-		max-width:120px;
+		max-width:120px !important;
 		text-align:center;
+		border-top: 1px solid $bordercolor;
 		border-right: 1px solid $bordercolor;
-		padding: 30px 5px !important;
 		clear:none !important;
 		a{
+			padding: 30px 5px !important;
 			i{
 				font-size:32px !important;
 				color:#bbb;

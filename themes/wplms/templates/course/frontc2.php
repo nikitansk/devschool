@@ -10,21 +10,18 @@
  * @version     2.0
  */
 
-
 global $post;
 $id= get_the_ID();
 
 do_action('wplms_course_before_front_main');
 
-if(have_posts()){
-	while(have_posts()){
-		the_post();
 
 	do_action('wplms_before_course_description');
 
 ?>
 
 <div class="course_description">
+	<h6><?php if(strpos($post->post_content,$post->post_excerpt) === false){ the_excerpt();} ?></h6>
 	<div class="small_desc">
 	<?php 
 		$more_flag = 1;
@@ -80,5 +77,4 @@ do_action('wplms_after_course_description');
 ?>
 </div>
 <?php
-	}
-}
+	

@@ -53,21 +53,7 @@ foreach ( $items as $item_id => $item ) :
 
 				// File URLs
 				if ( $show_download_links ) {
-
 					$order->display_item_downloads( $item );
-					$i              = 0;
-
-					foreach ( $download_files as $download_id => $file ) {
-						$i++;
-
-						if ( count( $download_files ) > 1 ) {
-							$prefix = sprintf( __( 'Download %d', 'woocommerce' ), $i );
-						} elseif ( $i == 1 ) {
-							$prefix = __( 'Download', 'woocommerce' );
-						}
-
-						echo '<br/><small>' . $prefix . ': <a href="' . esc_url( $file['download_url'] ) . '" target="_blank">' . esc_html( $file['name'] ) . '</a></small>';
-					}
 				}
 
 				// allow other plugins to add additional product information here

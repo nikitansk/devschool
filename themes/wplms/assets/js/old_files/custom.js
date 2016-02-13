@@ -94,10 +94,6 @@ jQuery(document).ready(function($) {
             }, 1200);
             return false;
     });
-    $('body').delegate('.woocommerce-error','click',function(event){
-      event.preventDefault();
-      $(this).fadeOut(200);
-    })
     if((typeof $().tooltip == 'function')){
       $('.tip').tooltip();   
       $('.nav-tabs li:first a').tab('show');

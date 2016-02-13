@@ -1,3 +1,45 @@
+* 2.0.6
+* Welcome page changes
+* Header fix
+* bug fixes
+* Sitelock and import fixes
+* header variations
+* Buddydrive access
+* After import buttons
+* Styling bug fixes
+* Transparent header in products
+* styling fixes
+* Modern theme related fixes
+* Header styling fixes
+* Transparent ehader fixes
+* Buddydrive with custom types
+* Customiser bug fixes
+* order details css
+* Alternate logo
+* select2 css fix
+* empty forum check in single unit
+* Forgot password in modern login
+* Excerpts in Course front end
+* Group activity fix
+* Mobile menu fixes
+* Style fixes
+* Transparent header fixes
+* customiser bug fixes
+* Excluded course fix for finished course
+* Forgot password bug fix for site lock
+* Title integration
+* Course Slug bug fix
+* Profile editor fields
+* Editor border missing bug
+* Drive slug not opening when Course permalink changed
+* woocommerce notificaiton
+* Buddydrive access
+* trigger the filter request
+* Bug fixes
+* updated template
+* styling bug fixes
+* Unit comment time issue fixed
+* version udpate
 * 2.0.2
 * Forgot password
 * Visual composer fix on course home

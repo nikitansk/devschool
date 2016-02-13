@@ -48,7 +48,7 @@
     line-height:1.4em;
     max-width:100%;
     .block{
-      margin:0 30px 30px 0;
+      margin:0 0 30px;
       line-height:1.5;
     }
   }
@@ -56,7 +56,7 @@
   &.masonry{
     li{
       .block{
-        margin:0 15px;
+        margin:0 15px 30px;
         line-height:0;
         z-index:8;
         &:hover{
@@ -419,8 +419,36 @@ z-index:3;
     }
   }
 
-  // COURSE ITEM 2
-
+  // post block
+  &.postblock{
+    .block_media{
+      position:relative;
+      .postblock_cat{
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          font-size: 11px;
+          color: #fff;
+          background: rgba(0,0,0,.2);
+          text-transform: uppercase;
+          font-weight: 600;
+          padding: 5px;
+          line-height: 1.2;
+          border-radius: 2px;
+      }
+    }
+    .block_content{
+      padding:15px 15px 30px;
+      border:1px solid $bordercolor;
+      border-top:none;
+      .course_instructor{color:$primarybg;padding:10px 0 0;}
+      .block_title{
+        padding: 0;margin:5px 0 0;
+        font-size:16px;
+        font-weight:600;
+      }
+    }
+  }
 
 } 
 
@@ -459,7 +487,124 @@ z-index:3;
     margin-top:10px;
   }
 }
+.block.courseitem.course3{
+    border: 1px solid #EEE;
+    border-radius: 2px;
+    .block_media{
 
+    }
+    .block_content{
+      padding:15px 15px 10px;
+      position:relative;
+      .course_instructor{
+        position:absolute;
+        right:0;
+        top:-30px;
+        border-radius:50%;
+        img{
+          border-radius:50%;
+          width:48px;
+          border:2px solid #FFF;
+        }
+      }
+      .block_title{
+        padding:0 20px 0 0;
+        margin:0;font-size:16px;
+        line-height:1.2;border: none;
+        min-height:64px;
+      }
+      .course_price{
+        font-size:16px;
+        margin:10px 0;
+        color:#70c989;
+        font-weight:600;
+        display:inline-block;
+        width:100%;
+      }
+      .icon-wallet-money{display:none;}
+      .course_meta{
+        border-top:1px solid #EEE;
+        padding-top:10px;
+        margin-top:10px;
+        span.fa{
+          float:right;
+          color:#888;
+          font-size:12px;
+        }
+        .star-rating{
+          padding:0;
+          display:inline-block;
+        .fa{
+          color:#FFCB10;
+          float:left;
+          font-size:16px;
+        }
+      }
+      }
+    }
+}
+
+.block.courseitem.course4{
+    
+    .block_content{
+      position:relative;
+      .course_instructor{
+        color:#bbb;
+        border:none;
+      }
+      .block_title{
+        margin:0;    padding-bottom: 5px;
+        font-size:16px;
+        line-height:1.2;
+        border: none;
+      }
+      .course_block_bottom{
+          clear: both;
+          width: 100%;
+          display: inline-block;
+          margin-top: 20px;
+          .fa-users{
+            float:left;
+            color:#bbb;
+            font-size:16px;
+            &:before{margin-right: 5px;}
+          }
+          .course_price{
+            font-size:16px;
+            margin:0;
+            color:#70c989;
+            font-weight:600;
+            float:right;
+          }
+        .icon-wallet-money{display:none;}
+      }
+    }
+}
+
+.block.courseitem.course5{
+  .block_title{
+    margin:0;    
+    padding-bottom: 15px;
+    font-size:16px;
+    line-height:1.2;
+    border: none;
+  }
+  .course_price{
+    clear:Both;
+    font-size:16px;
+    margin:0;
+    color:#70c989;
+    font-weight:600;
+  }
+  .fa-calendar-check-o{
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #bbb;
+    margin-bottom: 10px;
+    &:before{margin-right:5px;}
+  }
+}
 .dark .block.courseitem .block_content{
   background: rgba(0,0,0,0.1);
   border-color:rgba(0,0,0,0.1);

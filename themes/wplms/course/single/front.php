@@ -16,8 +16,9 @@ $id= get_the_ID();
 
 do_action('wplms_course_before_front_main');
 
-if(have_posts()):
-while(have_posts()):the_post();
+//if(have_posts()):
+//while(have_posts()):the_post();
+
 ?>
 
 <div class="course_title">
@@ -62,12 +63,14 @@ do_action('wplms_before_course_description');
 			if(strlen($content) < $limit){
 				$more_flag = 0;
 			}
-			$check_vc=strpos( $post->post_content, '[vc_row]' );
-			if ( isset($check_vc) ) {
+			
+			if ( strpos( $post->post_content, '[vc_row]' ) !== false ) {
 				$more_flag=0;
+
 				echo apply_filters('the_content',$content);
 			}else{
-				echo apply_filters('the_content',substr($content, 0, $middle));
+				$sub_content = substr($content, 0, $middle);
+				echo apply_filters('the_content',$sub_content);
 			}
 		}
 	?>
@@ -97,6 +100,6 @@ do_action('wplms_after_course_description');
 ?>
 </div>
 <?php
-endwhile;
-endif;
+//endwhile;
+//endif;
 ?>

@@ -277,6 +277,7 @@ body.register #buddypress div.page ul {
 .bp-user.p3,.bp-user.p4{
 	#item-header-avatar{
 		a{
+			width:100%;
 			margin-bottom: -60px;
     		display: inline-block;
 		}
@@ -365,3 +366,4 @@ table.notification-settings{
 	    width: 100px;
 	}	
 } 
+table.profile-settings{width:100%;}

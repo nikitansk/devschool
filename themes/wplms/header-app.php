@@ -55,7 +55,7 @@ wp_head();
             ?>
             <div class="<?php echo vibe_get_container(); ?>">
                 
-                <div class="col-md-5">    
+                <div class="col-md-5 col-sm-5">    
                     <div id="mooc_menu"> 
                           <?php
                             $args = apply_filters('wplms-main-menu',array(
@@ -69,7 +69,7 @@ wp_head();
                         ?>
                     </div>
                 </div>
-                <div class="col-md-2">    
+                <div class="col-md-2 col-sm-2">    
                    
                         <?php
 
@@ -90,7 +90,7 @@ wp_head();
                             
                         ?>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 col-sm-5">
                         <?php
                             if ( function_exists('bp_loggedin_user_link') && is_user_logged_in() ) :
                                 ?>
@@ -106,6 +106,7 @@ wp_head();
                                     <?php
                                     }
                                     ?>
+                                    <?php do_action('wplms_header_top_login'); ?>
                                 </ul>
                             <?php
                             else :

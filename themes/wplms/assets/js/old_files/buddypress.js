@@ -1581,6 +1581,7 @@ function bp_filter_request( object, filter, scope, target, search_terms, page, e
 		}
 
 		jq('.item-list-tabs li.selected').removeClass('loading');
+		jq('#buddypress').trigger('bp_filter_request');
 	});
 }
 

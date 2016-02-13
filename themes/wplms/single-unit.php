@@ -118,7 +118,7 @@ $unit_comments = vibe_get_option('unit_comments');
                       }
 
                       $forum=get_post_meta($id,'vibe_forum',true);
-                      if(isset($forum) && $forum){
+                      if(!empty($forum)){
                         echo '<div class="unitforum"><a href="'.get_permalink($forum).'">'.__('Have Questions ? Ask in the Unit Forums','vibe').'</a></div>';
                       }
                      ?>

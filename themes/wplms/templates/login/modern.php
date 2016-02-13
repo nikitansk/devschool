@@ -87,7 +87,7 @@ else :
                            <input type="password" name="pwd" placeholder="<?php _e('Enter Password','vibe'); ?>" class="form-control no-border" required="" tabindex="0" aria-required="true" aria-invalid="true">
                         </div>
                       </div>
-                      <div class="pull-right"><a id="forgot_password_trigger" href="#"><?php _e('Forgot Password?','vibe'); ?></a></div>
+                      <div class="pull-right"><a href="<?php echo wp_lostpassword_url(home_url()); ?>"><?php _e('Forgot Password?','vibe'); ?></a></div>
                       <div class="checkbox">
                         <input type="checkbox" id="rememberme" name="rememberme" value="forever">
                         <label for="rememberme"><?php _e('Remember me','vibe'); ?></label>

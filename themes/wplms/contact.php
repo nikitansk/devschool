@@ -62,7 +62,7 @@ if(have_posts()):while(have_posts()):the_post();
               map = new google.maps.Map(document.getElementById('map-canvas'), myOptions);
 
               var image = new google.maps.MarkerImage(
-                 '<?php echo VIBE_URL; ?>/images/marker.png',
+                 '<?php echo VIBE_URL; ?>/assets/images/marker.png',
                  
                  new google.maps.Size(51,32),
                  new google.maps.Point(0,0),

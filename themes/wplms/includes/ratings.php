@@ -251,13 +251,13 @@ function wplms_course_reviews($comment, $args, $depth) {
              <div class="comment-body-content">
                <div class="comment-meta">
                  <?php echo get_comment_author_link(); 
-                       echo '<a href="'.htmlspecialchars( get_comment_link( $comment->comment_ID ) ) .'">'.sprintf(__('%1$s at %2$s','wplms_modern'), get_comment_date(),  get_comment_time()).'</a>'; 
+                       echo '<a href="'.htmlspecialchars( get_comment_link( $comment->comment_ID ) ) .'">'.sprintf(__('%1$s at %2$s','vibe'), get_comment_date(),  get_comment_time()).'</a>'; 
                        comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))); 
-                       edit_comment_link(__('(Edit)','wplms_modern'),'  ','');
+                       edit_comment_link(__('(Edit)','vibe'),'  ','');
                  ?>
                </div><!-- END comment-author vcard -->
                <?php if ($comment->comment_approved == '0') : ?>
-                 <em><?php _e('Your comment is awaiting moderation.','wplms_modern') ?></em>
+                 <em><?php _e('Your comment is awaiting moderation.','vibe') ?></em>
                  <br />
                <?php endif; ?>
                <div class="comment-text">

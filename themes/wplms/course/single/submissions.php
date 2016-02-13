@@ -20,7 +20,7 @@ $tabs = apply_filters('wplms_course_submission_tabs',array(
 
 ?>
 
-<div class="submissions unit_content">
+<div class="submissions">
   <ul class="nav nav-tabs">
   	<?php
   		$i=0;
@@ -49,13 +49,6 @@ $tabs = apply_filters('wplms_course_submission_tabs',array(
 	  	}
   	?>
   </div>
-  <div id="custom_editor" style="display:none;"> 
-      <?php
-          $content = '';
-          $editor_id = 'mycustomeditor';
 
-          wp_editor( $content, $editor_id ); 
-          ?>
-  </div>
 </div>
 <?php

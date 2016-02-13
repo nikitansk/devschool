@@ -58,7 +58,6 @@ wp_head();
                                 echo '<h2 id="logo">';
                             }
                         ?>
-                        
                             <a href="<?php echo vibe_site_url(); ?>"><img src="<?php  echo apply_filters('wplms_logo_url',VIBE_URL.'/assets/images/logo.png','header'); ?>" alt="<?php echo get_bloginfo('name'); ?>" /></a>
                         <?php
                             if(is_home()){
@@ -84,6 +83,7 @@ wp_head();
                                 ?>
                                 <ul class="topmenu">
                                     <li><a href="<?php bp_loggedin_user_link(); ?>" class="smallimg vbplogin"><?php $n=vbp_current_user_notification_count(); echo ((isset($n) && $n)?'<em></em>':''); bp_loggedin_user_avatar( 'type=full' ); ?><span><?php bp_loggedin_user_fullname(); ?></span></a></li>
+                                    <?php do_action('wplms_header_top_login'); ?>
                                     <?php
                                     if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) || (function_exists('is_plugin_active_for_network') && is_plugin_active_for_network( 'woocommerce/woocommerce.php'))) { global $woocommerce;
                                     ?>

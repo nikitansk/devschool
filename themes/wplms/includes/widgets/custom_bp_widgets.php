@@ -47,21 +47,16 @@ if ( !class_exists('vibe_bp_login') ) {
             $nav = '';
             if(function_exists('bp_course_get_nav_permalinks'))
               $nav = bp_course_get_nav_permalinks();
-            
-            $course_slug = (empty($nav['course_base'])?BP_COURSE_SLUG:$nav['course_base']);
-            $stats_slug = (empty($nav['stats_slug'])?BP_COURSE_STATS_SLUG:$nav['stats_slug']);
-            $course_slug = str_replace('/','',$course_slug);
-            $stats_slug = str_replace('/','',$stats_slug); // Avoid extra slashes
             $loggedin_menu = array(
               'courses'=>array(
                           'icon' => 'icon-book-open-1',
                           'label' => __('Courses','vibe'),
-                          'link' => bp_loggedin_user_domain().$course_slug
+                          'link' => bp_loggedin_user_domain().BP_COURSE_SLUG
                           ),
               'stats'=>array(
                           'icon' => 'icon-analytics-chart-graph',
                           'label' => __('Stats','vibe'),
-                          'link' => bp_loggedin_user_domain().$course_slug.'/'. $stats_slug
+                          'link' => bp_loggedin_user_domain().BP_COURSE_SLUG.'/'. BP_COURSE_STATS_SLUG
                           )
               );
             if ( bp_is_active( 'messages' ) ){

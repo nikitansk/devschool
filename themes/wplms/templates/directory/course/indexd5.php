@@ -5,7 +5,7 @@ $id= vibe_get_bp_page_id('course');
 
 
 ?>
-<section id="coursestitle">
+<section id="title">
     <div class="<?php echo vibe_get_container(); ?>">
         <div class="row">
              <div class="col-md-12">

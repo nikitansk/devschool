@@ -16,6 +16,7 @@ get_header( vibe_get_header() );
 $course_layout = vibe_get_customizer('course_layout');
 if ( bp_course_has_items() ) : while ( bp_course_has_items() ) : bp_course_the_item();
 
+
 vibe_include_template("course/top$course_layout.php");  
 ?>
 
@@ -38,12 +39,6 @@ vibe_include_template("course/top$course_layout.php");
 		$current_action = $_GET['action'];
 	}
 
-	// Visual composer comaptibility
-    if ( class_exists("Vc_base") ) {
-      $vc_base = new Vc_base();
-      $vc_base->createShortCodes();
-    }
-    // End VC Compatibility
 	global $bp;
 	if(!empty($current_action)):
 
@@ -67,6 +62,7 @@ vibe_include_template("course/top$course_layout.php");
 				if(current_user_can( 'manage_options' ) || in_array($uid,$authors)){
 					locate_template( array( 'course/single/admin.php'  ), true );	
 				}else{
+
 					vibe_include_template("course/front$course_layout.php",'course/single/front.php');
 				}
 			break;
@@ -76,6 +72,7 @@ vibe_include_template("course/top$course_layout.php");
 			break;
 			case 'home':
 			default:
+
 				if ( isset($_POST['review_course']) && isset($_POST['review']) && wp_verify_nonce($_POST['review'],get_the_ID()) ){
 				 	global $withcomments;
 		    	  	$withcomments = true;
@@ -100,7 +97,12 @@ vibe_include_template("course/top$course_layout.php");
 		}else if(isset($_POST['submit_course']) && isset($_POST['review']) && wp_verify_nonce($_POST['review'],get_the_ID())){ // Only for Validation purpose
 			bp_course_check_course_complete();
 		}else{
-			vibe_include_template("course/front$course_layout.php",'course/single/front.php');
+
+			if(have_posts()):
+			while(have_posts()):the_post();
+				vibe_include_template("course/front$course_layout.php",'course/single/front.php');
+			endwhile;
+			endif;
 		}
 
 	endif;

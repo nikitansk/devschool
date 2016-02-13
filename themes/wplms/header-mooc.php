@@ -37,7 +37,7 @@ wp_head();
         <header class="mooc <?php if(isset($fix) && $fix){echo 'fix';} ?>">
             <div class="<?php echo vibe_get_container(); ?>">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-5 col-sm-5">
                         <div id="mooc_menu"> 
                               <?php
                                 $args = apply_filters('wplms-main-menu',array(
@@ -50,18 +50,8 @@ wp_head();
                                 wp_nav_menu( $args ); 
                             ?>
                         </div>
-                        <form role="search" method="get" id="mooc_searchform" action="<?php echo home_url( '/' ); ?>">
-                            <div class="search_form">
-                                <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" placeholder="<?php _e('Hit enter to search...','vibe'); ?>" />
-                                <?php 
-                                    $course_search=vibe_get_option('course_search');
-                                    if(isset($course_search) && $course_search)
-                                        echo '<input type="hidden" value="course" name="post_type" />';
-                                ?>
-                            </div>
-                        </form>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-sm-2">
                         <?php
 
                             if(is_home()){
@@ -81,13 +71,23 @@ wp_head();
                                 
                         ?>
                     </div>
-                    <div class="col-md-5">    
-                            
+                    <div class="col-md-5 col-sm-5">    
+                        <form role="search" method="get" id="mooc_searchform" action="<?php echo home_url( '/' ); ?>">
+                            <div class="search_form">
+                                <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" placeholder="<?php _e('Hit enter to search...','vibe'); ?>" />
+                                <?php 
+                                    $course_search=vibe_get_option('course_search');
+                                    if(isset($course_search) && $course_search)
+                                        echo '<input type="hidden" value="course" name="post_type" />';
+                                ?>
+                            </div>
+                        </form>
                         <?php
                             if ( function_exists('bp_loggedin_user_link') && is_user_logged_in() ) :
                                 ?>
                                 <ul class="topmenu">
                                     <li><a href="<?php bp_loggedin_user_link(); ?>" class="smallimg vbplogin"><?php $n=vbp_current_user_notification_count(); echo ((isset($n) && $n)?'<em></em>':''); bp_loggedin_user_avatar( 'type=full' ); ?><span><?php bp_loggedin_user_fullname(); ?></span></a></li>
+                                    <?php do_action('wplms_header_top_login'); ?>
                                     <?php
                                     if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) || (function_exists('is_plugin_active_for_network') && is_plugin_active_for_network( 'woocommerce/woocommerce.php'))) { global $woocommerce;
                                     ?>

@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 class WPLMS_Admin_Welcome {
 
 	private $plugin;
-	public $major_version='2.0.1';
+	public $major_version='2.0.6';
 	/**
 	 * __construct function.
 	 *
@@ -280,14 +280,14 @@ class WPLMS_Admin_Welcome {
 			<div class="changelog">
 				<div class="wplms-feature feature-rest feature-section col two-col">
 					<div class="col-1">
-						<h4><?php _e( '28 New Features, 71 bug fixes & updates', 'vibe' ); ?></h4>
-						<p><?php _e( 'WPLMS styling has been completely rewritten. We\'ve done very major changes in the design and architechture. There is a lot of flexibility in the theme to support lot of design options.', 'vibe' ); ?></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/2-0/" class="button"><?php _e( 'Check update log ', 'vibe' ); ?></a>
+						<h4><?php _e( '80 bug fixes & updates', 'vibe' ); ?></h4>
+						<p><?php _e( 'We\'ve fixed some pending bugs. A lot of pending issues, style issues have been fixed.', 'vibe' ); ?></p>
+						<a href="http://vibethemes.com/documentation/wplms/2-0-6/" class="button"><?php _e( 'Check update log ', 'vibe' ); ?></a>
 					</div>
 					<div class="col-2">
-						<h4><?php _e( 'Design Update', 'vibe' ); ?></h4>
-						<p><?php _e( 'WPLMS has been migrated to SASS. We\'ve built well commented SASS files for better understanding of design optiona available in the theme.', 'vibe' ); ?></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/2-0/" class="button"><?php _e( 'Check update log ', 'vibe' ); ?></a>
+						<h4><?php _e( 'Bug fixes Update', 'vibe' ); ?></h4>
+						<p><?php _e( 'A lot of bugs have been fixed. We\'ve fixed most of the issues reported by the users. The aim of this release is to become the first stable version of 2.x.', 'vibe' ); ?></p>
+						<a href="http://vibethemes.com/documentation/wplms/2-0-6/" class="button"><?php _e( 'Check update log ', 'vibe' ); ?></a>
 					</div>
 				</div>
 			</div>
@@ -295,106 +295,24 @@ class WPLMS_Admin_Welcome {
 				<h3><?php _e( 'What\'s New in WPLMS', 'vibe' ); ?><span style="float:right;"><a href="https://www.youtube.com/playlist?list=PL8n4TGA_rwD_5jqsgXIxXOk1H6ar-SVCV" class="button button-primary" target="_blank"><?php _e('WPLMS Video Playlist','vibe'); ?></a></span></h3>
 				<div class="wplms-feature feature-section col three-col">
 					<div>
-						<h4><?php _e( '3 New Skins', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/skins.png'; ?>" /></p>
-						<a href=" http://vibethemes.com/documentation/wplms/knowledge-base/wplms-skins/" class="button">Tutorial</a>
+						<h4><?php _e( '5 New Featured Blocks', 'vibe' ); ?></h4>
+						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/blocks.png'; ?>" /></p>
 					</div>
 					<div>
-						<h4><?php _e( '8 New Header Styles', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/header_layouts.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/wplms-header-styles/" class="button">Tutorial</a>
+						<h4><?php _e( 'Featured Content', 'vibe' ); ?></h4>
+						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/featured.png'; ?>" /></p>
 					</div>
 					<div class="last-feature">
-						<h4><?php _e( '5 New Directory Layouts', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/directory_layouts.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/layouts-in-wplms/" class="button">Tutorial</a>
-					</div>
-				</div>
-				<div class="wplms-feature feature-section col three-col">
-					<div>
-						<h4><?php _e( '5 New Course Layouts', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/course_layouts.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/layouts-in-wplms/" class="button">Tutorial</a>
-					</div>
-					<div>
-						<h4><?php _e( '4 New Profile Layouts', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/profile_layouts.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/layouts-in-wplms/" class="button">Tutorial</a>
-					</div>
-					<div class="last-feature">
-						<h4><?php _e( '4 New Group Layouts', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/group_layouts.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/layouts-in-wplms/" class="button">Tutorial</a>
-					</div>
-				</div>
-				<div class="wplms-feature feature-section col three-col">
-					<div>
-						<h4><?php _e( '3 New Login Options', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/login_options.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/layouts-in-wplms/" class="button">Tutorial</a>
-					</div>
-					<div>
-						<h4><?php _e( 'Revolution Slider added', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/revslider.jpg'; ?>" /></p>
-					</div>
-					<div class="last-feature">
-						<h4><?php _e( 'New BBPress Theme', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/bbpress.png'; ?>" /></p>
-					</div>
-				</div>
-				<div class="wplms-feature feature-section col three-col">
-					<div>
-						<h4><?php _e( 'Offline Courses', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/offline_courses.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/offline-courses-in-wplms/" class="button">Tutorial</a>
-					</div>
-					<div>
-						<h4><?php _e( 'Offline Course Progress', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/course_progress.png'; ?>" /></p>
-					</div>
-					<div class="last-feature">
-						<h4><?php _e( 'Apply for Course', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/apply_course.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/apply-for-course-in-wplms/ ‎" class="button">Tutorial</a>
-					</div>
-				</div>
-				<div class="wplms-feature feature-section col three-col">
-					<div>
-						<h4><?php _e( 'Course Activity', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/course_activity.png'; ?>" /></p>
-					</div>
-					<div>
-						<h4><?php _e( 'Course Drive', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/course_drive.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/course-drive-in-wplms/" class="button">Tutorial</a>
-					</div>
-					<div class="last-feature">
-						<h4><?php _e( 'Course Submissions', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/submissions.png'; ?>" /></p>
-					</div>
-				</div>
-				<div class="wplms-feature feature-section col three-col">
-					<div>
-						<h4><?php _e( 'Course Reviews', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/course_reviews.png'; ?>" /></p>
-						<a href=" " class="button">Tutorial</a>
-					</div>
-					<div>
-						<h4><?php _e( 'Site Lock', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/site_lock.png'; ?>" /></p>
-						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/site-lock-in-wplms/" class="button">Tutorial</a>
-					</div>
-					<div class="last-feature">
-						<h4><?php _e( 'More Instructor Unit Control', 'vibe' ); ?></h4>
-						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/instructor_controls.png'; ?>" /></p>
+						<h4><?php _e( 'Hide Finished Courses', 'vibe' ); ?></h4>
+						<p><img src="<?php echo VIBE_URL.'/setup/data/uploads/new/finished.png'; ?>" /></p>
 					</div>
 				</div>
 			</div>
 			<div class="changelog">
 				<div class="feature-section col three-col">
 					<div>
-						<h4><?php _e( 'WPLMS MyCred Addon  & BP Social Connect updated', 'vibe' ); ?></h4>
-						<p><?php _e( 'Add variable pricing to WPLMS course. Select variables right at the course pricing option.', 'vibe' ); ?></p>
+						<h4><?php _e( 'BP Profile Cover updated', 'vibe' ); ?></h4>
+						<p><?php _e( 'BP Profile cover plugin has been updated. The warnings with PHP7 installations are now resolved.', 'vibe' ); ?></p>
 						<a href="http://vibethemes.com/documentation/wplms/knowledge-base/variable-course-pricing" class="button">Learn More</a>
 					</div>
 					<div>

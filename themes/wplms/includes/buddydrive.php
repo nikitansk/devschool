@@ -49,7 +49,7 @@ class WPLMS_BuddyDrive{
 		add_action('buddydrive_file_downloaded',array($this,'buddydrive_file_downloaded'),10,1);
 
 		add_filter('wplms_course_nav_menu',array($this,'course_drive_link'));
-		add_filter('wplms_course_drive_access',array($this,'drive_access'));
+		
 		
 		add_action('wp_footer',array($this,'run_folder_javascript'));
 		/*===== Permalink Setting === */
@@ -62,8 +62,8 @@ class WPLMS_BuddyDrive{
 		/*==== Upload Question type ====*/
 		//add_filter('wplms_question_types',array($this,'upload_question_type'));
 		//add_action('wplms_generate_question_html',array($this,'upload_question_html'));
-		/*==== Assignment Upload ====*/
-		
+		/*==== FRONT END ====*/
+		//add_filter('wplms_course_creation_tabs',array($this,'add_drive_access'));
     }
 
     function buddydrive_activity(){
@@ -358,33 +358,6 @@ class WPLMS_BuddyDrive{
 		}
 	}
 
-	function drive_access($access = null){
-		
-		if(!is_user_logged_in())
-			return 0;
-
-		if(current_user_can('manage_options'))
-			return 1;
-
-		global $post;
-		$user_id = get_current_user_id();
-		if(current_user_can('edit_posts')){
-			$course_instructor = $post->post_author;
-			$course_instructors = apply_filters('wplms_course_instructors',$course_instructor,$post->id);
-			
-			if(!is_array($course_instructors)){
-				$course_instructors = array($course_instructor);
-			}
-			
-			if(in_array($user_id,$course_instructors))
-				return true;
-			else
-				return false;
-		}
-
-		return bp_course_is_member($post->ID,$user_id);
-	}
-
 	function check_for($check_for,$buddyfile){
 		$privacy = get_post_meta( $buddyfile->ID, '_buddydrive_sharing_option', true );
 		if($privacy == 'course'){
@@ -443,6 +416,7 @@ class WPLMS_BuddyDrive{
 	/*==== Course Menu ===*/
 
 	function course_drive_link($nav){
+
 		if(empty($this->permalinks))
        		$this->permalinks = get_option( 'vibe_course_permalinks' );
 		
@@ -458,7 +432,6 @@ class WPLMS_BuddyDrive{
 	                );
 		}
     	return $nav;
-
 	}
 
 	function permalink_setting(){
@@ -526,33 +499,26 @@ class WPLMS_BuddyDrive{
 
 	function catch_vars(){ 
 		global $bp,$wp_query;	
+		if(!class_exists('Vibe_CustomTypes_Permalinks'))	
+			return;
 		
-		if(empty($this->permalinks))
-			$this->permalinks = get_option( 'vibe_course_permalinks' );
+		$permalinks = Vibe_CustomTypes_Permalinks::init();
 
-
-		if($bp->unfiltered_uri[0] == $this->permalinks['course_base'] || $bp->unfiltered_uri[0] == BP_COURSE_SLUG){
+		if($bp->unfiltered_uri[0] == trim($permalinks->permalinks['course_base'],'/') || $bp->unfiltered_uri[0] == BP_COURSE_SLUG){
 				
 				$drive_slug = ($this->permalinks['drive_slug'])?$this->permalinks['drive_slug']:'drive';
 				$drive_slug = str_replace('/','',$drive_slug);
 				
 			    if( get_query_var( $drive_slug )){ 
-			    	$bp->current_component = BP_COURSE_SLUG;
+			    	$bp->current_component = BP_COURSE_CPT;
 			    	$bp->current_item = get_The_ID();
 			        $bp->current_action = 'drive';
 
-			        add_action('wplms_before_single_course_plugin',array($this,'access_check'));
 			        add_action('bp_course_plugin_template_content',array($this,'course_drive'));
 			        do_action('buddydrive_enqueue_scripts');
 					vibe_load_template('course/single/plugins');
 					exit;
 			    }
-		}
-	}
-
-	function access_check(){
-		if(!self::drive_access()){
-			wp_die(_x('Drive inaccessible','Drive access error when unauthorised user tries to open the drive link directly','vibe'));
 		}
 	}
 
@@ -723,6 +689,28 @@ class WPLMS_BuddyDrive{
 		if(function_exists('buddydrive_editor')){
     		buddydrive_editor($this->buddydrive_id);
     	}
+	}
+
+	function add_drive_access($settings){
+		$drive_access[] = array(
+							'label'=> __('Course Drive','vibe' ),
+							'text'=>__('Drive Visibility','vibe' ),
+							'type'=> 'select',
+							'style'=>'',
+							'id' => 'vibe_display_course_drive',
+							'from'=> 'meta',
+							'options'=>array(
+								array('value'=>0,'label'=>__('Everyone','vibe')),
+								array('value'=>1,'label'=>__('Logged in Users','vibe')),
+								array('value'=>2,'label'=>__('Course Users','vibe')),
+								array('value'=>3,'label'=>__('Instructors and Admins','vibe')),
+							),
+							'desc'=> __('Set Course/Drive Visibility','vibe' ),
+						);
+		$components = $settings['course_components']['fields'];
+		array_splice($components,3,0,$drive_access);
+	    $settings['course_components']['fields'] = $components;
+		return $settings;
 	}
 }
 

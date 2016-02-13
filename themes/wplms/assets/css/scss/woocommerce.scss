@@ -2193,3 +2193,21 @@ div.woocommerce > header{
 }
 .archive.woocommerce ul.products li.product .button.add_to_cart_button{background:none !important;}
 
+
+.course_order_details{
+    margin: 30px 15px;
+    padding: 15px;
+    border: 1px solid #EEE;
+    li{
+    	padding: 15px 0;
+    	border-bottom: 1px solid #EEE;
+    	strong{
+    		float:right;
+    	}
+    	.button{
+    		font-size:11px;
+    		text-transform:uppercase;
+    		padding:5px 10px;
+    	}
+    }
+}

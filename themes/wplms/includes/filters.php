@@ -36,6 +36,7 @@ class WPLMS_Filters{
 		add_filter('wpseo_pre_analysis_post_content',array($this,'vibe_page_builder_content'),10,2);
 		
 		add_filter( 'bp_core_fetch_avatar_no_grav', '__return_true' );
+		
 		add_filter( 'bp_core_default_avatar_user', array($this,'vibe_custom_avatar' ));
 		add_filter('wplms_activity_loop',array($this,'wplms_student_activity'));
 
@@ -45,10 +46,47 @@ class WPLMS_Filters{
 
 		add_filter( 'bp_before_xprofile_cover_image_settings_parse_args', array($this,'wplms_xprofile_cover_image'), 10, 1 );
 
-
+		//Transparent Header
+		add_filter('vibe_option_custom_sections',array($this,'default_background_image_option'));
+		add_filter('wplms_post_metabox',array($this,'specific_title_background'));
+		add_filter('wplms_course_metabox',array($this,'specific_title_background'));
+		add_filter('wplms_unit_metabox',array($this,'specific_title_background'));
+		add_filter('wplms_assignment_metabox',array($this,'specific_title_background'));
+		add_filter('wplms_testimonial_metabox',array($this,'specific_title_background'));
+		add_filter('wplms_quiz_metabox',array($this,'specific_title_background'));
+		add_filter('wplms_question_metabox',array($this,'specific_title_background'));
+		add_filter('wplms_news_metabox',array($this,'specific_title_background'));
+		add_filter('wplms_page_metabox',array($this,'specific_title_background'));
+		
     }
     
+    function default_background_image_option($sections){
+    	$header_style =  vibe_get_customizer('header_style');
+    	if($header_style == 'transparent'){
+    		$sections[1]['fields'][] = array(
+						'id' => 'title_bg',
+						'type' => 'upload',
+						'title' => __('Upload Title Background', 'vibe'), 
+						'sub_desc' => __('Upload a background image for title', 'vibe'),
+						'desc' => __('Upload title image.', 'vibe'),
+                        'std' => VIBE_URL.'/assets/images/title_bg.jpg'
+						);
+    	}
 
+    	return $sections;
+    }
+    function specific_title_background($metabox){
+    	$header_style =  vibe_get_customizer('header_style');
+    	if($header_style == 'transparent'){
+	    	$metabox[]=array( // Text Input
+						'label'	=> __('Title Background Image','vibe-customtypes'), // <label>
+						'desc'	=> __('Add title background image','vibe-customtypes'), // description
+						'id'	=> 'vibe_title_bg', // field id and name
+						'type'	=> 'image', // type of field
+					);
+	    }
+    	return $metabox;
+    }
 
     function wplms_xprofile_cover_image( $settings = array() ) {
 	    $settings['width']  = 1600;
@@ -150,7 +188,7 @@ class WPLMS_Filters{
 	  	global $bp;
 	   	$avatar=vibe_get_option('default_avatar');
 	   	if(!isset($avatar) || !$avatar || strlen($avatar)<5)
-	    	$avatar = VIBE_URL.'/images/avatar.jpg';
+	    	$avatar = VIBE_URL.'/assets/images/avatar.jpg';
 	   	return $avatar;
 	}
 

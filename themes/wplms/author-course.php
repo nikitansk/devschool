@@ -40,7 +40,7 @@ $curauth = $wp_query->get_queried_object();
             		<li><span class="fa fa-user"></span>&nbsp;<strong><?php echo vibe_get_instructor_student_count($curauth->data->ID); ?></strong>
             		<label><?php _e('# Students in Courses','vibe'); ?></label></li>
             		<li><?php $reviews = vibe_get_instructor_average_rating($curauth->data->ID); 
-            		echo '<div class="modern-star-rating">';
+            		echo '<div class="star-rating">';
 					for($i=1;$i<=5;$i++){
 						if($reviews >= 1){
 							echo  '<span class="fa fa-star"></span>';

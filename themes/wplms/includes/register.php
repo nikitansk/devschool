@@ -184,7 +184,7 @@ class WPLMS_Register{
         if($flag){
           wp_deregister_script('woocomposer-admin-script');  
           wp_deregister_script('select2');
-          wp_enqueue_style( 'select2-css', VIBE_URL .'/assets/css/old_files/select2.min.css' );
+          wp_enqueue_style( 'select2', VIBE_URL .'/assets/css/old_files/select2.min.css' );
           wp_enqueue_script( 'select2', VIBE_URL .'/assets/js/old_files/select2.min.js');
         }
 
@@ -332,9 +332,6 @@ class WPLMS_Register{
       if(is_page($page_id) || is_singular('quiz')){
         wp_enqueue_style( 'wp-mediaelement' );
         wp_enqueue_script( 'wp-mediaelement' );
-        if(class_exists('Vc_Base')){
-          Vc_base::frontJsRegister();
-        }
       }
     }
 

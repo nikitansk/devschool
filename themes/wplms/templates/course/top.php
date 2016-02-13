@@ -1,3 +1,9 @@
+<?php
+$header = vibe_get_customizer('header_style');
+if($header == 'transparent'){
+    echo '<section id="title"></section>';
+}
+?>
 <section id="content">
 	<div id="buddypress">
 	    <div class="<?php echo vibe_get_container(); ?>">

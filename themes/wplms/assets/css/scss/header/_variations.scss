@@ -41,6 +41,7 @@ header{
 	    		position:fixed;
 		    	left:0;
 		    	top:0;
+	    	    background: #212b2d;
 	    	}
 	    	nav>.menu>li>a{
 	    		mix-blend-mode:difference;
@@ -84,7 +85,7 @@ header{
 		}
 		#mooc_searchform{
 			float:right;
-			margin:20px 20px 0 0;
+			margin:30px 20px 0 0;
 		}
 		.topmenu{
 			li{
@@ -271,6 +272,8 @@ header{
 	#logo{
 		float:left;
 	}
+	#header_logo{display:block;}
+	#header_alt_logo{display:none;}
 	&.center{
 		#logo{
 			width:100%;
@@ -279,6 +282,11 @@ header{
 				display:inline-block;
 			}
 		}
+		#vibe_bp_login:after{border:none;}
+	}
+	&.fixed{
+		#header_logo{display:none;}
+		#header_alt_logo{display:block !important;}
 	}
 }
 
@@ -394,14 +402,30 @@ header{
 		text-align:left;
 	}
 	#mooc_searchform{
-		float:left;
-		margin:0 0 0 20px;
+		float:right;
+		margin:24px 0 0 20px;
 		display:inline-block;
 	}
 	#trigger{
-		right:auto;
-		left:0;
-		top:0;
+	    right: auto;
+	    left: 10px;
+	    top: 24px;
+	    position: fixed;
+	}
+	&.app{
+		#trigger{
+			left:20px;
+			top:30px;
+		}
+	}
+}
+.admin-bar{
+	.mooc{
+		#trigger{
+			top:54px;
+			left: 10px;
+			right:auto;
+		}
 	}
 }
 
@@ -588,9 +612,20 @@ header{
 @media (max-width: 767px){
 	header.sleek{
 		ul.topmenu{
-    		margin-right: 0;
+    		margin-right: 40px;
 		}
 	} 
+	header.mooc.app{
+		min-height:72px;
+		.topmenu{
+			display:none;
+		}
+		#trigger{
+			left:auto;
+			right:0;    top: 20px;
+		}
+		#mooc_searchform{display:none;}
+	}
 	header.standard{
 		#searchicon{
 			position:relative;
@@ -603,7 +638,7 @@ header{
 	header.mooc{
 		#trigger{
 			left:15px;
-			top:0;
+			top: 20px;
 		}
 		#mooc_searchform{
 			margin:0 10px 0 45px !important;

@@ -98,6 +98,7 @@ wp_head();
                                     <?php
                                     }
                                     ?>
+                                    <?php do_action('wplms_header_top_login'); ?>
                                 </ul>
                             <?php
                             else :

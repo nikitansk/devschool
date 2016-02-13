@@ -212,6 +212,14 @@
 	#discussion.loading{
 	    opacity:0.4;
 	}
+	ul:not(.tags) {
+    	list-style: disc outside;
+    	margin-left: 20px;
+	}
+	ol {
+    	list-style: decimal outside;
+    	margin-left: 20px;
+	}
 	.commentlist{
 		margin-bottom:15px;	
 		li{

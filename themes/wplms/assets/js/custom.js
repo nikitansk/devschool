@@ -15,20 +15,29 @@
   };
 })(jQuery);
 
+
+
 (function($) {
+
 jQuery(document).ready(function($) {
     NProgress.inc();
     SidebarMenuEffects();
     LoginTriggerEffects();
-    $('.pagesidebar li.menu-item-has-children>ul').each(function(){
-      var $this = $(this);
-      var parent = $(this).parent();
-      parent.on('click',function(){
-        $this.toggle(200);
-        parent.toggleClass('active');
-        return false;
-      });
+
+    $('.pagesidebar .sidemenu li.menu-item-has-children').each(function(){
+        var $this = $(this);
+          $this.on('click',function(event){
+              if(!$this.hasClass('active')){
+                $this.find('> ul.sub-menu').show(200);
+                $this.addClass('active');
+              }else{
+                $this.removeClass('active');
+                $this.find('> ul.sub-menu').hide(200);
+              }
+              event.stopPropagation();
+          });
     });
+
     $('nav .menu-item').has('.sub-menu').each(function() {
         if($(this).find('.megadrop').length > 0 ){ 
            $(this).addClass('hasmegamenu');
@@ -198,7 +207,7 @@ jQuery(document).ready(function($){
         next = $('#item-header');
       }else if($('body').is('.groups, .single-item') && ( $('body').hasClass('g2') || $('body').hasClass('g3') || $('body').hasClass('g4'))){
           next = $('#item-header');
-      }else if($('body').hasClass('single-course') && ( $('body').hasClass('c2') || $('body').hasClass('c3') || $('body').hasClass('c4'))){
+      }else if(($('body').hasClass('single-course') && ( $('body').hasClass('c2') || $('body').hasClass('c3') || $('body').hasClass('c4'))) || ($('body').hasClass('single-course') && $('body').hasClass('modern-theme'))){
         next = $('#item-header');
       }else{
           next = header.next();
@@ -249,7 +258,7 @@ jQuery(document).ready(function($){
         next = $('#item-header');
       }else if($('body').is('.groups, .single-item') && ( $('body').hasClass('g2') || $('body').hasClass('g3') || $('body').hasClass('g4'))){
         next = $('#item-header');
-      }else if($('body').hasClass('single-course') && ( $('body').hasClass('c2') || $('body').hasClass('c3') || $('body').hasClass('c4'))){
+      }else if(($('body').hasClass('single-course') && ( $('body').hasClass('c2') || $('body').hasClass('c3') || $('body').hasClass('c4'))) || ($('body').hasClass('single-course') && $('body').hasClass('modern-theme'))){
         next = $('#item-header');
       }else{
         next = header.next();
@@ -598,40 +607,6 @@ jQuery(document).ready(function($){
   $('#close-modal').click(function(){
     $('#vibe_bp_login').removeClass('active');
     $('#vibe_bp_login').hide();
-  });
-  $('#forgot_password_trigger').click(function(){
-    $('#login_register_form').toggleClass('slidehide');
-    $('#forgot_password').toggleClass('slideshow');
-  });
-  $('#forgot_password .link').click(function(){
-    $('.slideshow').toggleClass('slideshow');
-    $('#login_register_form').toggleClass('slidehide');
-  });
-  
-  $('#forgot_password').find('form').each(function(){
-      var $this = $(this); 
-      $('#forgot_password_submit').on('click',function(event){
-          event.preventDefault();
-          $this.parent().find('.message').remove();
-            $('#user_email').removeClass('error');
-            var user_login = $('#user_email').val();
-            //if($(this).val().length === 0){ console.log($(this).val().length);
-              //$('#user_email').addClass('error');
-            //}else{
-                $.ajax({
-                    type: "POST",
-                    url: ajaxurl,
-                    data: { action: 'wpforgot_password', 
-                          security: $('#security').val(),
-                          user_login: user_login,
-                        },
-                    cache: false,
-                    success: function (html) {
-                      $this.parent().prepend(html);
-                    }
-                });
-            //}
-      });
   });
 });
 

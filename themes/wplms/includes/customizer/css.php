@@ -20,8 +20,7 @@ $dom_array = array(
                             'css' => 'primary'
                             ),
     'primary_color'  => array(
-                            'element' => '.woocommerce a.button,.button,
-                                          #nav_horizontal li.current-menu-ancestor>a, 
+                            'element' => '.woocommerce a.button, .button,#nav_horizontal li.current-menu-ancestor>a, 
                                           #nav_horizontal li.current-menu-item>a, .total_students span,
                                           #nav_horizontal li a:hover, .button.hero,.tagcloud a:hover,
                                           #nav_horizontal li:hover a,.course_button.button span.amount,
@@ -80,7 +79,7 @@ $dom_array = array(
                             ),
         'logo_size' => array(
                             'element' => '#logo img,#alt_logo img',
-                            'css' => 'max-height'
+                            'css' => 'height'
                             ),
       'logo_top_padding'  => array(
                             'element' => '#logo',
@@ -91,7 +90,7 @@ $dom_array = array(
                             'css' => 'padding-bottom'
                             ),
     'header_top_bg'  => array(
-                            'element' => '#headertop,.pagesidebar,#pmpro_confirmation_table thead,header #searchdiv.active #searchform input[type=text],
+                            'element' => '#headertop,header.sleek.fixed,header.standard.fixed,.pagesidebar,#pmpro_confirmation_table thead,header #searchdiv.active #searchform input[type=text],
                             .pmpro_checkout thead th,#pmpro_levels_table thead,.boxed #headertop .container,header.sleek.transparent.fixed',
                             'css' => 'background-color'
                             ),
@@ -332,12 +331,13 @@ $dom_array = array(
                             'css' => 'font-family'
                             ),
   'single_light_color'  => array(
-                            'element' => '#buddypress div.item-list-tabs,.widget .item-options,
+                            'element' => '#buddypress div.item-list-tabs,.widget .item-options,#buddypress div.item-list-tabs#object-nav,
                             #buddypress div.item-list-tabs,.quiz_bar',
                             'css' => 'background-color'
                             ),
   'single_dark_color'  => array(
-                            'element' => '#buddypress div#item-header,.single-course .course_header
+                            'element' => '#buddypress div#item-header,
+                            .single-course .course_header,
                             .minimal.single-course.c2 .course_header, 
                             .minimal.single-course.c3 .course_header, 
                             .minimal.single-course.c5 .course_header,
@@ -620,7 +620,8 @@ foreach($dom_array as $style => $value){
                       .elegant #buddypress #members-activity div.item-list-tabs ul li a:hover,
                       .elegant.single-course.c3 #item-nav div.item-list-tabs#object-nav li.current a,
                       .elegant.single-course.c4 #buddypress .item-list-tabs#object-nav li.current a,
-                      .login_page_content .nav.nav-tabs>li.active>a
+                      .login_page_content .nav.nav-tabs>li.active>a,
+                      .block.postblock .block_content .course_instructor
                       {
                         color:'.$theme_customizer[$style].'; 
                       }
@@ -817,15 +818,16 @@ foreach($dom_array as $style => $value){
         }
 
 
-        if(isset($theme_customizer['header_top_bg'])){
-        echo '#vibe_bp_login:after{
-                border-color: transparent transparent '.$theme_customizer['header_top_bg'].' transparent;
+        if(isset($theme_customizer['login_light'])){
+        echo '#vibe_bp_login:after{ 
+                border-color: transparent transparent '.$theme_customizer['login_light'].' transparent;
               }';
         }     
 
         if(isset($theme_customizer['header_top_color'])){
-            echo 'header.sleek.fixed #trigger .lines, header.sleek.fixed #trigger .lines:after, 
-            header.sleek.fixed #trigger .lines:beforeheader{background: '.$theme_customizer['header_top_color'].';};';
+            echo 'header.fixed #trigger .lines, header.fixed #trigger .lines:after, 
+            header.fixed #trigger .lines:before,header.sleek.fixed #trigger .lines, header.sleek.fixed #trigger .lines:after, 
+            header.sleek.fixed #trigger .lines:before{background: '.$theme_customizer['header_top_color'].';}';
         }
         if(isset($theme_customizer['header_color'])){
         echo '#trigger .lines, 
@@ -900,4 +902,3 @@ foreach($dom_array as $style => $value){
         do_action('wplms_customizer_custom_css',$theme_customizer); 
     echo '</style>';
 }
-?>

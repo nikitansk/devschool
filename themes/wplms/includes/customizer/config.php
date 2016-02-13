@@ -160,12 +160,12 @@ $vibe_customizer = array(
                                                 'default' => '0'
                                                 ),
                             'header_top_bg' => array(
-                                                'label' => 'Header Top Background Color',
+                                                'label' => 'Header Top / Fixed Background Color',
                                                 'type'  => 'color',
                                                 'default' => '#232b2d'
                                                 ),
                             'header_top_color' => array(
-                                                    'label' => 'Header Top Text Color',
+                                                    'label' => 'Header Top / Fixed Text Color',
                                                     'type'  => 'color',
                                                     'default' => '#FFF'
                                                     ),  

@@ -9,6 +9,7 @@
  * @version     2.0
  */
 
+
 do_action('wplms_before_single_course');
 
 get_header( vibe_get_header() ); 

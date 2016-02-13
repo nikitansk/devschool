@@ -743,8 +743,12 @@ function vibe_logo_url($url='/',$location = null){
     
     $logo=vibe_get_option('logo'); 
 
-    if(isset($logo) && $logo)
+    if(empty($logo)){
+        $url = VIBE_URL.'/assets/images/logo.png';
+    }else{
         $url = $logo;
+    }
+
 
     if(!empty($location)){
         switch($location){
@@ -752,9 +756,18 @@ function vibe_logo_url($url='/',$location = null){
                 // No changes
             break;
             case 'header':
+                $header = vibe_get_customizer('header_style');
                 $alt_logo=vibe_get_option('alt_logo');
-                if(!empty($alt_logo)) 
-                    $url .= '" data-alt-logo="'.$alt_logo;
+                if(empty($alt_logo)){
+                    $alt_logo .= VIBE_URL.'/assets/images/logo.png';
+                }
+                if(in_array($header,array('sleek','transparent','center'))){
+                    $url .='" id="header_logo"><img id="header_alt_logo" src="'.$alt_logo;    
+                }else{
+                    if(!empty($alt_logo)) 
+                        $url .= '" data-alt-logo="'.$alt_logo;    
+                }
+                
             break;
             case 'footer':
                 $footer_logo=vibe_get_option('footer_logo');
@@ -842,6 +855,7 @@ if(!function_exists('vibe_include_template')){
 
         if(!file_exists($file_path)){
             $file_path = get_template_directory()."/templates/$path";
+
             if(!file_exists($file_path)){
 
                 if(!empty($base)){
@@ -989,7 +1003,7 @@ function register_required_plugins() {
         array(
             'name'                  => 'WooCommerce', // The plugin name
             'slug'                  => 'woocommerce', // The plugin slug (typically the folder name)
-            'source'                => 'https://downloads.wordpress.org/plugin/woocommerce.2.4.13.zip', // The plugin source
+            'source'                => 'https://downloads.wordpress.org/plugin/woocommerce.2.5.2.zip', // The plugin source
             'required'              => false, // If false, the plugin is only 'recommended' instead of required
             'version'               => '1.6', // E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented
             'force_activation'      => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch

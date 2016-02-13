@@ -33,10 +33,12 @@ function vibe_import($file){
 				$WP_Import->allow_fetch_attachments();
 
 				$WP_Import->import( $file_path );
-				
-				do_action('wplms_after_sample_data_import',$file);
+
 
                 _e('Import Complete !','vibe');   
+                echo '<a href="'.admin_url('options-permalink.php').'" target="_blank" class="button button-primary" style="margin-top:15px;">'.__('Save Permalinks','vibe').'</a><br />';
+                echo '<a href="'.admin_url('options-general.php?page=bp-components').'" target="_blank" class="button button-primary" style="margin-top:15px;">'.__('Save Components','vibe').'</a>';
+                do_action('wplms_after_sample_data_import',$file);
 		}else{
 			echo __("Unable to locate Sample Data file.", 'vibe') ;
 		}

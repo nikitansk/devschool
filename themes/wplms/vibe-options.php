@@ -208,7 +208,7 @@ $sections[] = array(
 						'type' => 'upload',
 						'title' => __('Upload Logo', 'vibe'), 
 						'sub_desc' => __('Upload your logo', 'vibe'),
-						'desc' => __('This Logo is shown in header.', 'vibe'),
+						'desc' => sprintf(__('This Logo is shown in header. NOT ABLE TO UPLOAD ? %s REFER TIP %s', 'vibe'),'<a href="http://vibethemes.com/documentation/wplms/knowledge-base/logo-and-favicon-not-uploading/" target="_blank">','</a>'),
                         'std' => VIBE_URL.'/assets/images/logo.png'
 						),
                        array(
@@ -216,7 +216,7 @@ $sections[] = array(
 						'type' => 'upload',
 						'title' => __('Upload Alternate Logo', 'vibe'), 
 						'sub_desc' => __('Alternate logo', 'vibe'),
-						'desc' => __('This Logo is shown in header when it becomes fixed. Or in the Header top area. Defaults to logo.', 'vibe'),
+						'desc' => sprintf(__('This Logo is shown in header when it becomes fixed. Or in the Header top area. Defaults to logo.NOT ABLE TO UPLOAD ? %s REFER TIP %s', 'vibe'),'<a href="http://vibethemes.com/documentation/wplms/knowledge-base/logo-and-favicon-not-uploading/" target="_blank">','</a>'),
                         'std' => VIBE_URL.'/assets/images/logo.png'
 						),
                         array(
@@ -224,7 +224,7 @@ $sections[] = array(
 						'type' => 'upload',
 						'title' => __('Upload Favicon', 'vibe'), 
 						'sub_desc' => __('Upload 16x16px Favicon', 'vibe'),
-						'desc' => __('Upload 16x16px Favicon.', 'vibe'),
+						'desc' => sprintf(__('Upload 16x16px Favicon.NOT ABLE TO UPLOAD ? %s REFER TIP %s', 'vibe'),'<a href="http://vibethemes.com/documentation/wplms/knowledge-base/logo-and-favicon-not-uploading/" target="_blank">','</a>'),
                         'std' => VIBE_URL.'/assets/images/favicon.png'
 						),
                          array(
@@ -310,7 +310,7 @@ $sections[] = array(
 						'type' => 'upload',
 						'title' => __('Upload BuddyPress default member avatar', 'vibe'), 
 						'sub_desc' => __('BuddyPress default members avatar', 'vibe'),
-						'desc' => __('This avatar is shown for members who have not uploaded any custom avatar.', 'vibe'),
+						'desc' => sprintf(__('This avatar is shown for members who have not uploaded any custom avatar.NOT ABLE TO UPLOAD ? %s REFER TIP %s', 'vibe'),'<a href="http://vibethemes.com/documentation/wplms/knowledge-base/logo-and-favicon-not-uploading/" target="_blank">','</a>'),
                         'std' => VIBE_URL.'/assets/images/avatar.jpg'
 						),
 
@@ -679,7 +679,7 @@ $sections[] = array(
 						'type' => 'upload',
 						'title' => __('Course default avatar', 'vibe'), 
 						'sub_desc' => __('Default avatar for courses', 'vibe'),
-						'desc' => __('This avatar is shown for courses which do not have any avatar', 'vibe'),
+						'desc' => sprintf(__('This avatar is shown for courses which do not have any avatar. NOT ABLE TO UPLOAD ? %s REFER TIP %s', 'vibe'),'<a href="http://vibethemes.com/documentation/wplms/knowledge-base/logo-and-favicon-not-uploading/" target="_blank">','</a>'),
                         'std' => ''
 						),
 						array(
@@ -906,7 +906,7 @@ $sections[] = array(
 						'type' => 'upload',
 						'title' => __('Upload Footer Logo', 'vibe'), 
 						'sub_desc' => __('Displayed in footer', 'vibe'),
-						'desc' => __('This Logo is shown in footer bottom area. Defaults to logo.', 'vibe'),
+						'desc' => sprintf(__('This Logo is shown in footer bottom area. Defaults to logo. NOT ABLE TO UPLOAD ? %s REFER TIP %s', 'vibe'),'<a href="http://vibethemes.com/documentation/wplms/knowledge-base/logo-and-favicon-not-uploading/" target="_blank">','</a>'),
                         'std' => VIBE_URL.'/assets/images/logo.png'
 						),
                         array(

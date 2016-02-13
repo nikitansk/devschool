@@ -64,6 +64,17 @@ footer{
 		padding:30px 0 0;
 		border-top:1px solid rgba(255,255,255,0.1);
 	}
+	.heading{
+		color:#fff;
+		border-bottom-color:rgba(255,255,255,0.6);
+	}
+	.product_list_widget{
+		li{
+		    display: inline-block;
+		    width: 100%;
+		    margin-bottom: 10px;
+		}
+	}
 }
 
 /*========================================================================*/
@@ -299,6 +310,11 @@ footer h4{
 	}
 }
 
+.content footer{
+    padding: 0;
+    background: none;
+    color: #444;
+}
 /*========================================================================*/
 /*   06. SCROLLTOP
 /*========================================================================*/

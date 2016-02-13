@@ -20,7 +20,7 @@ if ( ! class_exists( 'WPLMS_Install' ) ) :
  */
 class WPLMS_Install {
 
-	public $version = '2.0.1';
+	public $version = '2.0.6';
 	/**
 	 * Hook in tabs.
 	 */
@@ -205,6 +205,8 @@ class WPLMS_Install {
 			'members' => 1 
 			));
 		update_option('bp-active-components',$bp_active_components);
+		
+		update_option('woocommerce_version','2.5.2');
 
 		$options_pages = array(
 			'take_course_page'=>'course-status',
@@ -257,8 +259,19 @@ class WPLMS_Install {
 		}
 		update_option('bp-pages',$bp_pages);
 
-
-
+		$permalinks = array(
+			'course_base' => '/course',
+			'quiz_base'=>'/quiz',
+			'unit_base'=>'/unit',
+			'curriculum_slug'=>'/curriculum',
+			'members_slug'=>'/members',
+			'activity_slug'=>'/activity',
+			'admin_slug'=>'/admin',
+			'submissions_slug' => '/submissions',
+			'stats_slug' => '/stats'
+		);
+		
+		update_option('vibe_course_permalinks',$permalinks);
 		/*==================================================*/
 		/* WIDGETS AND SIDEBARS
 		/*==================================================*/

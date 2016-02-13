@@ -309,15 +309,15 @@ nav{
 	margin:0;
 	li{
 		clear:both;
-
+		cursor:pointer;
+		border-top:1px solid rgba(0,0,0,0.1);
 		a{
-			padding:15px 0;
+			padding:15px 0 15px 30px;
 			display:block;
-			text-align: center;
+			text-align: left;
 			color:#FFF;
 			opacity: 0.8;
 			background:rgba(255,255,255,0.1);
-			border-top:1px solid rgba(0,0,0,0.1);
 		}
 		&.menu-item-has-children > a{
 			margin-right:45px;
@@ -328,7 +328,7 @@ nav{
 		&.active a,
 		& a:hover{
 			opacity: 1;
-			background:#12333e;
+			background:rgba(0,0,0,0.2);
 		}
 		&.menu-item-has-children{
 		    position: relative;
@@ -338,11 +338,16 @@ nav{
 		      position: absolute;
 		      top:15px;
 		      right:15px;
-		      color:rgba(255,255,255,0.2);
+		      color:rgba(0,0,0,0.6);
 		    }
-		    &.active:after{
-		      content:"\e092";
-		    }
+		    &.active{
+		    	& > ul{
+		    		display:block;
+		    	}
+		    	&:after{
+		      		content:"\e092";
+	    		}
+    		}
 	  	}
 	}
 }
@@ -358,7 +363,7 @@ header.standard{
  			& > li{
 			 	& >a{
 					margin:0;
-					padding-rigth:15px;
+					padding-right:15px;
 					padding-left:15px;
 				}
 			}
