@@ -1,0 +1,4958 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Course Module v1.7.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-22 17:57+0530\n"
+"PO-Revision-Date: 2016-01-22 17:57+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: vibethemes <vibethemes@gmail.com>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-"
+"course-module\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wplms/wp-content/plugins/"
+"vibe-course-module\n"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Please enter your Envato Marketplace Username."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Please enter your Envato Marketplace API Key."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "The API \"set\" is a required parameter."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "The Envato Marketplace \"item ID\" is a required parameter."
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "An Unexpected HTTP Error occurred during the API request."
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:376
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "Try again"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "Plugin reactivated successfully. "
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr " Plugin Updates"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "Username: "
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "Email: "
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Key: "
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "Edit Key"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>Unable to validate update activation.</p>"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "Add Key"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "User name"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr "Email"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest User name ( for Auto-Updates )"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:56
+msgid "Removed a student from Course"
+msgstr "Απομάκρυνση Μαθητή "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:57
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:61
+msgid "Student submitted a Course"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:58
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:60
+msgid "Student started a Course"
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:59
+msgid "Student submitted a Quiz"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:62
+msgid "Course reset for Student"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:63
+msgid "Bulk action by instructor"
+msgstr "Μαζικές ενέργειες απο τον Εισηγητή"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:64
+msgid "Course Evaluated for student"
+msgstr "Αξιολόγηση Μαθημάτων για το μαθητή"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:65
+msgid "Student got a Badge"
+msgstr "ΛΗΨΗ ΔΙΑΚΡΙΤΙΚΟΥ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:66
+msgid "Student got a certificate"
+msgstr "Μαθητης πήρε Πιστοποιητικό"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:67
+msgid "Quiz Evaluated for student"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:68
+msgid "Student subscribed for course"
+msgstr "Εγγραφη Μαθητή για το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:86
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:88
+msgid "per"
+msgstr "ΑΝΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:106
+msgid "SUBSCRIPTION FOR"
+msgstr "ΕΓΓΡΦΗ ΓΙΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:253
+#, php-format
+msgid "All Instructors <span>%s</span>"
+msgstr "ΟΛΟΙ ΟΙ ΕΙΣΗΓΗΤΕΣ  <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:274
+#, fuzzy
+msgid "Expired Course"
+msgstr " ΣΤΟ ΜΑΘΗΜΑ : "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:275
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:222
+#, fuzzy
+msgid "Start Course"
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:276
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:223
+#, fuzzy
+msgid "Continue Course"
+msgstr " ΣΤΟ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:277
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:371
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:224
+msgid "Under Evaluation"
+msgstr "Σύμφωνα με την αξιολόγηση"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:278
+#, fuzzy
+msgid "Course Finished"
+msgstr "ΛΗΞΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:283
+#, fuzzy
+msgid "Filter by Status"
+msgstr "ΕΛΕΓΧΟΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:289
+msgid "Enter student name/email"
+msgstr "ΣΥΜΠΛΗΡΩΣΤΕ ΤΟ ΟΝΟΜΑ/email ΤΟΥ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:290
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:213
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:370
+msgid "Search"
+msgstr "Αναζήτηση"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:326
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:587
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:922
+#, fuzzy
+msgid "EXPIRED"
+msgstr "ΛΗΞΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:326
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:334
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:337
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:343
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:346
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:352
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:355
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:361
+#, fuzzy
+msgid "COURSE"
+msgstr "ΕΝΑΡΞΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:334
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:352
+#, fuzzy
+msgid "START"
+msgstr "ΕΝΑΡΞΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:337
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:355
+#, fuzzy
+msgid "CONTINUE"
+msgstr "ΣΥΝΕΧΙΣΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:340
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:358
+msgid "UNDER"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:340
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:358
+#, fuzzy
+msgid "EVALUATION"
+msgstr "ΜΑΘΗΜΑ ΥΠΟ ΑΞΙΟΛΟΓΗΣΗΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:343
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:361
+#, fuzzy
+msgid "FINISHED"
+msgstr "ΟΛΟΚΛΗΡΩΣΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:346
+#, fuzzy
+msgid "ENABLED"
+msgstr "ΕΝΕΡΓΟΠΟΙΗΜΕΝΟ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:431
+#, fuzzy
+msgid "This Course can not be taken. Contact Administrator."
+msgstr "Security check Failed. Contact Administrator."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:442
+#, fuzzy
+msgid "REVIEW COURSE "
+msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΔΙΑΚΡΙΤΙΚΟΥ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:502
+#, fuzzy
+msgctxt "Course status"
+msgid "Pending evaluation"
+msgstr "Σύμφωνα με την αξιολόγηση"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:503
+msgctxt "Course status"
+msgid "Evaluation complete"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:506
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:554
+msgctxt "get quiz submissions button"
+msgid "Get"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:550
+#, fuzzy
+msgctxt "Quiz status"
+msgid "Pending evaluation"
+msgstr "Σύμφωνα με την αξιολόγηση"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:551
+msgctxt "Quiz status"
+msgid "Evaluation complete"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:583
+#, fuzzy
+msgctxt "No quizzes in course, error on course submissions"
+msgid "No Quiz found !"
+msgstr "ΔΕΝ ΒΡΕΘΙΚΑΝ ΜΑΘΗΜΑΤΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:600
+msgctxt "reject user application for course"
+msgid "Reject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:601
+msgctxt "approve user application for course"
+msgid "Approve"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:609
+#, fuzzy
+msgctxt "No applications found in course, error on course submissions"
+msgid "No applications found !"
+msgstr "ΔΕΝ ΒΡΕΘΙΚΑΝ ΜΑΘΗΜΑΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:193
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:66
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:95
+msgid "Course"
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:228
+#, fuzzy, php-format
+msgid "Announcement for Course %s "
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:242
+#, fuzzy, php-format
+msgid "News published for Course %s "
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:254
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:464
+#, fuzzy, php-format
+msgid "Student subscribed for course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:255
+#, fuzzy, php-format
+msgid "Student %s subscribed for course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:268
+#, fuzzy
+msgid "Student started course "
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:269
+#, fuzzy, php-format
+msgctxt "Recoreded activity message"
+msgid "Student %s started the course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:285
+#, php-format
+msgid "Student %s finished and submitted the course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:287
+msgid "Student Submitted the course "
+msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:299
+#, fuzzy
+msgid "Instructor evaluated Course for student"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:300
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:838
+#, fuzzy, php-format
+msgid "Student %s got %s in course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:318
+msgid "Course reset for student "
+msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:319
+#, fuzzy, php-format
+msgid "Course %s is reset for student %s"
+msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:328
+#, fuzzy
+msgid "Student retake Course "
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:329
+#, fuzzy, php-format
+msgid "Course %s is retaken by student %s"
+msgstr "ΕΠΑΝΑΛΗΨΗ ΚΟΥΙΖ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:338
+msgid "Student got a Badge in the course "
+msgstr "ΛΗΨΗ ΔΙΑΚΡΙΤΙΚΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:339
+#, fuzzy, php-format
+msgid "Student %s got a badge in the course %s"
+msgstr "ΛΗΨΗ ΔΙΑΚΡΙΤΙΚΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:347
+#, fuzzy
+msgid "Student got a Certificate in course"
+msgstr "ΕΛΑΒΕ ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:348
+#, fuzzy, php-format
+msgid "Student %s got a certificate in the course %s"
+msgstr "ΕΛΑΒΕ ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:357
+#, fuzzy, php-format
+msgid "Student reviewed Course %s"
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:358
+#, fuzzy, php-format
+msgid "Student %s reviewd the Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:370
+#, fuzzy
+msgid "Student unsubsribed from course "
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:371
+#, fuzzy, php-format
+msgid "Student %s is removed from the course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:380
+#, fuzzy
+msgid "Course code applied"
+msgstr "ΛΗΞΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:390
+#, fuzzy
+msgid "Student renewed a course"
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:391
+#, fuzzy, php-format
+msgid "Student %s renewd the course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:399
+msgid "Student started a unit"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:400
+#, fuzzy, php-format
+msgid "Student started the unit %s in course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:410
+msgid "Student finished unit "
+msgstr "ΟΛΟΚΛΗΡΩΣΗ ΤΗΣ ΕΝΟΤΗΤΑΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:411
+#, fuzzy, php-format
+msgid "Student %s finished the unit %s in course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:427
+#, fuzzy
+msgid "Instructor completed a unit for Student "
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ ΓΙΑ ΤΟ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:428
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1232
+#, fuzzy, php-format
+msgid "Instructor %s completed unit %s for Student %s in course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:439
+#, fuzzy
+msgid "Instructor uncompleted a unit for Student "
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ ΓΙΑ ΤΟ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:440
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1289
+#, fuzzy, php-format
+msgid "Instructor %s uncompleted unit %s for Student %s in course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:451
+#, fuzzy
+msgid "Student posted comment on unit "
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:452
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1325
+#, fuzzy, php-format
+msgid "Student %s posted comment on unit %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:463
+msgid "Student started a quiz"
+msgstr " ΕΝΑΡΞΗ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:464
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2149
+#, fuzzy, php-format
+msgid "Student %s started the quiz %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:475
+msgid "Student submitted the Quiz"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ ΑΠΟ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:476
+#, fuzzy, php-format
+msgid "Quiz %s was submitted by student"
+msgstr "ΥΠΟΒΛΗΘΗΚΕ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:488
+msgid "Instructor evaluated Quiz for student "
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ ΓΙΑ ΤΟ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:490
+#, fuzzy, php-format
+msgid "Student %s got %s out of %s in Quiz %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:507
+msgid "Quiz retake by Student"
+msgstr "ΕΠΑΝΑΛΗΨΗ ΚΟΥΙΖ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:508
+#, fuzzy, php-format
+msgid "Student %s  initiated retake for quiz %s"
+msgstr " ΕΝΑΡΞΗ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:519
+msgid "Instructor Reseted the Quiz for User"
+msgstr "Επανάλυψη Κουιζ για τον χρήστη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:520
+#, fuzzy, php-format
+msgid "Quiz %s  was reset by the Instructor for user %s"
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:532
+msgid "Instructor added students in course  "
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:533
+#, fuzzy, php-format
+msgid "Instructor added %s students in course "
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:540
+#, fuzzy
+msgid "Instructor changed course status  "
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:541
+#, fuzzy, php-format
+msgid "Instructor changed Course Status for %s students in course "
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:548
+#, fuzzy
+msgid "Instructor sent Bulk message to students"
+msgstr "ΜΗΝΥΜΑ ΑΠΟ ΕΙΣΗΓΗΤΗ : "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:549
+#, fuzzy, php-format
+msgid "Bulk Message sent to %s students "
+msgstr "ΑΠΟΣΤΟΛΗ ΜΑΖΙΚΟΥ ΜΗΝΥΜΑΤΟΣ ΣΤΟΥΣ ΜΑΘΗΤΕΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:556
+#, fuzzy
+msgid "Instructor extended Course subscription"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:557
+#, fuzzy, php-format
+msgid "Course subscription extended for %s students "
+msgstr " ΑΥΤΟΜΑΤΗ ΑΞΙΟΛΟΓΗΣΗ ΤΟΥ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:567
+#, fuzzy
+msgid "Instructor assigned/removed Certificate/Badges"
+msgstr "Instructor assigned/removed Certificate/Badges  "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:568
+#, fuzzy, php-format
+msgid "Instructor added/removed Badges/Certificates from %s students in course"
+msgstr "Instructor added/removed Badges/Certificates from "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:589
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1711
+#, fuzzy, php-format
+msgid "Student started assignment %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:590
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2179
+#, fuzzy, php-format
+msgid "Student %s started the assignment %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:608
+#, fuzzy
+msgid "Student submitted assignment "
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:609
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2185
+#, fuzzy, php-format
+msgid "Student %s submitted the assignment %s"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ ΑΠΟ ΜΑΘΗΤΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:625
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1741
+#, php-format
+msgid "Results available for assignment %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:626
+#, php-format
+msgid "Student %s got marks %s out of %s in assignment %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:643
+#, fuzzy
+msgid "Instructor Reseted the Assignment for User"
+msgstr "Επανάλυψη Κουιζ για τον χρήστη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:644
+#, fuzzy, php-format
+msgid "Assignment %s was reset by the Instructor for user %s"
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:662
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s, on the site %4$s"
+msgstr "%1$s wrote a new %2$s, %3$s, on the site %4$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:664
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s"
+msgstr "%1$s wrote a new %2$s, %3$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:674
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s reviewed the %2$s, %3$s, on the site %4$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:676
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s"
+msgstr "%1$s reviewed the %2$s, %3$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:680
+#, php-format
+msgid "%1$s answered the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s answered the %2$s, %3$s, on the site %4$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:682
+#, php-format
+msgid "%1$s answered the %2$s, %3$s"
+msgstr "%1$s answered the %2$s, %3$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:689
+#, fuzzy, php-format
+msgid "User applied for Course %s "
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:690
+#, fuzzy, php-format
+msgid "User %s applied for Course %s "
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:700
+#, fuzzy, php-format
+msgid "User application %s for Course %s "
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:701
+#, fuzzy, php-format
+msgid "User %s application %s for Course %s "
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:90
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1847
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2049
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2300
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2478
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2491
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2548
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2593
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2657
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2764
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2779
+msgid "Security check Failed. Contact Administrator."
+msgstr "Security check Failed. Contact Administrator."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:133
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:163
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:207
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:327
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:401
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:525
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:563
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:641
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:686
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:770
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:823
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1317
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1522
+msgid "Security check failed !"
+msgstr "Security check failed !"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:194
+msgid "Answer Reset"
+msgstr "Επαναφορά απάντησης "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:196
+msgid "Unable to Reset"
+msgstr "Δεν είναι δυνατή η επαναφορά"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:212
+msgid "Incorrect Course selected."
+msgstr "Incorrect Course selected."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:312
+msgid "Statistics successfully calculated. Reloading..."
+msgstr "Επιτυχής υπολογισμός στατιστικών.Επαναφότωση..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:314
+msgid "Unable to calculate Average."
+msgstr "Δεν μπορεί να υπολογίστεί ο μέσος όρος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:324
+msgid "SHOW STATS"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:324
+msgid "HIDE"
+msgstr "HIDE"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:332
+msgid "Incorrect User selected."
+msgstr "Incorrect User selected."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:344
+msgid "This User has not started the course."
+msgstr "Αυτός ο χρήστης δεν έχει ξεκινήσει το Μάθημα."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:346
+msgid "This User has completed the course."
+msgstr "Αυτός ο χρήστης έχει ολοκληρώσει το μάθημα."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:347
+msgid "Student Score for Course "
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:347
+msgid " out of 100"
+msgstr " ΣΤΑ 100"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:357
+msgid "Course Started : "
+msgstr "Εκκίνηση Μαθήματος:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:362
+msgid "Curriculum :"
+msgstr "ΣΕΙΡΑ ΜΑΘΗΜΑΤΩΝ :"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:363
+msgid "Quizes"
+msgstr "ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:371
+msgid "Marks Obtained : "
+msgstr "ΛΗΨΗ ΒΑΘΜΟΛΟΓΙΑΣ : "
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:386
+msgid "Units Completed "
+msgstr "Ενότητες που συμπληρώθικαν"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:386
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:794
+msgid " out of "
+msgstr " ΣΤΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:424
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:863
+msgid "Marked Answer :"
+msgstr "ΕΧΕΙ ΑΠΑΝΤΗΘΕΙ:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:434
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2375
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:470
+msgid "FALSE"
+msgstr "FALSE"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:434
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2375
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:470
+msgid "TRUE"
+msgstr "TRUE"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:485
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:928
+msgid "Correct Answer :"
+msgstr "ΣΩΣΤΗ ΑΠΑΝΤΗΣΗ :"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:486
+msgid "View answer explanation"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:491
+#, fuzzy
+msgid "Total Marks :"
+msgstr "ΣΥΝΟΛΟ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:495
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:497
+msgid "MARKS OBTAINED"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:501
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:942
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:950
+msgid "Marks Obtained"
+msgstr "ΛΗΨΗ ΒΑΘΜΟΛΟΓΙΑΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:513
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:956
+#, fuzzy
+msgid "Total Marks"
+msgstr "ΣΥΝΟΛΟ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:530
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:568
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:646
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:775
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:828
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:846
+msgid " Incorrect User selected."
+msgstr " Incorrect User selected."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:543
+msgid "User removed from the Course"
+msgstr "Απομακρύνση χρήστη  από το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:624
+msgid "Course Reset for User"
+msgstr "Επαναφορά του Μαθήματος για το χρήστη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:629
+msgid ""
+"There was issue in resetting this course for the user. Please contact admin."
+msgstr ""
+"Υπήρχε πρόβλημα στην επαναφορά αυτού του μαθήματος για το χρήστη. Παρακαλώ "
+"επικοινωνήστε με το διαχειριστή."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:661
+msgid "Quiz Reset for Selected User"
+msgstr "ΕΠΑΝΑΛΥΨΗ ΚΟΥΙΖ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:738
+msgid "COURSE MARKED COMPLETE"
+msgstr "ΤΟ ΜΑΘΗΜΑ ΕΠΙΣΗΜΑΝΘΙΚΕ ΩΣ ΟΛΟΚΛΗΡΩΜΕΝΟ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:778
+#, php-format
+msgctxt "Course submission by User in course - admin - submissions"
+msgid "%s submission by %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:794
+msgid "MARKS: "
+msgstr "ΒΑΘΜΟΙ :  "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:794
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:799
+msgid " PENDING"
+msgstr " ΕΚΚΡΕΜΕΙ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:799
+msgid "DONE"
+msgstr "ΟΛΟΚΛΗΡΩΘΙΚΕ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:808
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:962
+msgid "Total"
+msgstr "ΣΥΝΟΛΟ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:809
+msgid "Course Percentage (Out of 100)"
+msgstr "ΠΟΣΟΣΤΟ ΣΤΟ ΜΑΘΗΜΑ (ΣΤΑ 100)"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:809
+msgid "Course Percentage out of 100"
+msgstr "ΠΟΣΟΣΤΟ ΣΤΟ ΜΑΘΗΜΑ (ΣΤΑ 100)"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:810
+msgid "Mark Course Complete"
+msgstr "ΟΛΟΚΛΗΡΩΣΗ ΒΑΘΜΟΛΟΓΙΑΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:833
+msgid " Incorrect Quiz Id."
+msgstr " Incorrect Quiz Id."
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:839
+msgctxt "Quiz submission \"by\" user"
+msgid "submission by"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:940
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:948
+msgctxt "Unattempted question warning in Course - Admin - Submissions area"
+msgid "Unattempted question ! Marks can not be assigned for this question."
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:942
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:950
+msgid "Give marks"
+msgstr "ΒΑΘΜΟΛΟΓΙΣΤΕ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:943
+msgid "Update Marks"
+msgstr "ΕΝΗΜΕΡΩΣΗ ΒΑΘΜΟΛΟΓΙΑΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:951
+msgid "Give Marks"
+msgstr "ΒΑΘΜΟΛΟΓΙΣΤΕ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:963
+msgid "Mark Quiz as Checked"
+msgstr "ΕΠΙΣΗΜΑΝΣΗ ΚΟΥΙΖ ΩΣ ΕΛΕΓΜΕΝΟ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:983
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:988
+msgid "Set a Subject for the message"
+msgstr "Ορίστε ένα θέμα για το μήνυμα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:999
+msgid "Messages Sent to "
+msgstr "ΑΠΟΣΤΟΛΗ ΜΗΝΥΜΑΤΟΣ ΣΕ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:999
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1184
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1299
+msgid " members"
+msgstr " ΜΕΛΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1001
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1192
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1215
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1305
+msgid "Please select members"
+msgstr "ΠΑΡΑΚΑΛΩ ΕΠΙΛΕΞΤΕ ΜΕΛΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1045
+#, fuzzy
+msgctxt "No users found in Course - admin - add users area"
+msgid "No Users found !"
+msgstr "ΔΕΝ ΒΡΕΘΙΚΑΝ ΜΑΘΗΜΑΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1090
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:89
+msgid "Reset Course for User"
+msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1091
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:90
+msgid "See Course stats for User"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1092
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:92
+msgid "Remove User from this Course"
+msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΧΡΗΣΤΗ ΑΠΟ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1124
+msgid "Select Assign Value"
+msgstr "Select Assign Value"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1184
+msgid "Action assigned to "
+msgstr "Action assigned to "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1189
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1302
+msgid "Could not assign action to members"
+msgstr "Could not assign action to members"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1210
+msgid "Please enter extension amount"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1235
+#, php-format
+msgid "Subscription extended for %d students, unable to extend for %d students"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1237
+#, fuzzy, php-format
+msgid "Subscription extended for %d students"
+msgstr " ΑΥΤΟΜΑΤΗ ΑΞΙΟΛΟΓΗΣΗ ΤΟΥ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1258
+#, fuzzy
+msgid "Select Course Status"
+msgstr "ΕΠΙΛΟΓΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1299
+#, fuzzy
+msgid "Course status changed for "
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1321
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1526
+msgid "User does not have capability to download stats !"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1361
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1559
+#, fuzzy
+msgid "START DATE"
+msgstr "ΕΝΑΡΞΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1369
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1381
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1429
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1575
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1592
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1785
+msgid "N.A"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1373
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1578
+msgid "COMPLETION DATE"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1384
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1596
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1814
+#, fuzzy
+msgid "ID"
+msgstr "HIDE"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1391
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1603
+msgid "NAME"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1438
+#, fuzzy
+msgid "BADGE"
+msgstr "ΔΙΑΚΡΙΤΙΚΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1450
+#, fuzzy
+msgid "CERTIFICATE"
+msgstr "ΠΤΥΧΙΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1462
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1633
+msgid "SCORE"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1721
+msgid "User not allowed to access stats"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1752
+#, fuzzy
+msgid "No data available"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1761
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:346
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:26
+msgid "Stats"
+msgstr "Στατιστικα"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1781
+msgid "Average"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1782
+msgid "Max"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1783
+#, fuzzy
+msgid "Min"
+msgstr "Λεπτά"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1789
+msgid "Leaderboard"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1809
+msgid "Download Stats"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1812
+msgid "Start Date/Time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1813
+msgid "End Date/Time"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1815
+#, fuzzy
+msgid "Student Name"
+msgstr "Ο ΜΑΘΗΤΗΣ "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1816
+msgid "Score"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1819
+msgid "Question scores (* for static quizzes only)"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1829
+#, fuzzy
+msgid "All students"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1830
+#, fuzzy
+msgid "Students who finished"
+msgstr "ΟΛΟΚΛΗΡΩΣΗ ΤΗΣ ΕΝΟΤΗΤΑΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1833
+#, fuzzy
+msgid "Process Stats"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1854
+#, fuzzy
+msgid "Unit not in Course"
+msgstr " ΣΤΟ ΜΑΘΗΜΑ : "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1872
+msgid "Course Expired."
+msgstr "ΛΗΞΗ ΜΑΘΗΜΑΤΟΣ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1872
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:321
+msgid "Click to renew"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1919
+msgid "Unit will be available in "
+msgstr "ΔΙΑΘΕΣΙΜΗ ΕΝΟΤΗΤΑ ΣΕ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1930
+msgid "Unit can not be accessed."
+msgstr "ΔΕΝ ΕΙΝΑΙ ΔΥΝΑΤΗ Η ΠΡΟΣΒΑΣΗ ΣΤΗΝ ΕΝΟΤΗΤΑ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1955
+#, fuzzy
+msgid " Minutes"
+msgstr " ΛΕΠΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1955
+#, fuzzy
+msgid " seconds"
+msgstr "ΔΕΥΤΕΡΟΛΕΠΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1957
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/curriculum.php:57
+msgid " Hours"
+msgstr " ΩΡΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1957
+msgid " minutes"
+msgstr " ΛΕΠΤΑ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1959
+#, fuzzy
+msgid " Days"
+msgstr "ΗΜΕΡΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1959
+#, fuzzy
+msgid " hours"
+msgstr " ΩΡΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1985
+#, fuzzy
+msgid "Previous Quiz"
+msgstr "ΠΡΟΪΓΟΥΜΕΝΗ ΕΡΩΤΗΣΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1987
+msgid "Previous Unit"
+msgstr "ΠΡΟΙΓΟΥΜΕΝΗ ΕΝΟΤΗΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1997
+msgid "Check Results"
+msgstr "ΕΛΕΓΧΟΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2000
+#, fuzzy
+msgid "Continue Quiz"
+msgstr " ΣΤΟ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2004
+msgid "Start Quiz"
+msgstr "ΕΝΑΡΞΗ ΤΟΥ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2007
+msgid "Mark this Unit Complete"
+msgstr "ΕΠΙΣΗΜΑΝΣΗ ΤΗΣ ΕΝΟΤΗΤΑΣ ΩΣ ΟΛΟΚΛΗΡΩΜΕΝΗΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2029
+msgid "Proceed to Quiz"
+msgstr "ΠΡΟΧΩΡΙΣΤΕ ΣΤΟ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2032
+msgid "Next Unit"
+msgstr "ΕΠΟΜΕΝΗ ΕΝΟΤΗΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2055
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2118
+#, fuzzy
+msgid "Invalid submission time."
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΤΟΥ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2060
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2123
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2318
+#, fuzzy
+msgid "Questions not set."
+msgstr "ΔΕΝ ΔΩΘΗΚΕ ΔΙΑΡΚΕΙΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2207
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2257
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2286
+msgid "Quiz Timed Out ."
+msgstr "Λήξη Χρόνου"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2208
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2258
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2287
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2291
+msgid "If you want to attempt again, Contact Instructor to reset the quiz."
+msgstr ""
+"Αν θέλετε να προσπαθήσετε και πάλι, Επικοινωνήστε με τον Εισηγητη σας για "
+"την επαναφορά του κουίζ."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2214
+msgid "Quiz Already Attempted."
+msgstr "ΕΧΕΤΕ ΠΡΑΓΜΑΤΟΠΟΙΗΣΕΙ ΤΟ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2215
+msgid "Security Check Failed. Contact Site Admin."
+msgstr "Security Check Failed. Contact Site Admin."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2262
+msgid "Start Quiz to begin quiz."
+msgstr "ΕΝΑΡΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2263
+msgid "Click \"Start Quiz\" button to start the Quiz."
+msgstr "Κάντε κλικ στο κουμπί \" Έναρξη Quiz \" για να ξεκινήσει το Quiz."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2267
+msgid "Quiz not active."
+msgstr "ΜΗ ΕΝΕΡΓΟ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2268
+msgid "Contact your instructor or site admin."
+msgstr "ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΕ ΤΟΝ ΕΙΣΗΓΗΤΗ ΣΑΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2290
+msgid "Quiz Already Attempted ."
+msgstr "ΕΧΕΤΕ ΠΡΑΓΜΑΤΟΠΟΙΗΣΕΙ ΤΟ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2362
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:423
+msgid "SHOW HINT"
+msgstr "ΔΕΙΤΕ ΤΗΝ ΝΥΞΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2363
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:424
+msgid "HINT"
+msgstr "ΝΥΞΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2443
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2446
+#, fuzzy
+msgid "Type Answer"
+msgstr "ΕΧΕΙ ΑΠΑΝΤΗΘΕΙ:"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2453
+msgid "PAGES"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2495
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2538
+#, fuzzy
+msgid "Unable to add message"
+msgstr "Δεν είναι δυνατή η επαναφορά"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2528
+msgid "JUST NOW"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2638
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:106
+msgid "Reset Quiz for User"
+msgstr "ΕΠΑΝΑΛΗΨΗ ΤΟΥ ΚΟΥΙΖ ΓΙΑ ΤΟΝ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2639
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:107
+msgid "Evaluate Quiz for User"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ ΓΙΑ ΤΟΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2646
+#, fuzzy
+msgctxt "Quiz submission not found"
+msgid "No submissions found"
+msgstr "ΔΕΝ ΒΡΕΘΙΚΑΝ ΜΑΘΗΜΑΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2699
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:153
+msgid "Evaluate Course for User"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2714
+#, fuzzy
+msgctxt "No course submissions found in Course - Admin - submissions seciton"
+msgid "No course submissions !"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2727
+#, fuzzy
+msgid "Invalid Course or Unit ID"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2734
+#, fuzzy
+msgid "Unit not found in Course"
+msgstr " ΣΤΟ ΜΑΘΗΜΑ : "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2770
+#, fuzzy
+msgctxt "Apply for Course confirmation message."
+msgid "Applied for Course"
+msgstr "ΕΠΙΛΟΓΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:49
+#, fuzzy
+msgctxt "Quiz answer being marked very fast"
+msgid "Too Fast or Answer not marked."
+msgstr "ΠΟΛΥ ΓΡΗΓΟΡΑ / ΔΕΝ ΔΟΘΗΚΕ ΑΠΑΝΤΗΣΗ!"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:50
+#, fuzzy
+msgctxt "Save answer on every question, confirmation message"
+msgid "Answer Saved."
+msgstr "ΑΠΟΘΗΚΕΥΣΗ ΑΠΑΝΤΗΣΗΣ."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:51
+#, fuzzy
+msgctxt "Quiz question anwer save under progress"
+msgid "Processing..."
+msgstr "ΕΠΕΞΕΡΓΑΣΙΑ..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:52
+#, fuzzy
+msgctxt "Saving quiz answers under progress"
+msgid "Saving Answer...please wait"
+msgstr "ΑΠΟΘΗΚΕΥΣΗ ΑΠΑΝΤΗΣΗΣ...ΠΑΡΑΚΑΛΩ ΠΕΡΙΜΕΝΕΤΕ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:53
+msgid ""
+"This step is irreversible. Are you sure you want to remove the User from the "
+"course ?"
+msgstr ""
+"Αυτό το βήμα είναι μη αναστρέψιμο. Είστε βέβαιοι ότι θέλετε να καταργήσετε "
+"το χρήστη από το Μαθημα;"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:54
+msgid "Confirm, Remove User from Course"
+msgstr "ΕΠΙΒΕΒΑΙΩΣΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:55
+msgctxt "Confirm button for various popup confirmation messages"
+msgid "Confirm"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:56
+#, fuzzy
+msgctxt "Cancel button for various popup confirmation messages"
+msgid "Cancel"
+msgstr "ΑΚΥΡΩΣΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:57
+msgid ""
+"This step is irreversible. All Units, Quiz results would be reset for this "
+"user. Are you sure you want to Reset the Course for this User?"
+msgstr ""
+"Αυτό το βήμα είναι μη αναστρέψιμο. Όλες οι Ενότητες, τα αποτελέσματα των "
+"Quiz θα μηδενιστουν για τον χρήστη. Είστε σίγουρος;"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:58
+msgid "Confirm, Reset Course for this User"
+msgstr "ΑΠΟΔΟΧΗ, ΕΠΑΝΑΛΗΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:59
+msgid ""
+"This step is irreversible. All Questions answers would be reset for this "
+"user. Are you sure you want to Reset the Quiz for this User? "
+msgstr ""
+"Αυτό το βήμα είναι μη αναστρέψιμο. Όλες οι απαντήσεις  θα μηδενιστουν για "
+"τον χρήστη. Είστε σίγουρος; "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:60
+msgid "Confirm, Reset Quiz for this User"
+msgstr "ΑΠΟΔΟΧΗ, ΕΠΑΝΑΛΗΨΗ ΤΟΥ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:61
+msgid "Marks Saved"
+msgstr "ΑΠΟΘΗΚΕΥΣΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:62
+msgid "Quiz Marks Saved"
+msgstr "ΑΠΟΘΗΚΕΥΣΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:63
+msgid "Submit Quiz"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:64
+msgid "Sending Messages ..."
+msgstr "ΑΠΟΣΤΟΛΗ ΜΗΝΥΜΑΤΟΣ..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:65
+msgid "Adding Students to Course ..."
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:66
+msgid "Students successfully added to Course"
+msgstr "ΕΠΙΤΥΧΗΣ ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:67
+msgid "Unable to Add students to Course"
+msgstr "ΔΕΝ ΕΙΝΑΙ ΔΥΝΑΤΗ Η ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:68
+#, fuzzy
+msgid "Please select fields to download"
+msgstr "ΠΑΡΑΚΑΛΩ ΕΠΙΛΕΞΤΕ ΜΕΛΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:69
+msgid "Download"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:70
+msgid "TIMEOUT"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:73
+#, fuzzy
+msgid "for Course"
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:74
+#, fuzzy
+msgid "Active Filters"
+msgstr "ΔΡΑΣΤΗΡΙΟΤΗΤΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:75
+msgid "Clear all filters"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:76
+#, fuzzy
+msgid "Are you sure you want to remove this note?"
+msgstr ""
+"Αυτό το βήμα είναι μη αναστρέψιμο. Είστε βέβαιοι ότι θέλετε να καταργήσετε "
+"το χρήστη από το Μαθημα;"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:77
+#, fuzzy
+msgid "Confirm, remove note"
+msgstr "ΕΠΙΒΕΒΑΙΩΣΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:78
+msgid "Make Private"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:79
+msgid "Add your note"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:80
+msgid "Please add questions or retake the quiz !"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:81
+#, fuzzy
+msgid "Are you sure you want to remove this Annoucement?"
+msgstr ""
+"Αυτό το βήμα είναι μη αναστρέψιμο. Είστε βέβαιοι ότι θέλετε να καταργήσετε "
+"το χρήστη από το Μαθημα;"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:82
+msgid "You're about to start the Quiz. Please click confirm to begin the quiz."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:83
+msgid ""
+"Are you sure you want to submit the quiz. Submitting the quiz will freeze "
+"all your answers, you can not change them.  Please confirm."
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:84
+#, fuzzy
+msgid "Check results"
+msgstr "ΕΛΕΓΧΟΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:85
+#, fuzzy
+msgid "Correct"
+msgstr "ΣΩΣΤΗ ΑΠΑΝΤΗΣΗ :"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:86
+#, fuzzy
+msgid "Incorrect"
+msgstr " Incorrect Quiz Id."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:87
+#, fuzzy
+msgctxt "confirmation message when user clicks on apply for course"
+msgid "Are you sure you want to apply for this Course ?"
+msgstr ""
+"Αυτό το βήμα είναι μη αναστρέψιμο. Είστε βέβαιοι ότι θέλετε να καταργήσετε "
+"το χρήστη από το Μαθημα;"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:88
+#, fuzzy
+msgctxt ""
+"Popup confirmation message when instructor marks the unit uncomplete for the "
+"user."
+msgid "Are you sure you want mark this unit \"uncomplete\" for the user ?"
+msgstr ""
+"Αυτό το βήμα είναι μη αναστρέψιμο. Είστε βέβαιοι ότι θέλετε να καταργήσετε "
+"το χρήστη από το Μαθημα;"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:89
+#, fuzzy
+msgctxt "Popup confirmation message "
+msgid "Are you sure you want to mark this unit \"complete\" for the user ?"
+msgstr ""
+"Αυτό το βήμα είναι μη αναστρέψιμο. Είστε βέβαιοι ότι θέλετε να καταργήσετε "
+"το χρήστη από το Μαθημα;"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:90
+msgid "You have few unanswered questions. Are you sure you want to continue ?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-filters.php:69
+msgctxt "Unit details link anchor for full unit content"
+msgid "Details"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-filters.php:346
+msgid "No Courses found."
+msgstr "ΔΕΝ ΒΡΕΘΙΚΑΝ ΜΑΘΗΜΑΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-filters.php:588
+#, fuzzy
+msgctxt "Apply for Course label for course"
+msgid "Apply for Course"
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-filters.php:626
+#, fuzzy, php-format
+msgctxt "Apply for course applicants in Course - admin - Submissions"
+msgid "Applications <span>%d</span>"
+msgstr "ΟΛΟΙ ΟΙ ΕΙΣΗΓΗΤΕΣ  <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:53
+msgid "Course Directory"
+msgstr "ΚΑΤΑΛΟΓΟΣ ΜΑΘΗΜΑΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:54
+msgid "All Courses by all instructors"
+msgstr "ΟΛΑ ΤΑ ΜΑΘΗΜΑΤΑ ΑΠΟ ΟΛΟΥΣ ΤΟΥΣ ΔΙΔΑΣΚΟΝΤΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:89
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:381
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:39
+msgid "Home"
+msgstr "Home"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:95
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:40
+msgid "Curriculum"
+msgstr "ΣΕΙΡΑ ΜΑΘΗΜΑΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:97
+#, fuzzy
+msgid "curriculum"
+msgstr "ΣΕΙΡΑ ΜΑΘΗΜΑΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:102
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:17
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:41
+msgid "Members"
+msgstr "ΜΑΘΗΤΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:104
+#, fuzzy
+msgid "members"
+msgstr " ΜΕΛΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:109
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:23
+#, fuzzy
+msgid "Activity"
+msgstr "ΔΡΑΣΤΗΡΙΟΤΗΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:111
+#, fuzzy
+msgid "activity"
+msgstr "ΔΡΑΣΤΗΡΙΟΤΗΤΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:124
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:49
+msgid "Group"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:136
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:55
+msgid "Forum"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:178
+#, fuzzy
+msgctxt "course admin slug"
+msgid "admin"
+msgstr "ΔΙΧΕΙΡΗΣΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:181
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:60
+msgid "Admin"
+msgstr "ΔΙΧΕΙΡΗΣΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:232
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:339
+msgid "TAKE THIS COURSE"
+msgstr "ΑΓΟΡΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:276
+msgid "START COURSE"
+msgstr "ΕΝΑΡΞΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:280
+msgid "CONTINUE COURSE"
+msgstr "ΣΥΝΕΧΙΣΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:284
+msgid "COURSE UNDER EVALUATION"
+msgstr "ΜΑΘΗΜΑ ΥΠΟ ΑΞΙΟΛΟΓΗΣΗΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:289
+msgid "FINISHED COURSE"
+msgstr "ΟΛΟΚΛΗΡΩΣΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:292
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-offline.php:170
+msgid "COURSE FINISHED"
+msgstr "ΟΛΟΚΛΗΡΩΣΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:296
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:308
+msgid "COURSE ENABLED"
+msgstr "ΕΝΕΡΓΟΠΟΙΗΜΕΝΟ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:296
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:308
+msgid "CONTACT ADMIN TO ENABLE"
+msgstr "CONTACT ADMIN TO ENABLE"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:321
+#, fuzzy
+msgid "Course Expired"
+msgstr "ΛΗΞΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:341
+msgid "PRIVATE COURSE"
+msgstr "PRIVATE"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:382
+msgid "* REQUIRES"
+msgstr "*ΑΠΑΙΤΕΙΤΑΙ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:386
+msgid "SEATS"
+msgstr "ΘΕΣΕΙΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:387
+msgid "Course Badge"
+msgstr "ΔΙΑΚΡΙΤΙΚΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:388
+msgid "Course Certificate"
+msgstr "ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:540
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:550
+#, fuzzy
+msgid "Type answer"
+msgstr "ΕΧΕΙ ΑΠΑΝΤΗΘΕΙ:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:583
+#, fuzzy
+msgid "Unlimited Time"
+msgstr "ΑΠΕΡΙΟΡΗΣΤΗ ΔΙΑΡΚΕΙΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:624
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:632
+msgid "Next Question"
+msgstr "ΕΠΟΜΕΝΗ ΕΡΩΤΗΣΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:628
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:631
+msgid "Previous Question"
+msgstr "ΠΡΟΪΓΟΥΜΕΝΗ ΕΡΩΤΗΣΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:681
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:719
+msgid "Duration not Set"
+msgstr "ΔΕΝ ΔΩΘΗΚΕ ΔΙΑΡΚΕΙΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:691
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1176
+msgid "Time Remaining"
+msgstr "Υπολειπόμενος χρόνος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:692
+msgid "Mins"
+msgstr "Λεπτά"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:692
+msgid "Secs"
+msgstr "Δευτερόλεπτα"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:727
+msgid "Progress"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:778
+msgid "Please set questions in quiz or reset quiz !"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:826
+msgid "QUESTION"
+msgstr "ΕΡΩΤΗΣΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:846
+msgid "Security Error"
+msgstr "ΕΡΩΤΗΣΗ ΑΣΦΑΛΙΑΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:905
+msgid "year"
+msgstr "ΧΡΟΝΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:905
+msgid "years"
+msgstr "ΧΡΟΝΙΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:907
+msgid "month"
+msgstr "ΜΗΝΑΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:907
+msgid "months"
+msgstr "ΜΗΝΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:909
+msgid "week"
+msgstr "ΕΒΔΟΜΑΔΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:909
+msgid "weeks"
+msgstr "ΕΒΔΟΜΑΔΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:911
+msgid "day"
+msgstr "ΗΜΕΡΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:911
+msgid "days"
+msgstr "ΗΜΕΡΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:913
+msgid "hour"
+msgstr "ΩΡΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:913
+#, fuzzy
+msgid "hours"
+msgstr " ΩΡΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:915
+#, fuzzy
+msgid "minute"
+msgstr " ΛΕΠΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:915
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/curriculum.php:57
+#, fuzzy
+msgid "minutes"
+msgstr " ΛΕΠΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:917
+msgid "second"
+msgstr "ΔΕΥΤΕΡΟΛΕΠΤΟ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:917
+msgid "seconds"
+msgstr "ΔΕΥΤΕΡΟΛΕΠΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1002
+msgid "Course Curriculum Not Set."
+msgstr "ΔΕΝ ΕΧΕΤΕ ΟΡΙΣΕΙ ΤΑ ΜΑΘΗΜΑΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1057
+msgid "Have Questions ? Ask in the Unit Forums"
+msgstr "Εχετε ερωτησεις. Ρωτηστε στο Forum"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1106
+msgid "Attachments"
+msgstr "Συνημμένα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1134
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:212
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:127
+msgid "Instructor"
+msgstr "ΕΙΣΗΓΗΤΗΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1350
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1353
+msgid "Certificate not valid for user"
+msgstr "ΜΗ ΕΓΓΥΡΟ ΠΤΥΧΙΟ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1446
+msgid "Evaluate course submissions"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1458
+msgid "Evaluate Quiz submissions"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΤΟΥ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1464
+msgid "Manage Students"
+msgstr "ΔΙΑΧΕΙΡΙΣΗ ΜΑΘΗΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1465
+msgid "See Stats"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1466
+msgid "See all Activity"
+msgstr "ΔΡΑΣΤΗΡΙΟΤΗΤΑ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1514
+msgid "Seconds"
+msgstr "ΔΕΥΤΕΡΟΛΕΠΤΑ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1515
+#, fuzzy
+msgid "Minutes"
+msgstr " ΛΕΠΤΑ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1516
+#, fuzzy
+msgid "Hours"
+msgstr " ΩΡΕΣ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1517
+msgid "Days"
+msgstr "ΗΜΕΡΕΣ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1518
+msgid "Weeks"
+msgstr "ΕΒΔΟΜΑΔΕΣ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1519
+msgid "Months"
+msgstr "ΜΗΝΕΣ"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1520
+msgid "Years"
+msgstr "ΧΡΟΝΙΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:264
+#, fuzzy
+msgctxt "Course directory title"
+msgid "Course Directory"
+msgstr "ΚΑΤΑΛΟΓΟΣ ΜΑΘΗΜΑΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:266
+#, fuzzy
+msgid "Search courses ..."
+msgstr " Αναζήτηση..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:288
+#, php-format
+msgid "Courses <span>%s</span>"
+msgstr "Μαθηματα <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:326
+msgid "My Courses"
+msgstr "ΜΑΘΗΜΑΤΑ ΠΟΥ ΠΑΡΑΚΟΛΟΥΘΩ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:336
+msgid "Results"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:356
+msgid "Instructing Courses"
+msgstr "ΜΑΘΗΜΑΤΑ ΠΟΥ ΔΙΔΑΣΚΩ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:507
+msgid "Please Update the WPLMS theme to latest version"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:88
+#, php-format
+msgid "Click %s to Activate account."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:88
+msgid "this link"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:210
+msgid "Profile"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:210
+#, fuzzy
+msgid "Courses"
+msgstr "ΜΑΘΗΜΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:212
+msgid "Link"
+msgstr ""
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:96
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:128
+msgid "Yes"
+msgstr "Yes"
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:97
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:129
+msgid "No"
+msgstr "No"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:159
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:270
+#, fuzzy, php-format
+msgid "Announcement for course %s"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:263
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:288
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2044
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2047
+#, fuzzy, php-format
+msgid "Announcement for Course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:304
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:352
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:364
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:394
+msgid "Read more"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:306
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:351
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:393
+#, fuzzy, php-format
+msgid "News for Course %s"
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:363
+#, fuzzy, php-format
+msgid "News for course %s"
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:405
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:427
+#, fuzzy, php-format
+msgid "You're subscribed for course : %s"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:407
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:426
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:442
+#, fuzzy
+msgid "Subscribed for Course"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:440
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:465
+#, fuzzy, php-format
+msgid "Student %s subscribed for course : %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:480
+#, fuzzy, php-format
+msgid "You're added to course : %s"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:482
+#, fuzzy
+msgid "Added to Course"
+msgstr "ΕΠΙΛΟΓΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:511
+#, fuzzy, php-format
+msgid "Added to course %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:512
+#, fuzzy, php-format
+msgid "You've been added to course : %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:527
+#, fuzzy, php-format
+msgid "Student %s added to course : %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:529
+#, fuzzy
+msgid "Student added to Course"
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:566
+#, fuzzy, php-format
+msgid "Students added to course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:567
+#, fuzzy, php-format
+msgid "%d students added to course : %s , %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:577
+#, fuzzy, php-format
+msgid "You started the course : %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:579
+#, fuzzy
+msgid "Started a Course"
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:598
+#, fuzzy, php-format
+msgid "You started course %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:599
+#, fuzzy, php-format
+msgid "You've started the course : %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:611
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:636
+#, fuzzy, php-format
+msgid "Student %s started the course : %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:613
+#, fuzzy, php-format
+msgid "Student started the course %s"
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:635
+#, fuzzy, php-format
+msgid "Student started course %s"
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:645
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:667
+#, fuzzy, php-format
+msgid "You've submitted the course : %s"
+msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:647
+#, fuzzy
+msgid "Course submitted"
+msgstr "ΤΙΤΛΟΣ ΜΑΘΗΜΑΤΟΣ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:666
+#, fuzzy, php-format
+msgid "Course %s submitted"
+msgstr "ΤΙΤΛΟΣ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:677
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:700
+#, fuzzy, php-format
+msgid "Student %s submitted the course : %s"
+msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:679
+#, fuzzy, php-format
+msgid "Student submitted the course %s"
+msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:699
+#, fuzzy, php-format
+msgid "Student submitted course %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:709
+#, fuzzy, php-format
+msgid "The Course %s was reset by Course instructor "
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:711
+#, fuzzy
+msgid "Course reset"
+msgstr "ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:727
+#, fuzzy, php-format
+msgid "Course %s reset"
+msgstr "Επαναφορά του Μαθήματος για το χρήστη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:728
+#, fuzzy, php-format
+msgid "%s Course was reset by Instructor"
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:734
+#, fuzzy, php-format
+msgid "%s course reset for student : %s"
+msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:736
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:787
+#, fuzzy, php-format
+msgid "Course %s reset for student"
+msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:753
+#, fuzzy, php-format
+msgid "Course %s reset for Student"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:754
+#, fuzzy, php-format
+msgid "Course %s was reset for student %s "
+msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:761
+#, fuzzy, php-format
+msgid "You retook the Course %s "
+msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΑΠΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:763
+#, fuzzy
+msgid "Course retake"
+msgstr "ΔΙΑΚΡΙΤΙΚΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:778
+#, fuzzy, php-format
+msgid "You retook the course Course %s"
+msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΑΠΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:779
+#, fuzzy, php-format
+msgid "You've retaken the Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:785
+#, fuzzy, php-format
+msgid "Student %s retook the course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:804
+#, fuzzy, php-format
+msgid "Course %s retaken by the Student"
+msgstr "ΕΠΑΝΑΛΗΨΗ ΚΟΥΙΖ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:805
+#, fuzzy, php-format
+msgid "Course %s was retaken by the student %s "
+msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:814
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:832
+#, fuzzy, php-format
+msgid "You've obtained %s  in Course : %s"
+msgstr "ΕΧΕΤΕ ΛΑΒΕΙ  "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:816
+msgid "Course results available"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:831
+#, fuzzy, php-format
+msgid "Course %s results available"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:840
+#, fuzzy, php-format
+msgid "Course %s evaluated for student"
+msgstr "Αξιολόγηση Μαθημάτων για το μαθητή"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:856
+#, fuzzy, php-format
+msgid "Course %s evaluated for Student"
+msgstr "Αξιολόγηση Μαθημάτων για το μαθητή"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:857
+#, fuzzy, php-format
+msgid "Student %s got %s in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:866
+#, fuzzy, php-format
+msgid "Congratulations ! You've obtained a badge in Course : %s"
+msgstr "ΣΥΓΧΑΡΗΤΗΡΙΑ ! ΛΑΒΑΤΕ ΤΟ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:868
+#, fuzzy
+msgid "You got a new Badge !"
+msgstr "ΛΗΨΗ ΔΙΑΚΡΙΤΙΚΟΥ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:887
+#, fuzzy, php-format
+msgid "You got a Badge in Course %s"
+msgstr "  ΕΛΑΒΕ ΔΙΚΡΙΤΙΚΟ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:888
+#, fuzzy, php-format
+msgid "You've obtained a Badge in Course : %s"
+msgstr "ΛΗΨΗ ΔΙΑΚΡΙΤΙΚΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:896
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1016
+#, fuzzy, php-format
+msgid "Student %s got a Badge in course %s"
+msgstr "ΛΗΨΗ ΔΙΑΚΡΙΤΙΚΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:898
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:918
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1018
+#, fuzzy, php-format
+msgid "Student got a Badge in Course %s"
+msgstr "ΛΗΨΗ ΔΙΑΚΡΙΤΙΚΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:919
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2101
+#, fuzzy, php-format
+msgid "Student %s got a Badge in Course %s"
+msgstr "ΛΗΨΗ ΔΙΑΚΡΙΤΙΚΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:928
+#, fuzzy, php-format
+msgid "Congratulations ! You've obtained a Certificate in Course : %s"
+msgstr "ΣΥΓΧΑΡΗΤΗΡΙΑ ! ΛΑΒΑΤΕ ΤΟ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:930
+#, fuzzy
+msgid "You got a new Certificate !"
+msgstr "Μαθητης πήρε Πιστοποιητικό"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:949
+#, fuzzy, php-format
+msgid "You got a Certificate in Course %s"
+msgstr "ΕΛΑΒΕ ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:950
+#, fuzzy, php-format
+msgid "You've obtained a certificate in Course : %s"
+msgstr " ΕΛΑΒΕ ΠΤΥΧΙΟ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:958
+#, fuzzy, php-format
+msgid "Student %s got a Certificate in course %s"
+msgstr "ΕΛΑΒΕ ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:960
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:980
+#, fuzzy, php-format
+msgid "Student got a Certificate in Course %s"
+msgstr "ΕΛΑΒΕ ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:981
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2107
+#, fuzzy, php-format
+msgid "Student %s got a Certificate in Course %s"
+msgstr "ΕΛΑΒΕ ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:989
+#, fuzzy, php-format
+msgid "You've submitted a review of Course : %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:991
+#, fuzzy
+msgid "You submitted a course review"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1008
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2110
+#, fuzzy, php-format
+msgid "You submitted a review for Course %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1009
+#, fuzzy, php-format
+msgid "You submitted a review Course : %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1036
+#, fuzzy, php-format
+msgid "Student submitted a review for Course %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1037
+#, fuzzy, php-format
+msgid "Student %s submitted a review for the Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1045
+#, fuzzy, php-format
+msgid "You're unsubscribed from Course : %s"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1047
+#, fuzzy
+msgid "You unsubscribed from course"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1062
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1112
+#, fuzzy
+msgid "You're unsubscribed from course"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1063
+#, fuzzy, php-format
+msgid "You're unsubscribed from course Course %s"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1069
+#, fuzzy, php-format
+msgid "Student %s unsubscribed course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1071
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1087
+#, fuzzy, php-format
+msgid "Student unsubscribed from Course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1088
+#, fuzzy, php-format
+msgid "Student %s unsubscribed from Course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1095
+#, fuzzy, php-format
+msgid "You applied a code for Course : %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1097
+msgid "You applied a course code"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1113
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2116
+#, fuzzy, php-format
+msgid "You're unsubscribed from Course %s"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1120
+#, fuzzy, php-format
+msgid "Student %s used course code %s for course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1122
+#, fuzzy, php-format
+msgid "Student applied Course code for Course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1138
+#, fuzzy, php-format
+msgid "Student applied code for Course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1139
+#, fuzzy, php-format
+msgid "Student %s applied code %s for Course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1147
+#, fuzzy, php-format
+msgid "You've completed the unit %s in Course : %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1149
+msgid "You completed a unit"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1167
+msgid "You completed unit"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1168
+#, fuzzy, php-format
+msgid "You completed a unit %s in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1175
+#, fuzzy, php-format
+msgid "Student %s completed the unit %s in course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1177
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1234
+#, fuzzy, php-format
+msgid "Student completed a unit in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1195
+#, fuzzy, php-format
+msgid "Student completed unit in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1196
+#, fuzzy, php-format
+msgid "Student %s completed unit %s in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1204
+#, fuzzy, php-format
+msgid "Instructor %s marked the unit %s complete in Course : %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1206
+#, fuzzy, php-format
+msgid "Instructor marked a unit complete in Course %s"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1224
+#, fuzzy, php-format
+msgid "Instructor marked unit %s completed "
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1225
+#, fuzzy, php-format
+msgid "Unit %s was marked complete by Instructor %s in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1252
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1309
+#, fuzzy, php-format
+msgid "Instructor marked unit %s comple for Student in Course %s"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1253
+#, fuzzy, php-format
+msgid "Instructor %s completed the unit %s for Student %s in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1261
+#, fuzzy, php-format
+msgid "Instructor %s marked the unit %s uncomplete in Course : %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1263
+#, fuzzy, php-format
+msgid "Instructor marked a unit uncomplete in Course %s"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1281
+#, fuzzy, php-format
+msgid "Instructor marked unit %s uncompleted "
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1282
+#, fuzzy, php-format
+msgid "Unit %s was marked uncomplete by Instructor %s in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1291
+#, fuzzy, php-format
+msgid "Student uncompleted a unit in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1310
+#, fuzzy, php-format
+msgid "Instructor %s uncompleted the unit %s for Student %s in Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1318
+#, php-format
+msgid "You've submitted a comment on unit : %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1320
+msgid "You submitted a question/comment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1348
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1349
+#, php-format
+msgid "You added a comment on Unit %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1356
+#, fuzzy, php-format
+msgid "Student %s submitted a comment on unit %s "
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1358
+#, fuzzy
+msgid "Student submitted a comment on Unit"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1377
+#, fuzzy, php-format
+msgid "Student added comment in unit %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1378
+#, fuzzy, php-format
+msgid "Student %s added a comment in unit %s "
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1388
+#, fuzzy, php-format
+msgid "You've started the quiz : %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1390
+#, fuzzy
+msgid "You started a Quiz"
+msgstr " ΕΝΑΡΞΗ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1405
+#, fuzzy, php-format
+msgid "You started quiz %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1406
+#, fuzzy, php-format
+msgid "You started a quiz %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1412
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1433
+#, fuzzy, php-format
+msgid "Student %s started the quiz %s "
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1414
+#, fuzzy, php-format
+msgid "Student started the quiz %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1432
+#, fuzzy, php-format
+msgid "Student started quiz %s"
+msgstr " ΕΝΑΡΞΗ ΚΟΥΙΖ "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1446
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1465
+#, php-format
+msgid "You obtained %d out of %s in Quiz : "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1448
+msgid "Quiz results available"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1464
+#, fuzzy, php-format
+msgid "Results available for quiz %s"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΚΟΥΙΖ "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1471
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1492
+#, php-format
+msgid "Student %s got %s from %s in quiz %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1473
+#, fuzzy, php-format
+msgid "Quiz %s evaluated for student"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1491
+#, fuzzy, php-format
+msgid "Quiz %s evaluated for Student"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1504
+#, fuzzy, php-format
+msgid "You submitted the Quiz : %s"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ ΑΠΟ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1506
+#, fuzzy, php-format
+msgid "You submitted quiz %s "
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1523
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1524
+#, fuzzy, php-format
+msgid "You submitted quiz %s"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1537
+#, fuzzy, php-format
+msgid "Quiz %s submitted by student %s"
+msgstr "ΥΠΟΒΛΗΘΗΚΕ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1539
+#, fuzzy, php-format
+msgid "Quiz %s submitted by Student"
+msgstr "ΥΠΟΒΛΗΘΗΚΕ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1555
+#, fuzzy, php-format
+msgid "Student submitted quiz %s"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1556
+#, fuzzy, php-format
+msgid "Student %s submitted quiz %s"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1563
+#, php-format
+msgid "You retook the Quiz : %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1565
+msgid "You retook a Quiz"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1580
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1581
+#, php-format
+msgid "You retook quiz %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1587
+#, fuzzy, php-format
+msgid "Student %s retook the Quiz : %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1589
+#, fuzzy, php-format
+msgid "Student retook the Quiz %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1605
+#, fuzzy, php-format
+msgid "Student retook the quiz %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1606
+#, fuzzy, php-format
+msgid "Student %s retook the quiz %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1613
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1631
+#, fuzzy, php-format
+msgid "Quiz %s was reset by Instructor"
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1615
+#, fuzzy
+msgid "Quiz reset by Instructor"
+msgstr "Select Instructor"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1630
+#, fuzzy, php-format
+msgid "Quiz %s reset"
+msgstr "ΚΟΥΙΖ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1637
+#, fuzzy, php-format
+msgid "Quiz %s reset for Student %s"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1639
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1657
+#, fuzzy, php-format
+msgid "Quiz %s reset for Student"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1658
+#, fuzzy, php-format
+msgid "Quiz %s was reset for Student %s"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1667
+#, fuzzy, php-format
+msgid "You've started the assignemtn : %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1669
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1684
+#, php-format
+msgid "You started assignment %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1685
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2176
+#, fuzzy, php-format
+msgid "You started the assignment %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1691
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1712
+#, fuzzy, php-format
+msgid "Student %s started the assignment %s "
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1693
+#, fuzzy, php-format
+msgid "Student started an assignment %s "
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1723
+#, php-format
+msgid "You obtained %d out of %s in Assignment : %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1725
+#, fuzzy
+msgid "Assignment results available"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1742
+#, fuzzy, php-format
+msgid "You obtained %d out of %s in Assignment : %s"
+msgstr "ΕΧΕΤΕ ΛΑΒΕΙ  "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1748
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1769
+#, php-format
+msgid "Student %s got %s from %s in assignment %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1750
+#, fuzzy, php-format
+msgid "Assignment %s evaluated for student"
+msgstr " ΑΥΤΟΜΑΤΗ ΑΞΙΟΛΟΓΗΣΗ ΤΟΥ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1768
+#, fuzzy, php-format
+msgid "Assignment %s evaluated for Student"
+msgstr "Σύμφωνα με την αξιολόγηση"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1782
+#, php-format
+msgid "You submitted the assignment : %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1784
+#, php-format
+msgid "You submitted the assignment %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1801
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1802
+#, fuzzy, php-format
+msgid "You submitted assignment %s"
+msgstr "ΥΠΟΒΛΗΘΗΚΕ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1814
+#, fuzzy, php-format
+msgid "Assignment %s submitted by student %s"
+msgstr "ΥΠΟΒΛΗΘΗΚΕ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1816
+#, fuzzy, php-format
+msgid "Assignment %s submitted by Student"
+msgstr "ΥΠΟΒΛΗΘΗΚΕ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1832
+#, fuzzy, php-format
+msgid "Student submitted assignment %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1833
+#, fuzzy, php-format
+msgid "Student %s submitted assignment %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1841
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1859
+#, fuzzy, php-format
+msgid "Assignment %s was reset by Instructor"
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1843
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1896
+#, fuzzy
+msgid "Assignment reset by Instructor"
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1858
+#, fuzzy, php-format
+msgid "Assignment %s reset"
+msgstr "Σύμφωνα με την αξιολόγηση"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1865
+#, fuzzy, php-format
+msgid "Assignment %s reset for Student %s"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1867
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1885
+#, fuzzy, php-format
+msgid "Assignment %s reset for Student"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1886
+#, fuzzy, php-format
+msgid "Assignment %s was reset for Student %s"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1894
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1913
+#, fuzzy, php-format
+msgid "You applied to course %s "
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1914
+#, fuzzy, php-format
+msgid "You have applied to Course %s "
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1921
+#, fuzzy, php-format
+msgid "Student applied for Course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1922
+#, fuzzy, php-format
+msgid "Student %s applied for Course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1942
+#, fuzzy, php-format
+msgid "Application for course %s was submitted by Student"
+msgstr "ΥΠΟΒΛΗΘΗΚΕ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1943
+#, fuzzy, php-format
+msgid "Student %s submitted an application for course %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1951
+#, fuzzy, php-format
+msgid "Application %s for course %s "
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1953
+#, fuzzy, php-format
+msgid "Application %s by Instructor"
+msgstr "Μαζικές ενέργειες απο τον Εισηγητή"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1970
+#, fuzzy, php-format
+msgid "Application %s to course %s "
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1971
+#, fuzzy, php-format
+msgid "Your application was %s for Course %s "
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1978
+#, fuzzy, php-format
+msgid "Student application %s for Course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1979
+#, fuzzy, php-format
+msgid "Student %s application %s for Course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1999
+#, fuzzy, php-format
+msgid "Student application for course %s was %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2000
+#, fuzzy, php-format
+msgid "Application by Student %s was %s for course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2050
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2056
+#, fuzzy, php-format
+msgid "Added to Course %s"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2053
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2059
+#, fuzzy, php-format
+msgid "Student %s added to Course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2062
+#, fuzzy, php-format
+msgid "You've subscribed to Course %s"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2065
+#, fuzzy, php-format
+msgid "Student %s subscribed to Course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2068
+#, fuzzy, php-format
+msgid "You started the course %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2071
+#, fuzzy, php-format
+msgid "Student %s started course %s"
+msgstr "Ξεκίνησε το Μάθημα"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2074
+#, fuzzy, php-format
+msgid "You submitted the course %s"
+msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2077
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2080
+#, fuzzy, php-format
+msgid "Student %s submitted course %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2083
+#, fuzzy, php-format
+msgid "Course %s was reset for Student %s"
+msgstr "Επαναφορά του μαθήματος για τον Μαθητη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2086
+#, fuzzy, php-format
+msgid "Student %s retook the course course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2089
+#, fuzzy, php-format
+msgid "Course %s was retaken by Student %s"
+msgstr "ΕΠΑΝΑΛΗΨΗ ΚΟΥΙΖ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2092
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2095
+#, fuzzy, php-format
+msgid "Course %s evaluated for Student %s"
+msgstr "Αξιολόγηση Μαθημάτων για το μαθητή"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2098
+#, fuzzy, php-format
+msgid "Congratulations ! You got a badge in Course %s"
+msgstr "ΣΥΓΧΑΡΗΤΗΡΙΑ ! ΛΑΒΑΤΕ ΤΟ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2104
+#, fuzzy, php-format
+msgid "Congratulations ! You got a certificate in Course %s"
+msgstr "ΕΛΑΒΕ ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2113
+#, fuzzy, php-format
+msgid "Student %s submitted a review for Course %s"
+msgstr "Υποβολή Μαθήματος"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2119
+#, fuzzy, php-format
+msgid "Student %s is unsubscribed from Course %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2122
+#, fuzzy, php-format
+msgid "You completed the unit %s in course %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2125
+#, fuzzy, php-format
+msgid "Student %s completed the unit %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2128
+#, fuzzy, php-format
+msgid "Instructor marked Unit %s complete for you."
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2131
+#, fuzzy, php-format
+msgid "Instructor marked Unit %s complete for Student %s"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2134
+#, fuzzy, php-format
+msgid "Instructor marked Unit %s uncomplete for you."
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2137
+#, fuzzy, php-format
+msgid "Instructor marked Unit %s uncomplete for Student %s"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΜΑΘΗΜΑΤΟΣ "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2140
+#, php-format
+msgid "You added a comment in unit %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2143
+#, fuzzy, php-format
+msgid "Student %s added a comment in unit %s"
+msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2146
+#, fuzzy, php-format
+msgid "You started the quiz %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2152
+#, fuzzy, php-format
+msgid "You submitted the quiz %s"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ ΑΠΟ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2155
+#, fuzzy, php-format
+msgid "Student %s submitted the quiz %s"
+msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ ΑΠΟ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2158
+#, fuzzy, php-format
+msgid "Quiz %s results available"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2161
+#, fuzzy, php-format
+msgid "Quiz %s results available for student %s"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2164
+#, fuzzy, php-format
+msgid "Quiz %s reset by Instructor"
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2167
+#, fuzzy, php-format
+msgid "Quiz %s reset for student %s"
+msgstr "  ΕΠΑΝΑΦΟΡΑ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2170
+#, fuzzy, php-format
+msgid "You retook the quiz %s"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2173
+#, fuzzy, php-format
+msgid "Student %s retook the Quiz %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2182
+#, fuzzy, php-format
+msgid "You submitted the assignment %s"
+msgstr "ΥΠΟΒΛΗΘΗΚΕ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2188
+#, fuzzy, php-format
+msgid "Assignment %s results available"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2191
+#, php-format
+msgid "Assignment %s results available for student %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2194
+#, fuzzy, php-format
+msgid "Assignment %s reset by Instructor"
+msgstr " ΕΠΑΝΑΦΟΡΑ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2197
+#, fuzzy, php-format
+msgid "Assignment %s reset for student %s"
+msgstr "  ΕΠΑΝΑΦΟΡΑ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2200
+#, fuzzy, php-format
+msgid "Latest News : %s for Course : %s"
+msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2203
+#, fuzzy, php-format
+msgid "News : %s was published for your course : %s"
+msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2206
+#, fuzzy, php-format
+msgid "You applied for course %s"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2209
+#, fuzzy, php-format
+msgid "Student %s applied for course : %s"
+msgstr "Ο ΜΑΘΗΤΗΣ %s ΟΛΟΚΛΗΡΩΣΕ ΚΑΙ ΚΑΤΑΧΩΡΙΣΕ ΤΟ ΜΑΘΗΜΑ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2212
+#, fuzzy, php-format
+msgid "Application approved for course %s"
+msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΑΠΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2215
+#, fuzzy, php-format
+msgid "Student %s application approved for course : %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2218
+#, fuzzy, php-format
+msgid "Application rejected for course %s"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΤΟΝ ΕΙΣΗΓΗΤΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2221
+#, fuzzy, php-format
+msgid "Student %s application rejected for course : %s"
+msgstr "ΕΓΓΡΑΦΗ ΣΤΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:97
+msgid "Course Settings Header"
+msgstr "Course Settings Header"
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:101
+#, fuzzy
+msgid "Course Settings"
+msgstr "ΡΥΘΜΗΣΕΙΣ ΜΑΘΗΜΑΤΟΣ"
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:109
+msgid "Changes Saved."
+msgstr "Αποθήκευση Αλλαγών."
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:115
+msgid "Do you love clicking checkboxes?"
+msgstr "Do you love clicking checkboxes?"
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:117
+msgid "Save Settings"
+msgstr "ΑΠΟΘΗΚΕΥΣΗ ΡΥΘΜΗΣΕΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:151
+msgid "Send Bulk Message"
+msgstr "ΑΠΟΣΤΟΛΗ ΜΑΖΙΚΩΝ ΜΗΝΥΜΑΤΩΝ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:161
+#, php-format
+msgid "Enter extend amount ( in %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:162
+msgid "Extend Subscription"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:173
+msgid "Type Message Subject"
+msgstr "ΤΥΠΟΣ ΜΗΝΥΜΑΤΟΣ / ΘΕΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:174
+msgid "Type Message"
+msgstr "ΤΥΠΟΣ ΜΗΝΥΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:175
+msgid "Send Message"
+msgstr "ΑΠΟΣΤΟΛΗ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:188
+#, fuzzy
+msgid "Enter Student Usernames/Emails, separated by comma"
+msgstr "Enter Student Usernames, separated by comma"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:190
+msgid "Add Students"
+msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:204
+msgid "ASSIGN COURSE BADGE"
+msgstr "ΑΠΟΔΩΣΗ ΔΙΑΚΡΙΤΙΚΟΥ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:205
+msgid "ASSIGN COURSE CERTIFICATE"
+msgstr "ΑΠΟΝΟΜΗ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:206
+msgid "REMOVE COURSE BADGE"
+msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΔΙΑΚΡΙΤΙΚΟΥ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:207
+msgid "REMOVE COURSE CERTIFICATE"
+msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΠΤΥΧΙΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:209
+msgid "Assign Action"
+msgstr "Assign Action"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:225
+#, fuzzy
+msgid "Finished Course"
+msgstr " ΣΤΟ ΜΑΘΗΜΑ : "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:227
+#, fuzzy
+msgid "Enter marks"
+msgstr "ΒΑΘΜΟΛΟΓΙΣΤΕ"
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:228
+#, fuzzy
+msgid "Change Course Status"
+msgstr "ΡΥΘΜΗΣΕΙΣ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:338
+#, php-format
+msgid "Viewing page %1$s of %2$s"
+msgstr "Σελιδα %1$s απο %2$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:582
+msgid "REVIEWS"
+msgstr "ΣΧΟΛΙΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:587
+msgid "STUDENTS"
+msgstr "ΜΑΘΗΤΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:721
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1063
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/curriculum.php:43
+msgid "FREE"
+msgstr "ΔΩΡΕΑΝ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:764
+msgid "Price Options +"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:798
+msgid "PRIVATE"
+msgstr "PRIVATE"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:954
+#, fuzzy, php-format
+msgid "Viewing page %d of %d "
+msgstr "Σελιδα %1$s απο %2$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1611
+msgid "COURSE EVALUATED "
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1644
+msgid "Congratulations ! You've earned the "
+msgstr "ΣΥΓΧΑΡΗΤΗΡΙΑ ! ΛΑΒΑΤΕ ΤΟ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1644
+msgid "Badge"
+msgstr "ΔΙΑΚΡΙΤΙΚΟ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1665
+msgid ""
+"Congratulations ! You've successfully passed the course and earned the "
+"Course Completion Certificate !"
+msgstr "ΣΥΓΧΑΡΗΤΗΡΙΑ ! ΠΑΡΑΚΟΛΟΥΘΗΣΑΤΕ ΜΕ ΕΠΙΤΥΧΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1665
+#, fuzzy
+msgid "View Certificate"
+msgstr "ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1674
+#, fuzzy, php-format
+msgid "You've obtained %s in course %s "
+msgstr "ΕΧΕΤΕ ΛΑΒΕΙ  "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1680
+msgid "COURSE SUBMITTED FOR EVALUATION"
+msgstr "ΥΠΟΒΟΛΛΗ ΓΙΑ ΑΞΙΟΛΟΓΗΣΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1693
+msgid "UNIT"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1696
+msgid "ASSIGNMENT"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1699
+msgid "QUIZ"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1702
+msgid "PLEASE COMPLETE THE "
+msgstr "ΣΥΜΠΛΗΡΩΣΤΕ ΤΟ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1706
+msgid "COURSE CURRICULUM NOT SET"
+msgstr "ΔΕΝ ΕΧΟΥΝ ΟΡΙΣΤΕΙ ΜΑΘΗΜΑΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:36
+msgid "BuddyPress Course Widget"
+msgstr "BuddyPress Course Widget"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:93
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:234
+msgid "by"
+msgstr "ΑΠΟ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:153
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:265
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:414
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:542
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:964
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1179
+msgid "Widget Title"
+msgstr "Widget Title"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:154
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:968
+msgid "Style"
+msgstr "Style"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:156
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:970
+msgid "Single"
+msgstr "Single"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:157
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:971
+msgid "List"
+msgstr "List"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:158
+msgid "Ratings List"
+msgstr "ΛΙΣΤΑ ΑΞΙΟΛΟΓΗΣΗΣ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:159
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:972
+msgid "Carousel"
+msgstr "Carousel"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:162
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:304
+msgid "Select Course Category"
+msgstr "Select Course Category"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:164
+msgid "None"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:172
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:975
+msgid "Order By"
+msgstr "ΤΑΞΙΝΟΜΗΣΗ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:174
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:978
+msgid "Random"
+msgstr "ΤΥΧΑΙΑ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:175
+msgid "Name"
+msgstr "ΟΝΟΜΑ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:176
+msgid "Course Title"
+msgstr "ΤΙΤΛΟΣ ΜΑΘΗΜΑΤΟΣ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:177
+msgid "Number of Reviews"
+msgstr "ΑΡΗΘΜΟΣ ΣΧΟΛΙΩΝ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:178
+msgid "Date Published"
+msgstr "ΗΜ/ΝΙΑ ΔΗΜΟΣΙΕΥΣΗΣ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:179
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:979
+msgid "Rating"
+msgstr "ΒΑΘΜΟΛΟΓΙΑ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:180
+msgid "Number of Students"
+msgstr "ΑΡΙΘΜΟΣ ΜΑΘΗΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:183
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:982
+msgid "Sort "
+msgstr "Sort "
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:185
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:984
+msgid "Ascending"
+msgstr "Ascending"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:186
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:985
+msgid "Decending"
+msgstr "Decending"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:189
+msgid "Specific Courses (enter comma saperated ids)"
+msgstr "Specific Courses (enter comma saperated ids)"
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:190
+msgid "Number of Courses to show"
+msgstr "Number of Courses to show"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:204
+msgid "BuddyPress Instructor Widget"
+msgstr "BuddyPress Instructor Widget"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:228
+msgid "Check all Courses created by "
+msgstr "ΔΕΙΤΕ ΟΛΑ ΤΑ ΜΑΘΗΜΑΤΑ ΤΟΥ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:229
+msgid "More Courses by "
+msgstr "ΠΕΡΙΣΣΟΤΕΡΑ ΜΑΘΗΜΑΤΑ ΑΠΟ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:266
+msgid "Fallback Instructor ID"
+msgstr "Fallback Instructor ID"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:267
+msgid "Number of Courses by the Instructor to show"
+msgstr "Number of Courses by the Instructor to show"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:279
+msgid "BuddyPress Course Search Widget"
+msgstr "BuddyPress Course Search Widget"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:337
+msgid "Select Instructor"
+msgstr "Select Instructor"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:351
+#, fuzzy
+msgid "Select Course Location"
+msgstr "Select Course Category"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:362
+msgid "Select Course Level"
+msgstr "Select Course Level"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:369
+msgid "Type Keywords.."
+msgstr "Type Keywords.."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:415
+msgid "Show Course Category Dropdown"
+msgstr "Show Course Category Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:416
+msgid "Show Instructor Dropdown"
+msgstr "Show Instructor Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:420
+#, fuzzy
+msgid "Show Location Dropdown"
+msgstr "Show Instructor Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:425
+msgid "Show Level Dropdown"
+msgstr "Show Level Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:439
+#, fuzzy
+msgid "BuddyPress Course Stats Widget"
+msgstr "BuddyPress Course Widget"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:510
+msgid "TOTAL STUDENTS"
+msgstr "ΣΥΝΟΛΙΚΟΙ ΜΑΘΗΤΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:512
+msgid "BADGES"
+msgstr "ΔΙΑΚΡΙΤΙΚΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:513
+msgid "CERTIFICATES"
+msgstr "ΠΤΥΧΙΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:543
+msgid "Select Course"
+msgstr "ΕΠΙΛΟΓΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:545
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:696
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:713
+msgid "All"
+msgstr "ΟΛΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:546
+msgid "Current Course (defaults to all)"
+msgstr "ΤΡΕΧΟΝ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:557
+msgid "Show Students Stats"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΤΩΝ ΜΑΘΗΤΩΝ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:558
+msgid "Show Badge/Certificates Stats"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΔΙΑΚΡΙΤΙΚΩΝ/ΠΤΥΧΙΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:568
+#, fuzzy
+msgid "BuddyPress Course Filter Widget"
+msgstr "BuddyPress Course Widget"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:697
+msgid "Online"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:698
+msgid "Offline"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:705
+#, fuzzy
+msgid "Start Date"
+msgstr "ΜΑΘΗΜΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:706
+msgid "End Date"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:714
+msgid "Free"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:715
+msgid "Paid"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:719
+#, fuzzy
+msgid "Filter Results"
+msgstr "ΕΛΕΓΧΟΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:748
+#, fuzzy
+msgid "Course Categories"
+msgstr "Select Course Category"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:750
+msgid "Location"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:752
+msgid "Levels"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:754
+msgid "Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:756
+msgid "Price"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:758
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/course-header.php:40
+msgid "Instructors"
+msgstr "ΕΙΣΗΓΗΤΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:760
+#, fuzzy
+msgid "Upcoming Courses"
+msgstr "ΜΑΘΗΜΑΤΑ ΠΟΥ ΔΙΔΑΣΚΩ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:784
+#, fuzzy
+msgid "Show Course category filter"
+msgstr "Show Course Category Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:785
+#, fuzzy
+msgid "Course Categories Label"
+msgstr "ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:787
+msgid "Show Free/Paid/All filter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:788
+msgid "Free/Paid Label"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:790
+#, fuzzy
+msgid "Show Offline/Online filter"
+msgstr "Show Level Dropdown"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:791
+msgid "Online/Offline Label"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:793
+#, fuzzy
+msgid "Show Upcoming/Past Courses filter"
+msgstr "Show Instructor Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:794
+#, fuzzy
+msgid "Upcoming courses Label"
+msgstr " ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:799
+#, fuzzy
+msgid "Show Location filter"
+msgstr "Show Course Category Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:800
+#, fuzzy
+msgid "Location Label"
+msgstr "Instructor added "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:808
+#, fuzzy
+msgid "Show Levels filter"
+msgstr "Show Level Dropdown"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:809
+msgid "Levels Label"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:813
+#, fuzzy
+msgid "Show Instructor filter"
+msgstr "Show Instructor Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:814
+#, fuzzy
+msgid "Instructor Label"
+msgstr "Instructor added "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:815
+msgid "Exclude Category/Level Slugs (comma saperated)"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:828
+#, fuzzy
+msgid "Course Reviews Widget"
+msgstr "BuddyPress Course Widget"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:894
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:915
+msgid "Default avatar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:965
+msgid "Course ID (optional)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:977
+msgid "Recent"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:988
+#, fuzzy
+msgid "Specific Reviews/Comments (enter comma saperated ids)"
+msgstr "Specific Courses (enter comma saperated ids)"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:989
+#, fuzzy
+msgid "Number of Reviews to show"
+msgstr "ΑΡΗΘΜΟΣ ΣΧΟΛΙΩΝ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1003
+#, fuzzy
+msgid "BuddyPress Related Courses Widget"
+msgstr "BuddyPress Course Widget"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1131
+#, fuzzy
+msgid "No related courses found !"
+msgstr "ΔΕΝ ΒΡΕΘΙΚΑΝ ΜΑΘΗΜΑΤΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1180
+#, fuzzy
+msgid "Show from same Course Category"
+msgstr "Select Course Category"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1181
+#, fuzzy
+msgid "Show from same Instructor"
+msgstr "Show Instructor Dropdown"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1185
+#, fuzzy
+msgid "Show from same Course location"
+msgstr "Select Course Category"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1190
+#, fuzzy
+msgid "Show from same Course Level"
+msgstr "Select Course Level"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1195
+msgid "Show from same Linkage"
+msgstr ""
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1199
+#, fuzzy
+msgid "Numer of Courses"
+msgstr "Number of Courses to show"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1200
+#, fuzzy
+msgid "Block Style"
+msgstr "Style"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1216
+#, fuzzy
+msgid "Comma saperated courses"
+msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/course-loop.php:93
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/my-courses.php:98
+#, fuzzy
+msgid "You have not subscribed to any courses."
+msgstr "ΔΕΝ ΕΧΕΤΕ ΕΓΓΡΑΦΕΙ ΣΕ ΚΑΠΟΙΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:58
+#, php-format
+msgid "All Courses <span>%s</span>"
+msgstr "ΟΛΑ ΤΑ ΜΑΘΗΜΑΤΑ <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:62
+#, php-format
+msgid "My Courses <span>%s</span>"
+msgstr "ΤΑ ΜΑΘΗΜΑΤΑ ΠΟΥ ΠΑΡΑΚΟΛΟΥΘΩ  <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:65
+#, fuzzy, php-format
+msgid "Instructing Courses <span>%s</span>"
+msgstr "ΟΛΟΙ ΟΙ ΕΙΣΗΓΗΤΕΣ  <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:83
+msgid "Order By:"
+msgstr "ΤΑΞΙΝΟΜΙΣΗ :"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:85
+#, fuzzy
+msgid "Select Order"
+msgstr "ΕΠΙΛΟΓΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:86
+#, fuzzy
+msgid "Newly Published"
+msgstr "ΗΜ/ΝΙΑ ΔΗΜΟΣΙΕΥΣΗΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:87
+msgid "Alphabetical"
+msgstr "Αλφαβιτικά"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:88
+msgid "Most Members"
+msgstr "Περισσότερα Μέλη"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:89
+msgid "Highest Rated"
+msgstr "Υψηλότερη Βαθμολογία"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/instructor-courses.php:89
+#, fuzzy
+msgid "You have not created any Course."
+msgstr "ΔΕΝ ΕΧΕΤΕ ΕΓΓΡΑΦΕΙ ΣΕ ΚΑΠΟΙΟ ΜΑΘΗΜΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/activity.php:34
+msgid "Load More"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/activity.php:48
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:20
+msgid "Submissions"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:53
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/members.php:19
+msgid "Total number of Students in course"
+msgstr "Συνολικοί Μαθητές"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:54
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/members.php:20
+msgid "Students Currently taking this course"
+msgstr "ΜΑΘΗΤΕΣ ΠΟΥ ΕΧΟΥΝ ΑΓΟΡΑΣΕΙ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:91
+#, fuzzy
+msgid "See User Activity in Course"
+msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΧΡΗΣΤΗ ΑΠΟ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:102
+#, fuzzy
+msgid "No Students found."
+msgstr "ΔΕΝ ΒΡΕΘΙΚΑΝ ΜΑΘΗΜΑΤΑ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:107
+msgid "BULK ACTIONS"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/curriculum.php:19
+msgid "Course Curriculum"
+msgstr "ΣΕΙΡΑ ΜΑΘΗΜΑΤΩΝ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/events.php:18
+msgid " Events"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/front.php:34
+#, fuzzy
+msgid " STUDENTS ENROLLED"
+msgstr "ΜΑΘΗΤΕΣ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/front.php:76
+msgid "READ MORE"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/front.php:85
+msgid "LESS"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:22
+msgid "Total Number of Students who took this course"
+msgstr "ΠΑΡΑΚΟΛΟΥΘΟΥΝ ΤΟ ΜΑΘΗΜΑ ΣΥΝΟΛΙΚΑ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:23
+msgid "Average Percentage obtained by Students"
+msgstr "ΠΟΣΟΣΤΟ ΑΞΙΟΛΟΓΗΣΗΣ ΑΠΟ ΤΟΥΣ ΜΑΘΗΤΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:23
+#, fuzzy
+msgid "out of 100"
+msgstr " ΣΤΑ 100"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:24
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:31
+msgid "Number of Students who got a Badge"
+msgstr "ΑΡΙΘΜΟΣ ΜΑΘΗΤΩΝ ΠΟΥ ΕΛΑΒΑΝ ΤΟ ΔΙΑΚΡΙΤΙΚΟ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:25
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:30
+msgid "Number of Passed Students"
+msgstr "ΕΠΙΤΥΧΟΝΤΕΣ ΜΑΘΗΤΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:26
+msgid "Number of Students who did not pass "
+msgstr "ΑΠΟΤΥΧΟΝΤΕΣ ΜΑΘΗΤΕΣ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:29
+msgid "Average Marks obtained by Students"
+msgstr "Μ.Ο ΒΑΘΜΟΛΟΓΙΑΣ ΑΠΟ ΤΟΥΣ ΜΑΘΗΤΕΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:38
+#, fuzzy
+msgid "No curriculum defined"
+msgstr "ΣΕΙΡΑ ΜΑΘΗΜΑΤΩΝ :"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:63
+msgid "Average Marks in Quiz "
+msgstr "Μ.Ο ΒΑΘΜΟΛΟΓΙΑΣ ΣΤΑ ΚΟΥΙΖ "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:71
+msgid "Calculate :"
+msgstr "ΥΠΟΛΟΓΗΣΜΟΣ:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:72
+msgid "Calculate Statistics for Course"
+msgstr "Υπολογισμός Στατιστικών για το Μάθημα"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:20
+#, fuzzy
+msgid "ASSIGNMENTS SUBMISSIONS"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:51
+#, fuzzy
+msgid "Reset Assignment for User"
+msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:52
+msgid "Evaluate Assignment : "
+msgstr ""
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:69
+msgid "QUIZ SUBMISSIONS"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:124
+msgid "COURSE SUBMISSIONS"
+msgstr "ΑΞΙΟΛΟΓΗΣΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#~ msgid "Student "
+#~ msgstr "Ο ΜΑΘΗΤΗΣ "
+
+# @ vibe
+#, fuzzy
+#~ msgid " started the course "
+#~ msgstr " ΕΝΑΞΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#~ msgid "Course "
+#~ msgstr "ΜΑΘΗΜΑ "
+
+# @ vibe
+#~ msgid " reset for student "
+#~ msgstr "  ΕΠΑΝΑΦΟΡΑ ΓΙΑ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#, fuzzy
+#~ msgid " retake by student "
+#~ msgstr "ΕΠΑΝΑΛΗΨΗ ΚΟΥΙΖ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#~ msgid " got a badge in the course "
+#~ msgstr "  ΕΛΑΒΕ ΔΙΚΡΙΤΙΚΟ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#~ msgid " got a certificate in the course "
+#~ msgstr " ΕΛΑΒΕ ΠΤΥΧΙΟ ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#~ msgid " removed from the course "
+#~ msgstr "ΑΠΟΜΑΚΡΥΝΣΗ ΑΠΟ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#~ msgid "Student started the unit "
+#~ msgstr "ΕΝΑΡΞΗ ΕΝΟΤΗΤΑΣ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ "
+
+# @ vibe
+#~ msgid " in course "
+#~ msgstr " ΣΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#~ msgid "Could not find Quiz results for User. Contact Admin."
+#~ msgstr ""
+#~ "Δε βρέθικαν τα αποτελέσματα του Κουιζ για το χρήστη. Επικοινωνήστε με τον "
+#~ "Διαχειριστή."
+
+# @ bp-course
+#, fuzzy
+#~ msgid "Save Course Settings"
+#~ msgstr "ΡΥΘΜΗΣΕΙΣ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Connect with Course"
+#~ msgstr " ΣΤΟ ΚΟΥΙΖ "
+
+# @ vibe
+#, fuzzy
+#~ msgid "Select a Course"
+#~ msgstr "ΕΠΙΛΟΓΗ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Student % submitted the assignment %s"
+#~ msgstr "ΥΠΟΒΟΛΗ ΚΟΥΙΖ ΑΠΟ ΜΑΘΗΤΗ"
+
+# @ vibe
+#~ msgid ""
+#~ "There was issue in removing this user from the Course. Please contact "
+#~ "admin."
+#~ msgstr ""
+#~ "Υπήρχε πρόβλημα στην απομάκρυνση του χρήστη από το Μάθημα. Παρακαλώ "
+#~ "επικοινωνήστε με το διαχειριστή."
+
+# @ vibe
+#, fuzzy
+#~ msgid "Annoucements"
+#~ msgstr "ΕΙΣΗΓΗΤΕΣ"
+
+# @ default
+#, fuzzy
+#~ msgid "Course Subscribed"
+#~ msgstr "Εκκίνηση Μαθήματος:"
+
+# @ vibe
+#, fuzzy
+#~ msgid "User added to Course"
+#~ msgstr "Απομακρύνση χρήστη  από το Μάθημα"
+
+# @ vibe
+#, fuzzy
+#~ msgid "User Starts a Course "
+#~ msgstr "ΜΑΘΗΜΑ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Course Reset by Instructor"
+#~ msgstr "ΟΛΑ ΤΑ ΜΑΘΗΜΑΤΑ ΑΠΟ ΟΛΟΥΣ ΤΟΥΣ ΔΙΔΑΣΚΟΝΤΕΣ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Course Retake by User"
+#~ msgstr "Επαναφορά του Μαθήματος για το χρήστη"
+
+# @ default
+#, fuzzy
+#~ msgid "Course Submit"
+#~ msgstr "ΤΙΤΛΟΣ ΜΑΘΗΜΑΤΟΣ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Course Evaluation"
+#~ msgstr "Αξιολόγηση Μαθημάτων για το μαθητή"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Course Reviews"
+#~ msgstr "BuddyPress Course Widget"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Unsubscribe Course"
+#~ msgstr "ΕΓΓΡΑΦΗ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#, fuzzy
+#~ msgid "Quiz Start by user"
+#~ msgstr "ΕΠΑΝΑΛΗΨΗ ΚΟΥΙΖ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Quiz Submitted by user"
+#~ msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΑΞΙΟΛΟΓΗΣΗ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Quiz Reset by Instructor"
+#~ msgstr "Select Instructor"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Quiz Retake by User"
+#~ msgstr "ΕΠΑΝΑΛΗΨΗ ΚΟΥΙΖ ΑΠΟ ΤΟΝ ΜΑΘΗΤΗ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Quiz Evaluation"
+#~ msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΑΞΙΟΛΟΓΗΣΗ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Assignment Start by user"
+#~ msgstr "ΕΠΑΝΑΛΥΨΗ ΤΟΥ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΤΟΝ ΧΡΗΣΤΗ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Assignment Submitted by user"
+#~ msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ "
+
+# @ vibe
+#, fuzzy
+#~ msgid "Assignment Evaluation"
+#~ msgstr "Σύμφωνα με την αξιολόγηση"
+
+# @ vibe
+#~ msgid "Unlimited Duration"
+#~ msgstr "ΑΠΕΡΙΟΡΗΣΤΗ ΔΙΑΡΚΕΙΑ"
+
+# @ vibe
+#~ msgid " got ="
+#~ msgstr " ΕΛΑΒΕ "
+
+# @ vibe
+#~ msgid " for "
+#~ msgstr " ΓΙΑ "
+
+# @ vibe
+#~ msgid " ago"
+#~ msgstr " πριν"
+
+# @ vibe
+#~ msgid "Quiz "
+#~ msgstr "ΚΟΥΙΖ "
+
+# @ vibe
+#~ msgid "FAILED TO MARK COURSE, CONTACT ADMIN"
+#~ msgstr "FAILED TO MARK COURSE, CONTACT ADMIN"
+
+# @ vibe
+#~ msgid " in Quiz"
+#~ msgstr " ΣΤΟ ΚΟΥΙΖ "
+
+# @ vibe
+#~ msgid " got "
+#~ msgstr "ΕΛΑΒΕ "
+
+# @ vibe
+#~ msgid " in Quiz "
+#~ msgstr " ΣΤΟ ΚΟΥΙΖ "
+
+# @ vibe
+#, fuzzy
+#~ msgid "Instructor added Student "
+#~ msgstr "ΠΡΟΣΘΗΚΗ ΜΑΘΗΤΩΝ ΑΠΟ ΕΙΣΗΓΗΤΗ "
+
+# @ vibe
+#~ msgid "Instructor added "
+#~ msgstr "Instructor added "
+
+# @ vibe
+#~ msgid " students in course "
+#~ msgstr " ΜΑΘΗΤΕΣ "
+
+# @ vibe
+#~ msgid " initiated quiz retake "
+#~ msgstr " ΕΠΑΝΑΛΗΨΗ ΤΟΥ ΚΟΥΙΖ "
+
+# @ vibe
+#~ msgid " in quiz "
+#~ msgstr " ΣΤΟ ΚΟΥΙΖ "
+
+# @ vibe
+#~ msgid "Quiz Auto Evaluated"
+#~ msgstr "ΑΥΤΟΜΑΤΗ ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ"
+
+# @ vibe
+#~ msgid " with marks "
+#~ msgstr " ΜΕ ΒΑΘΜΟΛΟΓΙΑ "
+
+# @ vibe
+#~ msgid "/"
+#~ msgstr "/"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Quiz %s submitted by student %s for evaluation"
+#~ msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΑΞΙΟΛΟΓΗΣΗ"
+
+# @ vibe
+#~ msgid " days"
+#~ msgstr "ημέρες"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Course expire warning notifications"
+#~ msgstr "ΠΤΥΧΙΟ ΓΙΑ ΤΟ ΜΑΘΗΜΑ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Quizes evaluated"
+#~ msgstr "ΑΥΤΟΜΑΤΗ ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "%d Quizes evaluated !"
+#~ msgstr "ΑΥΤΟΜΑΤΗ ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "%s Quiz evaluated!"
+#~ msgstr "ΑΥΤΟΜΑΤΗ ΑΞΙΟΛΟΓΗΣΗ ΚΟΥΙΖ"
+
+# @ bp-course
+#, fuzzy
+#~ msgid ""
+#~ "Results for %s are avaialble. You've recieved %s marks. see results %s ,"
+#~ "evaluated by %s [%s]"
+#~ msgstr ""
+#~ "Results for %s are out. You've recieved %s marks.\n"
+#~ "\n"
+#~ "see quiz results %s ,evaluated by %s [%s]\n"
+#~ "\n"
+#~ "\n"
+#~ "---------------------\n"
+
+# @ vibe
+#~ msgid "Auto evaluated Course for Student"
+#~ msgstr " ΑΥΤΟΜΑΤΗ ΑΞΙΟΛΟΓΗΣΗ ΤΟΥ ΜΑΘΗΤΗ"
+
+# @ vibe
+#~ msgid "Student got a Certificate in the course "
+#~ msgstr "ΑΠΟΝΟΜΗ ΠΤΥΧΙΟΥ ΓΙΑ ΤΟ ΜΑΘΗΜΑ "
+
+# @ vibe
+#~ msgid "Student submitted course for evaluation"
+#~ msgstr "ΥΠΟΒΟΛΗ ΜΑΘΗΜΑΤΟΣ ΓΙΑ ΑΞΙΟΛΟΓΗΣΗ"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Marks"
+#~ msgstr "ΒΑΘΜΟΛΟΓΙΣΤΕ"
+
+# @ vibe
+#~ msgid "Back to Quiz"
+#~ msgstr "ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΚΟΥΙΖ"
+
+# @ vibe
+#~ msgid "MEMBERSHIP"
+#~ msgstr "ΣΥΝΔΡΟΜΗ"
+
+# @ vibe
+#~ msgid "NOW"
+#~ msgstr "ΤΩΡΑ"
+
+# @ vibe
+#~ msgid "Right now"
+#~ msgstr "ΤΩΡΑ"
+
+# @ bp-course
+#~ msgid "course"
+#~ msgstr "ΜΑΘΗΜΑ"
+
+# @ bp-course
+#, fuzzy
+#~ msgid "Action One"
+#~ msgstr "Action One"
+
+# @ bp-course
+#, fuzzy
+#~ msgid "Action Two"
+#~ msgstr "Action Two"

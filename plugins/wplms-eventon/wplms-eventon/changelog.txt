@@ -1,0 +1,20 @@
+* changelog
+* Filter for EventOn
+* Front end Event creation support
+* version update
+* Events Widget fix
+* changelog
+* version1.3
+* Migrate fixes
+* Month Day in calendar
+* changelog
+* translation fixes
+* version1.2
+* Instructors can create events in WP Admin
+* language files
+* remove files
+* version1.1
+* warnings fix
+* Auto update
+* EventOn Dashboard Widget
+* 0.1

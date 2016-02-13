@@ -1,0 +1,637 @@
+/**
+ * File: header.scss
+ * Description : Contains all styling for the WPLMS Headers
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULTS
+/*    02. LOGO
+/*    03. MENU
+/*    04. LOGIN & SEARCH
+/*    05. CART
+/*    06. RESPONSIVE
+/*
+/*========================================================================*/
+/*   01. DEFAULTS
+/*========================================================================*/
+
+
+header{
+	&.sleek,&.standard{
+		transition: all 0.6s ease-in-out;
+		&.fixed{
+	    	position:fixed;
+	    	left:0;
+	    	top:0;
+	    }
+	    &.transparent{
+	    	background:none;
+	    	background-color:transparent;
+	    	position:absolute;
+	    	left:0;
+	    	top:0;
+	    	width:100%;
+	    	&.fixed{
+	    		position:fixed;
+		    	left:0;
+		    	top:0;
+	    	}
+	    	nav>.menu>li>a{
+	    		mix-blend-mode:difference;
+	    	}
+	    }
+	}
+	&.mooc{
+		text-align:center;
+		&.fixed{
+		    z-index: 999;
+		}
+	}
+	&.standard{
+		#alt_logo{display:none;}
+		&.center{
+			text-align:center;
+			nav{
+				display:inline-block;
+				float:none;
+			}
+			#alt_logo{display:none;}
+		}
+	}
+	&.app{
+		padding:0 72px;
+		#login_trigger{
+		    border-right: 1px solid rgba(0,0,0,.1);
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    font-size: 24px;
+		    color: #444;
+		    width: 72px;
+		    height: 100%;
+		    line-height: 2.8;
+		    img{
+	    	    width: 45px;
+			    height: 45px;
+			    border-radius: 50%;
+		    }
+		}
+		#mooc_searchform{
+			float:right;
+			margin:20px 20px 0 0;
+		}
+		.topmenu{
+			li{
+				a{
+					cursor:pointer;
+					i+span{
+					    background: #009dd8;
+					    font-size: 10px;
+					    color: #fff;
+					    padding: 4px;
+					    border-radius: 2px;
+					    line-height: 1;
+					    position: absolute;
+					    top: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.login_sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    visibility: hidden;
+    width: 220px;
+    height: 100vh;
+    text-align:center;
+    background:$pagesidebarbg;
+    color: $pagesidebarcolor;
+	transition: all 0.5s;
+	.login_content{
+		position:relative;
+		padding:30px;
+		overflow-y:auto;
+		#vbp-login-form{
+			label{
+			    text-align: left;
+			    font-size: 11px;
+			    letter-spacing:1px;
+			    text-transform: uppercase;
+			    margin-bottom:10px;
+			    width:100%;
+			    .tip{
+			    	float:right;
+			    	color:rgba(255,255,255,0.4);
+			    }
+				input[type="text"],input[type="password"]{
+				    margin-top: 5px;
+				    width:100%;
+    				padding: 8px;
+					border-radius:2px;
+					background:rgba(0,0,0,0.1);
+					border:1px solid rgba(255,255,255,0.1);
+				}
+			}
+			#sidebar-wp-submit,
+			.vbpregister{
+				display:inline-block;
+				padding:15px;
+				width:100%;
+				line-height:1;
+				background:$primarybg;
+				color:$primarycolor;
+				border:none;
+				font-size:11px;
+				text-transform:uppercase;
+				border-radius:2px;
+				font-weight:600;
+			}
+			.vbpregister{background:$secondarybg;}
+		}
+		
+		.bp_social_connect{
+			a{
+			    padding: 10px;
+			    width:100%;
+			    min-width:0;
+			}
+		} 
+		#sidebar-me{
+			#bpavatar{
+				img{
+				    width: 120px;
+				    height: 120px;
+				    border-radius: 50%;
+				    margin-bottom:15px;
+				}
+				& + ul{
+				    min-height: auto;
+				    display: inline-block;
+				    text-align: center;
+				    border-bottom: 1px solid rgba(255,255,255,0.1);
+					li{
+						float:left;
+						text-align:center;
+						min-height:auto;
+						margin-bottom: 10px;
+					    display: inline-block;
+					    width: 100%;
+						&#username a{
+							float:none;
+							font-size:14px;
+							color:#FFF;
+							opacity:1;
+						}
+						a{
+							font-size:11px;
+							letter-spacing:1px;
+							text-transform:uppercase;
+							color:#FFF;
+							font-weight:600;
+							margin-right:10px;
+							opacity:0.9;
+							i{
+								display:none;
+							}
+						}
+						
+					}
+					& + ul{
+						clear:both;
+						margin: 0 -30px;
+						li{
+							clear:both;
+							display:block;
+							text-align:left;
+							padding:20px;
+							opacity:0.8;
+							border-left:3px solid transparent;
+							a{
+								font-size:11px;
+								font-weight:600;
+								letter-spacing:1px;
+								text-transform:uppercase;
+								color:#FFF;
+								i{
+									float:left;
+									margin-right:10px;
+								    font-size: 15px;
+    								margin-top: 2px;
+								}
+								span{
+								    padding: 3px 5px;
+								    background: rgba(255,255,255,0.2);
+								    line-height: 1;
+								    border-radius: 2px;
+								    float: right;
+								    margin-top: 2px;
+								}
+							}
+							&:hover{
+								opacity:1;
+								background:rgba(0,0,0,0.2);
+								border-color:#25A6F7;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.login_open{
+	.login_sidebar{
+		visibility:visible;
+		z-index:1;
+	}
+	.pusher{
+		z-index:2;
+	}
+}
+
+/*========================================================================*/
+/*   02. LOGO
+/*========================================================================*/
+
+.sleek{
+	#logo{
+		float:left;
+	}
+	&.center{
+		#logo{
+			width:100%;
+			text-align:center;
+			a{
+				display:inline-block;
+			}
+		}
+	}
+}
+
+.mooc{
+	#logo{
+		text-align:center;
+		a{
+			display:inline-block;
+		}
+	}
+	#mooc_searchform{
+		position:relative;
+		border-bottom:2px solid rgba(0,0,0,0.1);
+		transition: all 0.6s ease-in-out;
+		.search_form{
+			#s{
+			    padding:5px 15px 5px 5px;
+			    border:none;
+			    background:none;
+			    width:0;
+			    transition: all 0.6s ease-in-out;
+			}
+		}
+		&:hover,&:focus,&:active{
+			.search_form{
+				#s{
+				    width:100%;
+				    transition: all 0.6s ease-in-out;
+				}
+			}
+		}
+		&:before{
+			content:"\f002";
+			font-family:'fontawesome';
+			position:absolute;
+			right:8px;
+			top:8px;
+			font-size:11px;
+			color:#bbb;
+		}
+	}
+	&.app{
+		#mooc_searchform:before{
+			top:0;
+		}
+	}
+}
+
+@media (max-width: 768px){
+	.mooc{
+		#logo{
+			position:absolute;
+			left:50%;
+			top:0;
+			a{
+				position:relative;
+				img{
+					margin-left:-100%;
+				}
+			}
+		}
+	}
+}
+/*========================================================================*/
+/*   03. MENU
+/*========================================================================*/
+.sleek{
+
+	nav>.menu>li>a,
+	.topmenu>li>a{
+		font-weight: 600;
+	    margin: 0 10px;
+	    padding: 30px 6px;
+	    display: inline-block;
+	    font-size: 13px;
+	    text-transform: uppercase;
+	    color: #FFF;
+	    opacity:1;
+	}
+	.topmenu>li{
+	    float: left;
+    	display: inline-block;
+	}
+	nav .menu-item-has-children:hover > a:before{
+		border: 10px solid;
+		border-color: transparent transparent #48575a transparent;
+	}
+}
+
+.mooc{
+	.topmenu{
+		float:right;
+		text-align:left;
+		& > li{
+			float: left;
+    		display: inline-block;
+		}
+	}
+	nav>.menu>li>a,
+	.topmenu>li>a{
+		font-weight: 600;
+	    margin: 0 10px;
+	    padding: 30px 6px;
+	    display: inline-block;
+	    font-size: 13px;
+	    text-transform: uppercase;
+	    color: #FFF;
+	    opacity:1;
+	}
+	#mooc_menu{
+		position:relative;
+		float:left;
+		text-align:left;
+	}
+	#mooc_searchform{
+		float:left;
+		margin:0 0 0 20px;
+		display:inline-block;
+	}
+	#trigger{
+		right:auto;
+		left:0;
+		top:0;
+	}
+}
+
+/*========================================================================*/
+/*   04. LOGIN & SEARCH
+/*========================================================================*/
+
+.sleek{
+	#vibe_bp_login{
+	    top: 78px;
+    	right:30px;
+    	text-align:left;
+    	&:after{
+    		left:30px;
+    		right:auto;
+    	}
+    	label{
+    		text-transform:uppercase;
+    	}
+	}
+	#searchdiv.active{
+		padding:0;
+	}
+}
+
+
+/*========================================================================*/
+/*   05. CART
+/*========================================================================*/
+
+.sleek,.mooc{
+	.vbpcart{
+		cursor:pointer;
+		position:relative;
+		span{
+			position:relative;
+			font-size:16px;
+			em{
+				background: rgba(0,0,0,0.2);
+			    padding: 4px;
+			    font-size: 10px;
+			    line-height:1;
+			    position: absolute;
+			    top: -10px;
+			    font-style: normal;
+			    border-radius: 2px;
+			}
+		}
+		&.active:after {
+		    border: 7px solid;
+		    border-color: transparent transparent #FFF transparent;
+		    content: '';
+		    bottom: -3px;
+		    right: 0;
+		    position: absolute;
+		}
+	}
+	.woocart{
+		display:none;
+		transition: all 0.6s ease-in-out;
+		&.active{
+			display:block;
+		}
+	    position: absolute;
+        left: 0;
+    	top: 100%;
+	    z-index: 9;
+	    background: #FFF;
+	    width:240px;
+	    border-bottom-right-radius: 4px;
+	    border-bottom-left-radius: 4px;
+	    .cart_list.product_list_widget{
+	    	padding:10px 15px 0;
+	    	.mini_cart_item{
+	    		display:inline-block;
+	    		width:100%;
+    		    display: inline-block;
+    			padding: 10px;
+    			a,span{
+    				color: #666;
+    				font-weight:600;
+				    font-size: 11px;
+				    text-transform: uppercase;
+    			}
+    			.remove{
+    				float:right;
+    				color:red;
+    			}
+    			img{
+				    width: 48px;
+				    border-radius: 2px;
+				    margin: 0 10px 0 0;
+				    float: left;
+    			}
+	    	}
+	    	.empty{
+    		    padding: 10px 10px 20px;
+				color: #666;
+	    	}
+	    }
+	    .total{
+	    	border-top:1px solid rgba(0,0,0,0.1);
+	    	border-bottom:1px solid rgba(0,0,0,0.1);
+	    	padding:10px 15px;
+	    	font-size: 12px;
+	    	margin:10px 0 0;
+	    	text-align:left;
+    		text-transform: uppercase;
+	    	.amount{
+	    		float:right;
+	    	}
+	    }
+	    .buttons{
+	    	background:rgba(0,0,0,0.1);
+	    	text-align:center;
+	    	display:inline-block;
+	    	width:100%;
+	    	margin:0 0 -5px;
+	    	padding:10px 15px;
+	    	.button{
+	    		margin:0;
+	    		float:left;
+	    		float:left;
+	    		font-size:10px;
+	    		letter-spacing:1px;
+	    		color:#FFF;
+	    		text-transform:uppercase;
+	    		padding:7px 12px;
+	    		background-image:none;
+	    		&+.button{
+	    			margin-left:10px;
+	    			float:right;
+	    		}
+	    	}
+	    }
+	}
+}
+
+.mooc{
+	.topmenu{
+		li{
+			position:relative;
+			.woocart.active{
+				left:auto;
+				right:0;
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   06. RESPONSIVE
+/*========================================================================*/
+@media (max-width: 991px){
+	header.sleek{
+		ul.topmenu{
+			float: right;
+    		margin-right: 80px;
+		}
+		.col-md-9.col-sm-6.col-xs-12 #logo{
+			float:left !important;
+		}
+	}
+	.header_content,nav{display:none;}
+	header{
+		.col-md-9.col-sm-9.col-xs-8,
+		.col-md-3.col-sm-6.col-xs-8,
+		.col-md-4.col-sm-8.col-xs-8{
+			padding-right:60px;
+		}
+		&.standard{
+			#alt_logo{float:left;display:block;}
+			.header_content{
+				display:none;
+			}
+			&.center{
+				nav{display:none;}
+				#alt_logo{display:block;}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px){
+	header.sleek{
+		ul.topmenu{
+    		margin-right: 0;
+		}
+	} 
+	header.standard{
+		#searchicon{
+			position:relative;
+			float:left;
+			top:0;
+			left:0;
+		}
+	}
+
+	header.mooc{
+		#trigger{
+			left:15px;
+			top:0;
+		}
+		#mooc_searchform{
+			margin:0 10px 0 45px !important;
+			&:before{
+				color:#444;
+				font-size:14px;
+				top:20px;
+				right:auto;
+			}
+			.search_form{
+				display:none;
+				position:absolute;
+				top:48px;
+				left:-10px;
+				width:100%;
+				z-index:9;
+				#s{
+					width:200px;
+				}
+			}
+			.search_form.active{
+				display:block;
+			}
+		}
+		&.app{
+			#mooc_searchform .search_form {
+    			left: -160px;
+			}
+		}
+	}
+}

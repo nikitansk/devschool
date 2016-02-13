@@ -1,0 +1,121 @@
+/**
+ * File: registration.scss
+ * Description : BuddyPress Registration page
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULT STYLING
+/*    02. REGISTRATION SECTION
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+
+
+label.short span{
+	color:#FF0000;
+}
+label.weak span{
+	color:orange;
+}
+label.good span{
+	color:#2D98F3;
+}
+label.strong span{
+	color: limegreen;
+}
+
+/*========================================================================*/
+/*   02. REGISTRATION SECTION
+/*========================================================================*/
+
+.register-section{
+	margin:30px 0;
+	padding:5px 0;
+	h4{
+		font-weight:600;
+		text-transform: uppercase;
+		position: relative;
+		cursor:pointer;
+		&:hover{
+			color:#78c8ce;
+		}
+		&.editfield,&+ label{
+			margin-top:30px;
+		}
+		&:after{
+			content: "\e092";
+			position: absolute;
+			right:0;
+			top:0;
+			font-size:18px;
+			font-family: "fonticon" !important;
+		}
+		&.show:after{
+			content: "\e05d";
+		}
+	}
+	.editfield{
+
+		.checkbox,
+		.radio{
+			display: block;
+			margin:5px 0;
+			.label{
+				display: block;
+				margin-bottom:5px;
+				padding:0;
+				color:#444;
+				font-size:100%;
+			}
+			input{
+				margin-bottom:5px;
+			}
+		}
+		textarea{
+			width:100%;
+			border:1px solid $bordercolor;
+		}
+		.field-visibility-settings-toggle{
+			font-size:11px;
+			text-transform:uppercase;
+			color:$light-text-color;			
+		}
+
+	}
+	
+	& +.register-section{
+		border-top:1px solid $bordercolor;
+		border-bottom:1px solid $bordercolor;
+		h4:after{
+			content: "\e092";
+		}
+	} 
+	#account_password_field label,
+	label{
+		width:100%;
+		position: relative;
+		span{
+			float:right;
+			font-size:12px;
+			text-transform: uppercase;
+			font-weight: 600;
+			position: absolute;
+		  	top: 40px;
+		  	right: 20px;
+		}
+	}
+}
+
+#account_password_field label span{
+	top: 32px;
+  	right: 40px;
+}
+

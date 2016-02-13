@@ -1,0 +1,273 @@
+
+@import 'elements';
+@import 'buddypress';
+
+body{
+	background:#FFF;
+	.pusher{
+		background:#FFF;
+		#headertop{
+			background:none;
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			max-height:36px;
+			z-index:9;
+		}
+		header{
+			&.fix{
+				background:none;
+				position:fixed;
+				top:36px;
+				left:0;
+				width:100%;
+				transition: all 0.2s ease-in-out;
+				#logo{
+					a > span{
+						display:none;
+					    transform: translateY(100%);
+					    transition: all 0.2s ease-in-out;
+					}
+				}
+				&.fixed{
+					top:0px;
+					background:#FFF;
+					z-index:999;
+				    box-shadow: 0 0 1px rgba(0,0,0,0.4);
+					#logo{
+						a > img{
+							display:none;	
+						}
+						a > span{
+							transition: all 0.2s ease-in-out;
+						    transform: translateY(0%);
+							display:block;
+						}
+					}
+					nav{
+						.menu{
+							& > li > a{
+								color:#444;
+							}
+						}
+					}
+					#searchicon{
+						color:#444;
+					}
+					#trigger{
+						.lines{
+							color:#444;
+							&:before,&:after{
+								color:#444;
+							}
+						}
+					}
+				}
+			}
+			#vibe_bp_login{
+				top:10px;
+				right:20px;
+			}
+		}
+	}
+	&.admin-bar{
+		header{
+			&.fix{
+				top:66px;
+				transition: all 0.2s ease-in-out;
+				&.fixed{
+					top:30px;
+				}
+			}
+		}
+	}
+	&.home-page{
+		header+#content{
+			display:none;
+		}
+	}
+	footer{
+		margin:0;
+	}
+}
+#buddypress .widget_title,
+.widget .widget_title,	
+h3.heading{
+	background:none;
+    margin: 0;
+	padding: 0;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom:none;
+	&:after{
+	    content: '';
+	    width: 40px;
+	    height: 3px;
+	    background-color: #70c989;
+	    display: block;
+	    border-radius: 2px;
+	    margin-top: 10px;
+	}
+	&>span.badge{
+	    float: right;
+    	padding: 4px 7px;
+    	background:#70c989;
+	}
+	&.white{
+		color:#FFF;
+		&:after{
+			background:#FFF;
+		}
+	}
+	&.right{
+		text-align:right;
+	}
+	span:after {
+	    content: '';
+	    width: 100%;
+	    display: block;
+	}
+	&.center{
+		text-align:center;
+		&:after{
+			display:inline-block;
+		}
+	}
+}
+h4.widget_title,
+#buddypress h4.widget_title,
+.widget .widget_title{
+	margin-bottom:15px;
+	border-bottom:none !important;
+}
+.widget_title:after{
+	display:block !important;
+}
+
+body{
+	input[type="submit"],.button, #buddypress a.button{
+		background-image:none !important;
+		padding: 12px 20px;
+		line-height:1.2;
+		&.border{
+		    margin: 0;
+		    border: 2px solid #FFF;
+		    background: none;
+		    &:hover{
+		    	background:#FFF;
+		    	color:#009dd8;
+		    }
+		}
+	}
+
+}
+
+.page-template-create_content{
+	#create_content{
+	    padding-top: 120px;
+	    background-color: #232b2d;
+	    margin-top: 0;
+	    #create_course h3,
+	    #course_settings h3, 
+	    #course_settings h5{
+	    	font-size:14px;
+	    }
+	}
+	footer{margin:0}
+}
+#buddypress{
+	margin-top:0 !important;
+	.message-search{
+		#messages_search_submit{
+			display:none;
+		}
+	}	
+}
+.page-template-start{
+	#content{
+		padding:120px 30px 30px;
+		background:#232b2d;
+		.unit_content{
+			border-radius:4px;
+			overflow:hidden;
+		}
+		.course_time{
+			color:rgab(255,255,255,0.6);
+			span{
+				color:#FFF;
+			}
+		}
+	}
+}
+#trigger .lines, .lines:before, .lines:after{
+	color:#444;
+	background:#444;
+} 
+
+.widget{
+	.vibe_carousel{
+		.woocommerce{
+			.flex-direction-nav a.flex-prev,
+			.flex-direction-nav a.flex-next{
+				top:3px;			
+			}
+		}
+	}
+	&.buddypress{
+		div.item-options{
+			background:none;
+		}
+	} 
+}
+#bp_social_connect_google,.bp_social_connect_facebook,
+#create_account_trigger{
+	letter-spacing:1px;
+}
+#create_account_trigger {
+    background-color: #FAFAFA;
+    border-color: #ddd;
+    color: #444;
+}
+
+
+.rtl{
+	#buddypress {
+		.course_header{
+			div#item-header{
+				#item-meta{
+					.modern-star-rating{
+						float:right;
+					}
+				} 
+			} 
+		} 
+	}
+	&.single-course{
+		#content{
+			#buddypress{
+				div.item-list-tabs ul>li{
+					float:right;
+				}
+			} 
+		} 
+		.instructor_course .item-avatar{
+			width:100%;
+		}
+	} 
+	.modern_course .block_content .course_meta span.dashicons-groups{float:left;}
+	#buddypress .widget_title, .widget .widget_title, h3.heading{text-align:right;}
+	.modern_course .block_content .modern_course_instructor{left:15px; right:auto;}
+}
+
+.page-template-notitle header+#content{padding:0;}
+.social_sharing {float: right;margin: 15px 0px 15px 15px;}
+
+@media (max-width:991px){
+	#login-modal {
+    	position: absolute;
+    }
+}
+.open #trigger {z-index: -1 !important;}
+.note-tabs ul li {text-align: center;}

@@ -1,0 +1,207 @@
+.sh5vp-wrapper {
+	max-width:700px;
+}
+.sh5vp-wrapper.skin {
+	max-width:100%;
+}
+.sh5vp-wrapper label.title {
+	font-weight:bold;
+	white-space:nowrap;
+	font-size:16px;
+}
+.sh5vp-wrapper small,
+.sh5vp-wrapper .inline_help {
+	font-size:14px;
+	color:#AAA;	
+}
+.sh5vp_form .clear {
+	clear:both;
+}
+.sh5vp_tabs {
+	clear:both;
+	width:100%;
+	padding-left:3px;
+	padding-top:18px;
+}
+.sh5vp_tabs ul {
+	margin:0px 0px 0px 0px;
+}
+.sh5vp_tabs li {
+	width:auto;
+	background-image:none;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: #bfc1c0;
+	background-image: none;
+	background-origin: padding-box;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	bottom: auto;
+	display: inline-block;
+	float: none;
+	font-family: futura-pt, sans-serif;
+	font-size: 16px;
+	height: 20px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: -3px;
+	margin-right: 2px;
+	margin-top: 0px;
+	text-align: center;
+	padding:6px 8px 0px 8px;
+	color:#FFF;
+	white-space:nowrap;
+	text-decoration:none;
+	cursor:pointer;
+}
+.sh5vp_tabs li.active, .sh5vp_tabs li.active:hover {
+	background-color:#777;
+	cursor:default;
+}
+.sh5vp_tabs li:hover {
+	background-color:#21759B;
+	color:#FFF;
+}
+.sh5vp_content {
+	border:1px solid #777;
+	position:relative;
+	height:1050px;
+	min-height:400px;
+	width:100%;
+	z-index:10;
+	background-color:#FFF;
+}	
+.sh5vp_content > div {
+	margin:20px 20px 20px 20px;
+}
+.sh5vp_content_tab {
+	position:absolute;
+}
+.sh5vp_content_tab.active {
+	visibility:visible;
+}
+.sh5vp_form input[type="text"], 
+.sh5vp_form textarea {
+	max-width:100%;
+	font-size:16px;
+	border:1px solid #777;
+}
+.sh5vp_form input, 
+.sh5vp_form select, 
+.sh5vp_form label {
+	font-size:16px;
+}
+.sh5vp_skin_select {
+	float:left;
+	width:400px;
+	height:60px;
+	margin: 10px 20px 10px 0px;
+	padding: 20px 20px 20px 20px;
+	border:2px dashed #CCCCCC;
+	cursor:pointer;
+	display:block;
+	color:#AAA;
+	font-weight:bold;
+}
+.sh5vp_skin_select:hover {
+	border:2px solid #F00;
+}
+.sh5vp_skin_select.active {
+	border:2px solid #21759B;
+	color:#21759B;
+	cursor:default;
+}
+.sh5vp_skin_select_box {
+	height:auto;
+}
+.sh5vp_form h3 {
+	margin-top:25px;
+}
+.sh5vp_donate_box {
+	max-width:300px;
+	background-color:#fff;
+	padding:5px 20px 10px 20px;
+	border:1px solid #777;
+	border-radius:10px;
+}
+.sh5vp_donate_box form {
+	text-align:center;
+}
+.sh5vp-video-modal {
+	position:fixed;
+	left:0px;top:0px;
+	width:100%;height:100%;
+	opacity:0;
+	visibility:hidden;
+	z-index:99999999999;
+}
+.sh5vp-modal-bg {
+	position:fixed;
+	left:0px;top:0px;
+	width:100%;height:100%;
+	background:rgba(0,0,0,0.4);
+}
+.sh5vp-modal-close {
+	position:absolute;
+	top:10px;right:10px;
+	width:20px;height:20px;
+	cursor:pointer;
+	background:#FFAEAE;
+	border-radius:1.5em;
+}
+#sh5vp-video-modal p {
+	margin:10px 0px 10px 0px;
+	text-align:justify;
+}
+.sh5vp-modal-title {
+	margin:11px 0px 0px 0px;
+	font-size:16px;
+	min-height:18px;
+}
+.sh5vp-modal-close:hover {
+	background:#f00;
+}
+.sh5vp-modal-close:after, .sh5vp-modal-close::before {
+	position:absolute;
+	top:8px;right:3px;bottom:0px;left:50%;
+	width:2px;height:10px;
+	background:#fff;
+	content: '';
+	display:block;
+	margin:-3px 0 0 -1px;
+}
+.sh5vp-modal-close:after {
+	transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);
+}
+.sh5vp-modal-close:before {
+	transform:rotate(-45deg);-ms-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);
+}
+.sh5vp-modal-iframe {
+	margin:11px 0px 6px 0px;
+	max-width:100%;
+	background-color:#000;
+}
+.sh5vp-modal-inner {
+	transition:opacity .25s ease;
+	border-radius: 10px;
+	background: #fff;
+	margin: auto;
+	position: relative;
+	top: 100px;
+	width: 560px;
+	max-width:95%;
+	max-height: 95%;
+	padding: 0px 10px 10px 10px;
+	overflow: auto;
+}
+.sh5vp-preview-label {
+	text-align:right;
+}
+.sh5vp-widget-preview {
+	text-align:right;
+	padding:0px 8px 3px 0px;
+}

@@ -1,0 +1,2164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eventon\n"
+"POT-Creation-Date: 2015-12-09 11:01-0800\n"
+"PO-Revision-Date: 2015-12-09 11:01-0800\n"
+"Last-Translator: Ashan Perera <ashanster@gmail.com>\n"
+"Language-Team: AJDE\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ajde/ajde-wp-admin.php:429
+msgid "Select option below to customize shortcode variable values"
+msgstr ""
+
+#: ../ajde/ajde_backender.php:232
+msgid "Font Style"
+msgstr ""
+
+#: ../ajde/ajde_backender.php:243
+msgid "Font Size"
+msgstr ""
+
+#: ../ajde/ajde_backender.php:256
+msgid "Opacity Value"
+msgstr ""
+
+#: ../ajde/ajde_backender.php:507
+msgid "Collpase Menu"
+msgstr ""
+
+#: ../classes/class-evo-addons.php:71
+#, php-format
+msgid ""
+"Well... looks like you dont have eventON main plugin installed... %s needs "
+"<a href=\"%s\">EventON</a> to work properly, my friend!"
+msgstr ""
+
+#: ../classes/class-evo-addons.php:77
+#, php-format
+msgid ""
+"oh no.. your eventON version is old...  <b>%s</b> need eventON version %s or "
+"higher to work correctly! "
+msgstr ""
+
+#: ../includes/class-evo-ajax.php:516
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../includes/class-evo-ajax.php:518
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: ../includes/class-evo-post-types.php:52
+msgid "Event Location"
+msgstr ""
+
+#: ../includes/class-evo-post-types.php:63
+#: ../includes/admin/post_types/ajde_events.php:538
+#: ../includes/admin/settings/class-settings-settings.php:347
+#: ../includes/admin/settings/class-settings-settings.php:377
+msgid "Event Organizer"
+msgstr ""
+
+#: ../includes/class-evo-post-types.php:117
+msgid "Event"
+msgstr ""
+
+#: ../includes/class-evo-post-types.php:117
+#: ../includes/admin/eventon-admin-install.php:52
+msgid "Events"
+msgstr ""
+
+#: ../includes/class-evo-post-types.php:122
+msgid "This is where you can add new events to your calendar."
+msgstr ""
+
+#: ../includes/class-evo-widget-main.php:323
+msgid "eventON Shortcode generator"
+msgstr ""
+
+#: ../includes/class-evo-widget-main.php:324
+msgid "EventOn Calendar Shortcode"
+msgstr ""
+
+#: ../includes/class-evo-widget-main.php:402
+msgid ""
+"This widget will show future events for the current month. If there are no "
+"events upcoming for this month it will show as \"No Events\""
+msgstr ""
+
+#: ../includes/class-evo-widget-main.php:501
+msgid ""
+"Selecting event type categories above will show events fall into all those "
+"categories for the current month."
+msgstr ""
+
+#: ../includes/eventon-core-functions.php:1580
+#: ../includes/eventon-core-functions.php:1581
+msgid "Add New "
+msgstr ""
+
+#: ../includes/eventon-core-functions.php:1582
+msgid "Edit "
+msgstr ""
+
+#: ../includes/eventon-core-functions.php:1583
+msgid "New "
+msgstr ""
+
+#: ../includes/eventon-core-functions.php:1584
+msgid "All "
+msgstr ""
+
+#: ../includes/eventon-core-functions.php:1585
+msgid "View "
+msgstr ""
+
+#: ../includes/eventon-core-functions.php:1586
+msgid "Search "
+msgstr ""
+
+#: ../includes/eventon-core-functions.php:1587
+#: ../includes/eventon-core-functions.php:1588
+msgid "No "
+msgstr ""
+
+#: ../includes/admin/class-evo-admin.php:93
+msgid "EventON - Event Calendar"
+msgstr ""
+
+#: ../includes/admin/class-evo-admin.php:132
+msgid "NO"
+msgstr ""
+
+#: ../includes/admin/class-evo-admin.php:133
+msgid "YES"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-content.php:37
+msgid "General"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-content.php:42
+#: ../includes/admin/welcome.php:203
+#: ../includes/admin/settings/eventon-admin-settings.php:40
+msgid "Support"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-content.php:50
+msgid "For more information:"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-content.php:51
+msgid "EventON"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-content.php:52
+msgid "FAQ Section"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-content.php:53
+#: ../includes/admin/welcome.php:125 ../includes/admin/welcome.php:206
+msgid "Changelog"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-content.php:54
+#: ../includes/admin/welcome.php:201
+msgid "Documentation"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-content.php:55
+msgid "Addons"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-install.php:52
+msgctxt "page_slug"
+msgid "event-directory"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:65
+msgid ""
+"Event categories for events can be managed here. To change the order of "
+"categories on the front-end you can drag and drop to sort them. To see more "
+"categories listed click the \"screen options\" link at the top of the page."
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:79
+#: ../includes/admin/eventon-admin-taxonomies.php:288
+msgid "ID"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:98
+#: ../includes/admin/eventon-admin-taxonomies.php:113
+msgid "Color"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:100
+#: ../includes/admin/eventon-admin-taxonomies.php:118
+msgid "Pick a color"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:145
+#: ../includes/admin/post_types/ajde_events.php:76
+#: ../includes/admin/post_types/ajde_events.php:530
+msgid "Location"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:146
+msgid "Info"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:149
+#: ../includes/admin/eventon-admin-taxonomies.php:292
+msgid "Count"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:151
+#: ../includes/admin/eventon-admin-taxonomies.php:294
+msgid "Slug"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:175
+msgid "ADDRESS"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:203
+#: ../includes/admin/eventon-admin-taxonomies.php:239
+msgid "Location Address"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:205
+#: ../includes/admin/eventon-admin-taxonomies.php:242
+msgid "Enter a location address"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:208
+#: ../includes/admin/eventon-admin-taxonomies.php:246
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:587
+msgid "Latitude"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:210
+#: ../includes/admin/eventon-admin-taxonomies.php:249
+msgid "(Optional) latitude for address"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:213
+#: ../includes/admin/eventon-admin-taxonomies.php:253
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:588
+msgid "Longitude"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:215
+#: ../includes/admin/eventon-admin-taxonomies.php:256
+msgid "(Optional) longitude for address"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:219
+#: ../includes/admin/eventon-admin-taxonomies.php:261
+#: ../includes/admin/eventon-admin-taxonomies.php:334
+#: ../includes/admin/eventon-admin-taxonomies.php:368
+msgid "Image"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:221
+#: ../includes/admin/eventon-admin-taxonomies.php:268
+#: ../includes/admin/eventon-admin-taxonomies.php:269
+#: ../includes/admin/eventon-admin-taxonomies.php:336
+#: ../includes/admin/eventon-admin-taxonomies.php:375
+#: ../includes/admin/eventon-admin-taxonomies.php:376
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:602
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:603
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:719
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:720
+msgid "Remove Image"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:221
+#: ../includes/admin/eventon-admin-taxonomies.php:268
+#: ../includes/admin/eventon-admin-taxonomies.php:269
+#: ../includes/admin/eventon-admin-taxonomies.php:336
+#: ../includes/admin/eventon-admin-taxonomies.php:375
+#: ../includes/admin/eventon-admin-taxonomies.php:376
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:602
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:603
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:719
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:720
+msgid "Choose Image"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:225
+#: ../includes/admin/eventon-admin-taxonomies.php:277
+msgid "(Optional) Location Image"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:289
+#: ../includes/admin/post_types/ajde_events.php:536
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:920
+msgid "Organizer"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:291
+msgid "Contact Info"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:324
+#: ../includes/admin/eventon-admin-taxonomies.php:354
+msgid "Contact Information"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:326
+#: ../includes/admin/eventon-admin-taxonomies.php:357
+msgid "Enter Organizer Contact Information"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:329
+#: ../includes/admin/eventon-admin-taxonomies.php:361
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:706
+msgid "Link to the organizers page"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:331
+#: ../includes/admin/eventon-admin-taxonomies.php:364
+msgid "Use this field to link organizer to other user profile pages"
+msgstr ""
+
+#: ../includes/admin/eventon-admin-taxonomies.php:340
+#: ../includes/admin/eventon-admin-taxonomies.php:383
+msgid "(Optional) Organizer Image"
+msgstr ""
+
+#: ../includes/admin/welcome.php:32
+msgid "Welcome to EventON"
+msgstr ""
+
+#: ../includes/admin/welcome.php:39 ../includes/admin/welcome.php:40
+msgid "Getting started with EventON Calendar"
+msgstr ""
+
+#: ../includes/admin/welcome.php:48 ../includes/admin/welcome.php:49
+msgid "EventON Changelog"
+msgstr ""
+
+#: ../includes/admin/welcome.php:119
+msgid "Welcome"
+msgstr ""
+
+#: ../includes/admin/welcome.php:122
+msgid "Getting Started"
+msgstr ""
+
+#: ../includes/admin/welcome.php:141
+msgid "EventON Calendar Changelog"
+msgstr ""
+
+#: ../includes/admin/welcome.php:142 ../includes/admin/welcome.php:274
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! EventON Calendar %s is a "
+"stylish minimal calendar that will help you stay on top!"
+msgstr ""
+
+#: ../includes/admin/welcome.php:143 ../includes/admin/welcome.php:275
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../includes/admin/welcome.php:148
+msgid "Full Changelog"
+msgstr ""
+
+#: ../includes/admin/welcome.php:156
+msgid "Go to EventON Settings"
+msgstr ""
+
+#: ../includes/admin/welcome.php:171
+msgid "No valid changlog was found."
+msgstr ""
+
+#: ../includes/admin/welcome.php:205
+msgid "News"
+msgstr ""
+
+#: ../includes/admin/welcome.php:207
+msgid "Follow on Twitter"
+msgstr ""
+
+#: ../includes/admin/welcome.php:226
+msgid "Go to myeventon Settings"
+msgstr ""
+
+#: ../includes/admin/welcome.php:232
+msgid "Thank You for Updating EventON to ver "
+msgstr ""
+
+#: ../includes/admin/welcome.php:234
+msgid "Thank You for Purchasing EventON ver "
+msgstr ""
+
+#: ../includes/admin/welcome.php:236
+#, php-format
+msgid "%s%s"
+msgstr ""
+
+#: ../includes/admin/welcome.php:240
+msgid "We hope you will enjoy the new features we have added!"
+msgstr ""
+
+#: ../includes/admin/welcome.php:242
+msgid ""
+"We hope you will enjoy eventON - the event calendar plugin for WordPress!"
+msgstr ""
+
+#: ../includes/admin/welcome.php:273
+#, php-format
+msgid "Welcome to EventON %s"
+msgstr ""
+
+#: ../includes/admin/welcome.php:279
+msgid "Use these tips to get started with EventON Calendar."
+msgstr ""
+
+#: ../includes/admin/welcome.php:282
+msgid "Creating Your First Event"
+msgstr ""
+
+#: ../includes/admin/welcome.php:287
+#, php-format
+msgid "<a href=\"%s\">Events &rarr; Add New</a>"
+msgstr ""
+
+#: ../includes/admin/welcome.php:288
+msgid ""
+"You can access all your events from the Events menu. To create your first "
+"event, simply click Add New and then fill out the event details."
+msgstr ""
+
+#: ../includes/admin/welcome.php:290
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:20
+#: ../includes/admin/settings/class-settings-settings.php:375
+msgid "Event Details"
+msgstr ""
+
+#: ../includes/admin/welcome.php:291
+msgid ""
+"You can enter key event information such as Time & Date under event details. "
+"You can optionally select <em>All day event, Hide end time and event repeat "
+"values</em> in here. "
+msgstr ""
+
+#: ../includes/admin/welcome.php:293
+msgid "Other Event Data"
+msgstr ""
+
+#: ../includes/admin/welcome.php:294
+msgid ""
+"Entering Location and Venue data will show Google maps on Events. Organizers "
+"will allow you to set event organizers with their contact information. "
+"<em>User Interaction for event click</em> controls how the event will "
+"interact upon a user click on the event from the calendar."
+msgstr ""
+
+#: ../includes/admin/welcome.php:299
+msgid "Display a Calendar via Shortcode"
+msgstr ""
+
+#: ../includes/admin/welcome.php:305
+msgid "Basic month calendar"
+msgstr ""
+
+#: ../includes/admin/welcome.php:306
+msgid ""
+"The <code>[add_eventon]</code> shortcode will display the basic calendar for "
+"the current month. EventON Calendar is responsive and mobile ready."
+msgstr ""
+
+#: ../includes/admin/welcome.php:308
+msgid "Show List of Events"
+msgstr ""
+
+#: ../includes/admin/welcome.php:309
+msgid ""
+"You can show a list of months by using the event list shortcode as below:"
+msgstr ""
+
+#: ../includes/admin/welcome.php:312
+msgid "Additional Calendar Variations"
+msgstr ""
+
+#: ../includes/admin/welcome.php:313
+#, php-format
+msgid ""
+"You can create other calendar variations using the shortcode variables "
+"present via <a href=\"%s\">shortcode generator</a>. A general guide to some "
+"of the shortcode variables can be found in <a href=\"%s\">here.</a> You can "
+"also find our <a href=\"%s\">extensive online documentation library</a> for "
+"additional help."
+msgstr ""
+
+#: ../includes/admin/welcome.php:315
+#, php-format
+msgid "<a href=\"%s\">Configure EventON Settings</a>"
+msgstr ""
+
+#: ../includes/admin/welcome.php:316
+msgid ""
+"You can further customize EventON calendar from EventON Settings. Calendar "
+"appearance, language, and various other options can be set to your "
+"preferance in EventON Settings."
+msgstr ""
+
+#: ../includes/admin/welcome.php:321
+msgid "Extend EventON Features"
+msgstr ""
+
+#: ../includes/admin/welcome.php:325
+msgid "Library of Growing Addons"
+msgstr ""
+
+#: ../includes/admin/welcome.php:326
+#, php-format
+msgid ""
+"Addons for EventON extends the features to next level in your calendar. Some "
+"of our popular addons are: <a href=\"%s\">interactive month grid</a>, <a "
+"href=\"%s\">front-end event submission</a>, <a href=\"%s\">RSVP to events</"
+"a>, Event Tickets and many more "
+msgstr ""
+
+#: ../includes/admin/welcome.php:331
+msgid "Visit the Addons Store"
+msgstr ""
+
+#: ../includes/admin/welcome.php:332
+msgid ""
+"<a href=\"http://www.myeventon.com/addons/\" target=\"_blank\">The Addon "
+"store</a> has a list of all available addons for EventON that you can "
+"purchase."
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:74
+msgid "Event Name"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:79
+#: ../includes/admin/post_types/ajde_events.php:477
+msgid "Start Date"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:80
+#: ../includes/admin/post_types/ajde_events.php:504
+msgid "End Date"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:81
+#: ../includes/admin/post_types/ajde_events.php:549
+msgid "Featured"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:82
+msgid "Event Repeat"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:102
+msgid "All Events"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:103
+msgid "Past Events"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:104
+msgid "Current Events"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:216
+msgid "Edit this item"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:216
+msgid "Edit"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:217
+msgid "Edit this item inline"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:217
+msgid "Quick&nbsp;Edit"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:221
+msgid "Restore this item from the Trash"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:221
+msgid "Restore"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:223
+msgid "Move this item to the Trash"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:223
+msgid "Trash"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:225
+msgid "Delete this item permanently"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:225
+msgid "Delete Permanently"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:230
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:230
+msgid "Preview"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:232
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:232
+msgid "View"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:327
+msgid "Toggle featured"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:329
+msgid "Yes"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:331
+msgid "No"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:421
+msgid "Make a duplicate from this event"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:422
+msgid "Duplicate"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:449
+msgid "Duplicate this event"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:470
+msgid "Event Data"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:479
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:257
+msgid "Event Start Date"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:483
+msgid "Start Time"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:486
+msgid "Event Start Hour"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:490
+msgid "Event Start Minutes"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:495
+msgid "Event Start AM/PM"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:506
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:309
+msgid "Event End Date"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:510
+msgid "End Time"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:513
+msgid "Event End Hour"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:517
+msgid "Event End Minutes"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:522
+msgid "Event End AM/PM"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:532
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:584
+#: ../includes/admin/settings/class-settings-settings.php:333
+msgid "Event Location Address"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:542
+msgid "Subtitle"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events.php:544
+msgid "Event Sub Title"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:19
+#: ../includes/admin/settings/class-settings-settings.php:125
+msgid "Event Color"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:56
+msgid "Exclude from calendar"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:57
+msgid "Set this to Yes to hide event from showing in all calendars"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:68
+msgid "Featured Event"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:69
+msgid "Make this event a featured event"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:80
+msgid "Cancel Event"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:81
+msgid "Cancel this event"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:92
+msgid "Only for loggedin users"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:93
+msgid ""
+"This will make this event only visible if the users are loggedin to this site"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:101
+msgid "Type the reason for cancelling"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:135
+msgid "Click here to pick a color"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:138
+msgid "OR Select from other colors"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:250
+msgid "All Day Event"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:259
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:311
+msgid "Select a Date"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:298
+msgid "Select a Time"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:351
+msgid "Select the Time"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:356
+msgid "Timezone text eg.PST"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:356
+msgid "Event timezone"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:356
+msgid ""
+"Timezone text you type in here ex. PST will show next to event time on "
+"calendar."
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:364
+msgid "Hide End Time from calendar"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:375
+msgid "Span the event until hidden end time"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:375
+msgid ""
+"If event end time goes beyond start time +  and you want the event to show "
+"in the calendar until end time expire, select this."
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:388
+msgid "Show this event for the entire year"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:388
+msgid ""
+"This will show this event on every month of the year. The year will be based "
+"off the start date you choose above"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:412
+msgid "Repeating event"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:428
+msgid "Event Repeat Type"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:437
+msgid "Gap between repeats"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:456
+msgid "Repeat by"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:458
+msgid "Day of the month"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:459
+msgid "Day of the week"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:463
+msgid "Repeat on selected days"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:472
+msgid "Week of month to repeat"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:476
+msgid "First"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:477
+msgid "Second"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:478
+msgid "Third"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:479
+msgid "Fourth"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:480
+msgid "Fifth"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:481
+msgid "Last"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:488
+msgid "Number of repeats"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:496
+msgid "CUSTOM REPEAT TIMES"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:496
+msgid ""
+"NOTE: Below repeat intervals are in addition to the above main event time."
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:512
+msgid "from"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:518
+msgid "View All"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:521
+msgid "FROM"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:521
+msgid "TO"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:523
+msgid "Add New Repeat Interval"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:561
+msgid "Select a saved location"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:577
+msgid "Choose already saved location or type new one below"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:583
+msgid "eg. Irving City Park"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:583
+#: ../includes/admin/settings/class-settings-settings.php:334
+msgid "Event Location Name"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:584
+msgid "eg. 12 Rue de Rivoli, Paris"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:589
+msgid ""
+"NOTE: If Latlon provided, Latlon will be used for generating google maps "
+"while location address will be shown as text address. <br/>Location address "
+"field is <b>REQUIRED</b> for this to work."
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:589
+msgid "Find LanLat for address"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:615
+msgid "Event Location Image"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:626
+msgid "Generate Google Map from the address"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:637
+msgid ""
+"Show location name & address over location image (If location image exist)"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:673
+msgid "Select a saved organizer"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:689
+msgid ""
+"Choose already saved organizer or type new one below. NOTE: if you retype an "
+"existing organizer it will replace old information for that saved organizer"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:695
+msgid "eg. Blue Light Band"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:695
+msgid "Event Organizer Name"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:700
+msgid "eg. noone[at] thismail.com"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:700
+msgid "(Optional) Organizer Contact Information"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:706
+msgid "eg. http://www.mysite.com/user"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:731
+msgid "Event Organizer Image"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:731
+msgid "Recommended Resolution 80x80px"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:742
+msgid "Hide Organizer field from EventCard"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:775
+msgid "Open in new window"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:778
+msgid "Type the URL address"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:781
+msgid "Slide Down Event Card"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:784
+msgid "External Link"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:787
+msgid "Popup Window"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:810
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:859
+msgid "Open in New window"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:893
+msgid "Event SubTitle"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:903
+msgid "Time and Date"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:911
+msgid "Location and Venue"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:928
+msgid "User Interaction for event click"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:937
+msgid "Learn more about event link"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:959
+msgid "Everyone"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:959
+msgid "Admin Only"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:959
+msgid "Loggedin Users Only"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:977
+msgid "Visibility Type:"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:1036
+msgid "Paypal \"BUY NOW\" button"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:1040
+msgid "Text to show above buy now button"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:1043
+msgid "Enter the price for paypal buy now button <i>eg. 23.99</i>"
+msgstr ""
+
+#: ../includes/admin/post_types/ajde_events_meta_boxes.php:1047
+msgid "Custom Email address to receive payments"
+msgstr ""
+
+#: ../includes/admin/post_types/duplicate_event.php:23
+msgid "No event to duplicate has been supplied!"
+msgstr ""
+
+#: ../includes/admin/post_types/duplicate_event.php:42
+msgid "Event creation failed, could not find original event:"
+msgstr ""
+
+#: ../includes/admin/post_types/duplicate_event.php:62
+msgid "(Copy)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:18
+msgid "General Calendar Settings"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:21
+msgid "General Settings"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:24
+msgid "Hide Calendar from front-end"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:25
+msgid "Hide past events for default calendar(s)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:28
+msgid "Select a precise timing for the cut off time for past events"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:30
+msgid "Hide events past current local time"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:31
+msgid "Hide events past today's date"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:35
+msgid "Select calendar event content filter type"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:35
+msgid ""
+"This will disable the use of the_content filter on event details and custom "
+"field values."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:38
+msgid "Use WP default Date format in eventON calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:38
+msgid ""
+"Select this option to use the default WP Date format through out eventON "
+"calendar. Default format: yyyy/mm/dd"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:40
+msgid "Disable google web fonts"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:40
+msgid "This will stop loading all google fonts used in eventon calendar."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:42
+msgid "Disable font awesome fonts"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:42
+msgid "This will stop loading font awesome fonts in eventon calendar."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:44
+msgid "Remove schema data from calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:44
+msgid ""
+"Schema microdata helps in google and other search engines find events in "
+"special event data format. With this option you can remove those microdata "
+"from showing up on front-end calendar."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:46
+msgid "Write dynamic styles to header"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:46
+msgid ""
+"If making changes to appearances dont reflect on front-end try this option. "
+"This will write those dynamic styles inline to page header"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:48
+msgid "Auto move events to trash when the event date is past"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:48
+msgid ""
+"This will move events to trash when the event end date is past current date"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:50
+msgid "Remove eventon generator meta data from website header"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:50
+msgid ""
+"Remove the meta data eventon place on your website header with eventon "
+"version number for debugging purposes"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:52
+msgid "Do not delete eventon settings when I delete EventON plugin"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:52
+msgid ""
+"Activating this will not delete the saved settings for eventon when you "
+"delete eventon plugin. By Default it will delete saved data."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:53
+msgid "Enable RTL (right-to-left all eventon calendars)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:53
+msgid "This will make all your eventon calendars RTL."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:58
+msgid ""
+"Calendar Header month/year format. <i>(<b>Allowed values:</b> m = month "
+"name, Y = 4 digit year, y = 2 digit year)</i>"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:59
+msgid "Additional EventON Settings"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:66
+msgid "Google Maps API Settings"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:67
+msgid "Google Maps API"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:70
+msgid "Disable Google Maps API"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:72
+msgid "Select which part of Google gmaps API to disable"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:74
+msgid "Completely disable google maps"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:75
+msgid ""
+"Google maps javascript file only (If the js file is already loaded with "
+"another gmaps program)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:79
+msgid "Disable scrollwheel zooming on Google Maps"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:81
+msgid "Google maps display type:"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:83
+msgid "ROADMAP Displays the normal default 2D"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:84
+msgid "SATELLITE Displays photographic tiles"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:85
+msgid "HYBRID Displays a mix of photographic tiles and a tile layer"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:87
+msgid "Google starting zoom level:"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:88
+msgid ""
+"18 = zoomed in (See few roads), 7 = zoomed out. (See most of the country)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:98
+msgid "Map Style"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:101
+#: ../includes/admin/settings/class-settings-settings.php:519
+msgid "Default"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:117
+msgid "Calendar front-end Sorting and filtering options"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:118
+msgid "Sorting and Filtering"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:121
+msgid "Hide Sort Bar on Calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:122
+msgid ""
+"Event sorting options to show on Calendar <i>(Note: Event Date will be "
+"default sorting option that will be always on)</i>"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:124
+msgid "Event Main Title"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:126
+msgid "Event Posted Date"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:128
+msgid "Event filtering options to show on the calendar</i>"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:134
+msgid "General Frontend Calendar Appearance"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:135
+msgid "Appearance"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:141
+msgid "Custom Icons for Calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:142
+msgid "Icons"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:145
+msgid "EventCard Icons"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:152
+msgid "Event Details Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:153
+msgid "Event Time Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:154
+msgid "Event Location Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:155
+msgid "Event Organizer Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:156
+msgid "Event Capacity Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:157
+msgid "Event Learn More Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:158
+msgid "Event Ticket Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:159
+msgid "Add to your calendar Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:160
+msgid "Get Directions Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:166
+msgid "EventTop Settings (EventTop is an event row on calendar)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:167
+msgid "EventTop"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:170
+msgid ""
+"Additional data fields for eventTop: <i>(NOTE: <b>Event Name</b> and "
+"<b>Event Date</b> are default fields)</i>"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:178
+msgid "EventCard Settings (EventCard is the full event details card)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:179
+msgid "EventCard"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:184
+#: ../includes/admin/settings/class-settings-settings.php:374
+msgid "Featured Image"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:185
+msgid "Feature image display style"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:187
+msgid "Direct Image"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:188
+msgid "Minimized height"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:189
+msgid "100% Image height with stretch to fit"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:190
+msgid "100% Image height with propotionate to calendar width"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:192
+msgid ""
+"Featured image display styles: Direct image style will show &lt;img/&gt; "
+"image as oppose to the image as background image of a &lt;div/&gt;"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:193
+msgid "Disable hover effect on featured image"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:194
+msgid "Disable zoom effect on click"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:196
+msgid "Minimal height for featured image (value in pixels)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:197
+msgid "Show magnifying glass over featured image"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:199
+#: ../includes/admin/settings/class-settings-settings.php:378
+msgid "Location Image"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:200
+msgid "Set event location image height (value in pixels)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:202
+msgid "Other EventCard Settings"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:203
+msgid "Allow universal event time format on eventCard"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:205
+msgid "Time Format"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:210
+msgid "Show ICS download to your calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:210
+#: ../includes/admin/settings/class-settings-settings.php:212
+msgid ""
+"Once this is activated, make sure the field is saved in Rearrange order "
+"below."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:212
+msgid "Show get directions to text field"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:214
+msgid "Show full event description"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:216
+msgid "Open all eventCards by default"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:223
+msgid "Re-arrange the order of eventCard event data boxes"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:224
+msgid "Fields selected below will show in eventcard"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:230
+msgid "Third Party API Support for Event Calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:231
+msgid "Third Party APIs"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:235
+#: ../includes/admin/settings/class-settings-settings.php:394
+msgid "Paypal"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:236
+msgid "Enable PayPal event ticket payments"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:238
+msgid "Your paypal email address to receive payments"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:239
+msgid "Select your currency"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:246
+msgid "Custom Meta Data fields for events"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:247
+msgid "Custom Meta Data"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:254
+msgid "EventType Categories"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:255
+msgid "Categories"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:259
+msgid ""
+"Use this to assign custom names for the event type taxonomies which you can "
+"use to categorize events. Note: Once you update these custom taxonomies "
+"refresh the page for the values to show up."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:260
+msgid "Custom name for Event Type Category #1"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:261
+msgid "Custom name for Event Type Category #2"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:264
+msgid ""
+"In order to add additional event type categories make sure you activate them "
+"in order. eg. Activate #4 after you activate #3"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:265
+msgid "Activate Event Type Category #3"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:267
+#: ../includes/admin/settings/class-settings-settings.php:272
+#: ../includes/admin/settings/class-settings-settings.php:277
+msgid "Category Type Name"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:270
+msgid "Activate Event Type Category #4"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:275
+msgid "Activate Event Type Category #5"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:284
+#: ../includes/admin/settings/class-settings-settings.php:285
+msgid "Events Paging"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:288
+msgid ""
+"This page will allow you to control templates and permalinks related to "
+"eventon event pages."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:290
+msgid "Select Events Page"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:290
+msgid ""
+"This will allow you to use this page with url slug /events/ as event archive "
+"page"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:291
+msgid "Select Events Page Template"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:293
+msgid "EventOn Event Post Slug"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:294
+msgid ""
+"NOTE: If you change the slug for events please be sure to refresh permalinks "
+"for the new single event pages to work properly.."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:298
+msgid "Shortcode Settings"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:299
+msgid "ShortCodes"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:318
+msgid "Download All Events (CSV)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:318
+msgid "Download all eventON calendar events as CSV file."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:332
+msgid "Event Time (to and from)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:341
+msgid " (Category #"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:345
+msgid "Event Tags"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:346
+msgid "Event Day Name (Only for one day events)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:376
+msgid "Time and Location"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:379
+msgid "Google Maps"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:380
+msgid "Learn More & Add to your calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:386
+#: ../includes/admin/settings/class-settings-settings.php:670
+msgid "Get Directions"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:390
+msgid "eventbrite"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:407
+msgid "Single line Text"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:407
+msgid "Multiple lines of text"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:407
+msgid "Button"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:415
+msgid ""
+"<b>NOTE: </b>Once new data field is activated go to <b>myEventon> Settings> "
+"EventCard</b> and rearrange the order of this new field and save changes for "
+"it to show on front-end. <br/>\n"
+"\t\t\t\tIf you change field name for custom fields make sure it is updated "
+"in <b>myEventon > Language</b> as well.<br/>(* Required values)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:417
+msgid "Number of Additional Custom Data Fields"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:423
+msgid "Activate Additional Field #"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:425
+msgid "Field Name*"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:426
+msgid "Content Type"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:427
+msgid "Icon"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:428
+msgid "Hide this field from front-end calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:429
+msgid "Visibility Type"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:470
+msgid ""
+"Use the \"Generate shortcode\" button to open lightbox shortcode generator "
+"to create your desired calendar shortcode."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:472
+msgid "Generate shortcode"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:475
+msgid "Other common shortcodes"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:476
+msgid "[add_eventon] -- Default month calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:477
+msgid ""
+"[add_eventon_list number_of_months=\"5\" hide_empty_months=\"yes\" ] -- 5 "
+"months events list with empty months hidden from view"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:478
+msgid ""
+"[add_eventon_list number_of_months=\"5\" month_incre=\"-5\" ] -- Show list "
+"of 5 past months"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:493
+msgid "Calendar Themes"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:518
+msgid "Current Theme:"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:537
+msgid ""
+"Themes are in <strong>Beta stage</strong> and we are working on it & addin "
+"more themes."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:538
+msgid "NOTE:"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:538
+msgid "After changing theme make sure to click \"save changed\""
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:556
+msgid ""
+"Once you make changes to appearance make sure to clear browser and website "
+"cache to see results."
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:559
+msgid "Multiple colors"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:561
+msgid "Primary Calendar Color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:566
+msgid ""
+"Primary Calendar Font family <i>(Note: type the name of the font that is "
+"supported in your website. eg. Arial)</i>"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:567
+msgid "Hide month navigation arrows"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:568
+msgid "Align month navigation arrows to rightside of the calendar"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:573
+#: ../includes/admin/settings/settings_language_tab.php:189
+msgid "Calendar Header"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:574
+msgid "Sort Options Text"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:579
+msgid "Jump Months Button"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:586
+msgid "Jumper - Month/Year Buttons"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:593
+msgid "Jumper - Month/Year Buttons: Current"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:598
+msgid "Jumper - Month/Year Buttons: Active"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:603
+msgid "Jumper - Month/Year Label Text"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:607
+msgid "This month Button"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:614
+msgid "Arrow Circle"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:628
+msgid "EventTop Styles"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:629
+msgid "Event Title font color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:630
+msgid "Event Sub Title font color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:631
+msgid "Text under event title (on EventTop. Eg. Time, location etc.)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:632
+msgid "Category title color (eg. Event Type)"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:633
+msgid "Event Top Border Color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:635
+msgid "Background Color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:644
+msgid "Canceled Events Tag"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:656
+msgid "EventCard Styles"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:663
+msgid "General Font Color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:669
+msgid "Get Directions Field"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:678
+msgid "Buttons"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:679
+msgid "Button Color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:684
+msgid "Button Text Color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:690
+msgid "Close Button Color"
+msgstr ""
+
+#: ../includes/admin/settings/class-settings-settings.php:699
+msgid "Featured Events"
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:36
+msgid "Settings"
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:37
+msgid "Language"
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:38
+msgid "Styles"
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:39
+msgid "Addons & Licenses"
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:112
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:126
+msgid ""
+"Your eventON license is not saved. eventON should still work fine. <a href=\""
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:132
+msgid "EventON Settings"
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:145
+msgid "Settings Saved"
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:175
+#: ../includes/admin/settings/settings_advanced_tab.php:55
+#: ../includes/admin/settings/settings_language_tab.php:41
+#: ../includes/admin/settings/settings_styles_tab.php:35
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/admin/settings/eventon-admin-settings.php:175
+msgid "Reset to default colors"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:18
+msgid "How to update EventON plugin and addons to latest version?"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:18
+msgid "How to update EventON Manually"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:37
+msgid "New Update availale"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:45
+msgid "Activated"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:45
+msgid "Deactivate"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:47
+msgid ""
+"Info: You have successfully activated this license on this site. You will "
+"need a seperate license to activate eventON for another site."
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:58
+msgid "License Status"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:58
+msgid "Not Activated"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:64
+msgid "Enter your codecanyon Purchase Key"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:67
+msgid "How to find eventON purchase key"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:68
+msgid "Activate Now"
+msgstr ""
+
+#: ../includes/admin/settings/settings_addons_tab.php:94
+msgid "Activation does not work?"
+msgstr ""
+
+#: ../includes/admin/settings/settings_advanced_tab.php:21
+msgid "Advnaced Settings"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:33
+msgid "Type in custom language text for front-end calendar"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:35
+msgid ""
+"Please use the below fields to type in custom language text that will be "
+"used to replace the default language text on the front-end of the calendar."
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:52
+msgid "Import/Export translations"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:53
+msgid ""
+"NOTE: Make sure to save changes after importing. This will import/export the "
+"current selected language ONLY."
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:59
+msgid "Upload"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:61
+msgid "File Uploading"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:63
+msgid "Import to Current Language options"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:63
+msgid "Export Current Language options"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:74
+msgid "Select your language"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:80
+msgid ""
+"You can use this to save upto 2 different languages for customized text. "
+"Once saved use the shortcode to show calendar text in that customized "
+"language. eg. [add_eventon lang='L2']"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:158
+msgid "Months and Dates"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:166
+msgid "General Calendar"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:214
+msgid "Event Card"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:273
+msgid "Add to calendar Section"
+msgstr ""
+
+#: ../includes/admin/settings/settings_language_tab.php:288
+msgid "Custom Meta Fields (if activated)"
+msgstr ""
+
+#: ../includes/admin/settings/settings_styles_tab.php:11
+msgid "Add your own custom styles"
+msgstr ""
+
+#: ../includes/admin/settings/settings_styles_tab.php:12
+msgid ""
+"Please use text area below to write your own CSS styles to override or fix "
+"style/layout changes in your calendar. <br/>These styles will be appended "
+"into the dynamic styles sheet loaded on the front-end."
+msgstr ""
+
+#: ../includes/admin/settings/settings_styles_tab.php:19
+msgid "Auto generated Dynamic Styles"
+msgstr ""
+
+#: ../includes/admin/settings/settings_styles_tab.php:20
+msgid ""
+"If your dynamic styles (appearance changes in eventon settings) do not "
+"reflect on front-end, it could be that your website is blocking eventon from "
+"using wp_filesystems() to write these dynamic styles to "
+"\"eventon_dynamic_styles.css\". <br/>In this case please <b>copy</b> the "
+"below CSS styles and paste it on your theme styles (style.css)."
+msgstr ""
+
+#: ../includes/admin/settings/settings_styles_tab.php:32
+msgid ""
+"NOTE: These styles will update everytime you make changes in eventon "
+"appearance settings"
+msgstr ""
+
+#: ../lang/strings.php:16
+msgid "january"
+msgstr ""
+
+#: ../lang/strings.php:17
+msgid "february"
+msgstr ""
+
+#: ../lang/strings.php:18
+msgid "march"
+msgstr ""
+
+#: ../lang/strings.php:19
+msgid "april"
+msgstr ""
+
+#: ../lang/strings.php:20
+msgid "may"
+msgstr ""
+
+#: ../lang/strings.php:21
+msgid "june"
+msgstr ""
+
+#: ../lang/strings.php:22
+msgid "july"
+msgstr ""
+
+#: ../lang/strings.php:23
+msgid "august"
+msgstr ""
+
+#: ../lang/strings.php:24
+msgid "september"
+msgstr ""
+
+#: ../lang/strings.php:25
+msgid "october"
+msgstr ""
+
+#: ../lang/strings.php:26
+msgid "november"
+msgstr ""
+
+#: ../lang/strings.php:27
+msgid "december"
+msgstr ""
+
+#: ../lang/strings.php:30
+msgid "monday"
+msgstr ""
+
+#: ../lang/strings.php:31
+msgid "tuesday"
+msgstr ""
+
+#: ../lang/strings.php:32
+msgid "wednesday"
+msgstr ""
+
+#: ../lang/strings.php:33
+msgid "thursday"
+msgstr ""
+
+#: ../lang/strings.php:34
+msgid "friday"
+msgstr ""
+
+#: ../lang/strings.php:35
+msgid "saturday"
+msgstr ""
+
+#: ../lang/strings.php:36
+msgid "sunday"
+msgstr ""

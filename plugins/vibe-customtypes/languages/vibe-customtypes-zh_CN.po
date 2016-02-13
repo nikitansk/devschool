@@ -1,0 +1,4994 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Custom Types v1.7.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-22 17:51+0530\n"
+"PO-Revision-Date: 2016-01-22 17:51+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: partyfave <service@partyfave.me>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-"
+"customtypes\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wplms/wp-content/plugins/"
+"vibe-customtypes\n"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:18
+msgid "Learning Management System"
+msgstr "学习管理系统"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:18
+msgid "LMS"
+msgstr "LMS常规设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:19
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:182
+msgid "Statistics"
+msgstr "统计数据"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:20
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1236
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1940
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1964
+msgid "Settings"
+msgstr "设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:21
+msgid "Lms Tree"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:71
+msgid "Course Category"
+msgstr "课程分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:72
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:73
+msgid "Category"
+msgstr "分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:74
+msgid "Add New Course Category"
+msgstr "添加新的课程分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:75
+msgid "All Categories"
+msgstr "全部分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:95
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:96
+msgid "Courses"
+msgstr "课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:97
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:829
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:14
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:99
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:21
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:752
+msgid "Course"
+msgstr "课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:98
+msgid "Add New Course"
+msgstr "添加新的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:99
+msgid "All Courses"
+msgstr "全部课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:121
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:122
+msgid "Units"
+msgstr "单元"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:123
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:15
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:135
+msgid "Unit"
+msgstr "单元"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:124
+msgid "Add New Unit"
+msgstr "增加新单元"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:125
+msgid "All Units"
+msgstr "全部单元"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:146
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:147
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:148
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:234
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:235
+msgid "Tag"
+msgstr "标签"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:149
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:236
+msgid "Add New Tag"
+msgstr "增加新标签"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:150
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:237
+msgid "All Tags"
+msgstr "全部标签"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:165
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:166
+msgid "Quizes"
+msgstr "测试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:167
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:16
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:119
+msgid "Quiz"
+msgstr "考试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:168
+msgid "All Quizes"
+msgstr "全部测试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:189
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:190
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:191
+#, fuzzy
+msgid "Quiz type"
+msgstr "测试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:192
+#, fuzzy
+msgid "Add New Quiz type"
+msgstr "增加新活动事件类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:193
+#, fuzzy
+msgid "All Quiz types"
+msgstr "全部测试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:209
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:210
+msgid "Question Bank"
+msgstr "题库"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:211
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:17
+msgid "Question"
+msgstr "题库"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:212
+msgid "All Questions"
+msgstr "全部问题"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:233
+msgid "Question Tag"
+msgstr "问题标签"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:257
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:258
+msgid "Events"
+msgstr "专题时间"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:259
+msgid "Event"
+msgstr "活动"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:260
+msgid "Add New Events"
+msgstr "增加新活动事件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:261
+msgid "All Events"
+msgstr "所有的事项"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:282
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:283
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:284
+msgid "Event type"
+msgstr "活动事件类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:285
+msgid "Add New Event type"
+msgstr "增加新活动事件类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:286
+msgid "All Event types"
+msgstr "全部活动事件类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:307
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:308
+msgid "Assignments"
+msgstr "作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:309
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:18
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1647
+msgid "Assignment"
+msgstr "作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:310
+msgid "Add New Assignment"
+msgstr "增加新作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:311
+msgid "All Assignments"
+msgstr "全部作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:333
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:334
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:335
+msgid "Assignment type"
+msgstr "作业类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:336
+msgid "Add New Assignment type"
+msgstr "增加新作业类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:337
+msgid "All Assignment types"
+msgstr "全部作业类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:355
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:356
+msgid "Payments"
+msgstr "订单"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:357
+msgid "Payment"
+msgstr "订单"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:358
+msgid "Add New Payment"
+msgstr "增加新的订单"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:359
+msgid "Payouts"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:378
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:380
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:331
+msgid "Certificate Template"
+msgstr "证书模板"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:379
+msgid "Certificates Template"
+msgstr "证书模板"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:381
+msgid "Add New Certificate"
+msgstr "增加新证书"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:382
+msgid "Certificate Templates"
+msgstr "证书模板"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:401
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:402
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:403
+msgid "Linkage"
+msgstr "联系"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:404
+msgid "Add New Link"
+msgstr "增加新连接"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:405
+msgid "All Links"
+msgstr "全部链接"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:423
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:424
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:425
+msgid "Level"
+msgstr "级别"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:426
+msgid "Add New Level"
+msgstr "增加新的级别"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:427
+msgid "All Levels"
+msgstr "全部级别"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:446
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:447
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:448
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:892
+msgid "Location"
+msgstr "位置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:449
+#, fuzzy
+msgid "Add New Location"
+msgstr "增加新连接"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:450
+#, fuzzy
+msgid "All Locations"
+msgstr "位置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:473
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:474
+msgid "Testimonials"
+msgstr "成员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:475
+msgid "Testimonial"
+msgstr "成员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:476
+msgid "All Testimonials"
+msgstr "全体成员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:501
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:502
+msgid "Popups"
+msgstr "弹出窗口"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:503
+msgid "Popup"
+msgstr "弹出窗口"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom-post-types.php:504
+msgid "All Popups"
+msgstr "全部弹出窗口"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:27
+msgid "Post Sub-Title"
+msgstr "文章副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:28
+msgid "Post Sub- Title."
+msgstr "文章副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:35
+msgid "Post Template"
+msgstr "文章模板"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:36
+msgid "Select a post template for showing content."
+msgstr "为文章内容选择模板样式"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:40
+msgid "Content on Left"
+msgstr "内容左侧显示"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:41
+msgid "Content on Right"
+msgstr "内容右侧显示"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:42
+msgid "Full Width"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:47
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:147
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:158
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1039
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1622
+msgid "Sidebar"
+msgstr "侧边栏"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:48
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:159
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1040
+msgid "Select a Sidebar | Default : mainsidebar"
+msgstr "选择侧边栏 | 默认 : mainsidebar"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:54
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:111
+msgid "Show Page Title"
+msgstr "显示页面名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:55
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:112
+msgid "Show Page/Post Title."
+msgstr "显示页面/文章名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:67
+msgid "Show Author Information"
+msgstr "显示作者信息"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:68
+msgid "Author information below post content."
+msgstr "作者信息在文章下方显示"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:81
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:134
+msgid "Show Breadcrumbs"
+msgstr "显示面包屑"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:82
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:135
+msgid "Show breadcrumbs."
+msgstr "显示面包屑"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:93
+msgid "Show Prev/Next Arrows"
+msgstr "显示上/下箭头"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:94
+msgid "Show previous/next links on top below the Subheader."
+msgstr "在Subheader正下方显示前/下链接"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:126
+msgid "Page Sub-Title"
+msgstr "页面副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:127
+msgid "Page Sub- Title."
+msgstr "页面副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:148
+msgid "Select Sidebar | Sidebar : mainsidebar"
+msgstr "选择侧边栏 | 默认 : mainsidebar"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:166
+msgid "Total Duration of Course"
+msgstr "课程总时长"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:167
+#, php-format
+msgid "Duration of Course (in %s)"
+msgstr "课程时间(in %s)"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:173
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:403
+#, fuzzy
+msgid "Course Duration parameter"
+msgstr "课程分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:174
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:404
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:667
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:812
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1061
+#, fuzzy
+msgid "Duration parameter"
+msgstr "无效参数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:180
+msgid "Total number of Students in Course"
+msgstr "课程的全部学员人数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:181
+msgid "Total number of Students who have taken this Course."
+msgstr "学习课程总人数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:188
+#, fuzzy
+msgid "Offline Course"
+msgstr "在课程中包含"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:189
+#, fuzzy
+msgid "Make this an Offline Course"
+msgstr "在课程中包含"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:201
+#, fuzzy
+msgid "Show Unit content in Curriculum"
+msgstr "课程章节"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:202
+msgid ""
+"Display units content in Course Curriculum, unit content visible in "
+"curriculum. ( Recommended for Offline Courses )"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:215
+#, fuzzy
+msgid "Hide Course Button after subscription"
+msgstr "本年度月订购"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:216
+msgid ""
+"Hide Start Course/Continue Course button after Course is subscribed by user. "
+"( Recommended for Offline Courses )"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:229
+msgid "Display Course Progress on Course home"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:230
+msgid ""
+"Display User Course progress on Course page. ( Recommended for Offline "
+"Courses )"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:243
+msgid "Time based Course Progress "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:244
+msgid ""
+"Automatically generate course progress based on duration (number of months/"
+"weeks/days/hours) passed in course.( Recommended for Offline Courses )"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:257
+msgid "Post Course Reviews from Course Home"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:258
+msgid ""
+"Allow subscribed users to post Course reviews from Course home page. "
+"( Recommended for Offline Courses )"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:271
+msgid "Auto Evaluation"
+msgstr "自动评估"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:272
+#, fuzzy
+msgid ""
+"Evalute Courses based on Quizzes scores available in Course (* Requires at "
+"least 1 Quiz in course)"
+msgstr "根据测试结果进行评估（至少完成1个课程测试）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:284
+msgid "Course Start Date"
+msgstr "课程开始时间"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:285
+msgid "Date from which Course Begins"
+msgstr "从课程开始日期"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:290
+msgid "Maximum Students in Course"
+msgstr "课程最多人数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:291
+msgid "Maximum number of students who can pursue the course at a time."
+msgstr "同时学习课程学员最多人数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:296
+msgid "Excellence Badge"
+msgstr "优秀徽章"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:297
+#, fuzzy
+msgid "Upload badge image which Students receive upon course completion"
+msgstr "上传徽章用于学员完成课程奖励"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:303
+msgid "Badge Percentage"
+msgstr "徽章比例"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:304
+msgid "Badge is given to people passing above percentage (out of 100)"
+msgstr "徽章将给与完成课程百分比（百分之）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:310
+msgid "Badge Title"
+msgstr "徽章名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:311
+msgid "Title is shown on hovering the badge."
+msgstr "显示剩余徽章的标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:317
+msgid "Completion Certificate"
+msgstr "毕业证书"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:318
+#, fuzzy
+msgid ""
+"Enable Certificate image which Students receive upon course completion (out "
+"of 100)"
+msgstr "完成课程百分之的学员可获得证书"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:332
+msgid "Select a Certificate Template"
+msgstr "选择课程模板"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:339
+msgid "Passing Percentage"
+msgstr "通过率"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:340
+msgid "Course passing percentage, for completion certificate"
+msgstr "课程通过率"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:345
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:358
+msgid "Drip Feed"
+msgstr "协助"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:346
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:359
+msgid "Enable Drip Feed course"
+msgstr "可协助的课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:371
+#, fuzzy
+msgid "Section Drip Feed"
+msgstr "可协助的课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:372
+#, fuzzy
+msgid "Enable Section Drip Feed (default ) course"
+msgstr "可协助的课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:384
+#, fuzzy
+msgid "Drip Duration as Unit Duration"
+msgstr "订购时限"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:385
+msgid ""
+"Assume Drip duration same as Unit Duration. Duration between consecutive "
+"units."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:397
+#, fuzzy
+msgid "Drip Feed Duration (Static)"
+msgstr "协助时间"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:398
+msgid ""
+"Static duration, if Drip duration not equals Unit duration. This is the "
+"duration between consecutive Drip feed units (in "
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:410
+msgid "Course Curriculum"
+msgstr "课程章节"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:411
+#, fuzzy
+msgid ""
+"Set Course Curriculum, prepare units and quizzes before setting up curriculum"
+msgstr "设置课程大纲，课程设置之前准备的相关单元和测验"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:418
+msgid "Pre-Required Course"
+msgstr "课程需预修课"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:419
+msgid "Pre Required course for this course"
+msgstr "课程的预修课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:425
+msgid "Course Retakes"
+msgstr "重新学习课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:426
+msgid "Set number of times a student can re-take the course (0 to disable)"
+msgstr "设置学员重新学习课程次数（0表示禁止）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:432
+msgid "Course Forum"
+msgstr "课程论坛"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:433
+msgid "Connect Forum with Course."
+msgstr "链接课程论坛"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:439
+msgid "Course Group"
+msgstr "课程群组"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:440
+msgid "Connect a Group with Course."
+msgstr "链接课程群组"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:445
+msgid "Course specific instructions"
+msgstr "课程具体说明"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:446
+msgid ""
+"Course specific instructions which would be shown in the Start course/Course "
+"status page"
+msgstr "课程具体说明将在开始课程或课程状态中显示"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:452
+msgid "Course Completion Message"
+msgstr "课程完成信息"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:453
+msgid "This message is shown to users when they Finish submit the course"
+msgstr "当学员完成课程本通知将给其提示"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:456
+#, fuzzy
+msgid "This message is shown to the user when she finishes the course."
+msgstr "当学员完成课程本通知将给其提示"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:464
+msgid "Free Course"
+msgstr "免费课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:465
+#, fuzzy
+msgid "Set Course free for all Members"
+msgstr "课程对全部成员免费"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:477
+#, fuzzy
+msgid "Apply for Course"
+msgstr "全部课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:478
+#, fuzzy
+msgid "Invite Student applications for Course"
+msgstr "我的课程中学员总数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:479
+msgid ""
+"Students are required to Apply for course and instructor would manually "
+"approve them to course. Do not enable \"Free\" course with this setting."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:499
+msgid "PMPro Membership"
+msgstr "PMPro会员"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:500
+#, fuzzy
+msgid "Required Membership level for this course"
+msgstr "本课程需会员资格"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:514
+msgid "Associated Product"
+msgstr "相关商品"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:515
+msgid "Associated Product with the Course."
+msgstr "课程相关商品"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:526
+msgid "Video"
+msgstr "视频"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:527
+msgid "Audio"
+msgstr "音频"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:528
+msgid "Podcast"
+msgstr "博客"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:529
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:96
+msgid "General"
+msgstr "通用"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:533
+msgid "Unit Description"
+msgstr "单元描述"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:534
+msgid "Small Description."
+msgstr "简短说明"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:540
+msgid "Unit Type"
+msgstr "单元类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:541
+msgid "Select Unit type from Video , Audio , Podcast, General , "
+msgstr "为单元选择视频、音频、博客或通用类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:548
+msgid "Free Unit"
+msgstr "免费单元"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:549
+msgid "Set Free unit, viewable to all"
+msgstr "设置免费单元"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:561
+msgid "Unit Duration"
+msgstr "单元时长"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:562
+msgid "Duration in "
+msgstr "期限："
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:567
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:568
+#, fuzzy
+msgid "Unit Duration parameter"
+msgstr "单元时长"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:574
+msgid "Connect Assignments"
+msgstr "分配链接"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:575
+msgid "Select an Assignment which you can connect with this Unit"
+msgstr "选择你所链接的单元"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:583
+msgid "Unit Forum"
+msgstr "单元论坛"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:584
+msgid "Connect Forum with Unit."
+msgstr "链接单元论坛"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:593
+msgid "True or False"
+msgstr "真假"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:594
+msgid "Multiple Choice"
+msgstr "多选题"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:595
+msgid "Multiple Correct"
+msgstr "多选正确"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:596
+msgid "Sort Answers"
+msgstr "答案类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:597
+msgid "Match Answers"
+msgstr "匹配答案"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:598
+msgid "Fill in the Blank"
+msgstr "填空"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:599
+msgid "Dropdown Select"
+msgstr "列表形式选择"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:600
+msgid "Small Text"
+msgstr "小文本框"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:601
+msgid "Large Text"
+msgstr "大文本框"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:605
+msgid "Question Type"
+msgstr "问题类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:606
+msgid "Select Question type, "
+msgstr "选择问题类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:613
+msgid "Question Options (For Single/Multiple/Sort/Match Question types)"
+msgstr "问题选项（单选/多项/排序/匹配）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:614
+msgid "Single/Mutiple Choice question options"
+msgstr "单选/多选题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:619
+msgid "Correct Answer"
+msgstr "正确答案 :"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:620
+msgid ""
+"Enter (1 = True, 0 = false ) or Choice Number (1,2..) or comma saperated "
+"Choice numbers (1,2..) or Correct Answer for small text (All possible "
+"answers comma saperated) | 0 for No Answer or Manual Check"
+msgstr ""
+"输入 (1 = 真, 0 = 假 ) 或者选择数字 (1,2..) 并用逗号分开所选数字 (1,2..) 或在"
+"小文本框中输入 (并用逗号分隔开) | 0 表示无答案或手动检查"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:626
+msgid "Answer Hint"
+msgstr "答案提示"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:627
+msgid "Add a Hint/clue for the answer to show to student"
+msgstr "为学员添加答案提示"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:633
+#, fuzzy
+msgid "Answer Explanation"
+msgstr "答案解析"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:634
+#, fuzzy
+msgid "Add Answer explanation"
+msgstr "添加答案解析"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:644
+msgid "Quiz Subtitle"
+msgstr "考试副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:645
+msgid "Quiz Subtitle."
+msgstr "考试副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:651
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1204
+msgid "Connected Course"
+msgstr "链接课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:656
+msgid ""
+"Connecting a quiz with a course would force the quiz to be available to "
+"users who have taken the course."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:659
+msgid "Quiz Duration"
+msgstr "考试时长"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:660
+msgid "Quiz duration in "
+msgstr "考试时长"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:660
+msgid " Enables Timer & auto submits on expire. 9999 to disable."
+msgstr "允许在规定时间提交或自动提交，9999不可用"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:666
+#, fuzzy
+msgid "Quiz Duration parameter"
+msgstr "考试时长"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:673
+msgid "Auto Evaluate Results"
+msgstr "自动评估结果"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:674
+msgid ""
+"Evaluate results as soon as quiz is complete. (* No Large text questions ), "
+"Diable for manual evaluate"
+msgstr "当考试评估完成（无大文字题），将自动进行评估"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:686
+msgid "Number of Extra Quiz Retakes"
+msgstr "重新考试次数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:687
+msgid ""
+"Student can reset and start the quiz all over again. Number of Extra retakes "
+"a student can take."
+msgstr "学员可重新考试，测试次数将会记录"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:693
+msgid "Post Quiz Message"
+msgstr "发布考试通知"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:694
+msgid "This message is shown to users when they submit the quiz"
+msgstr "用户提交考试后会显示该通知"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:700
+msgid "Dynamic Quiz"
+msgstr "动态考试"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:701
+msgid "Dynamic quiz automatically selects questions."
+msgstr "系统会自动选择动态考试题目"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:713
+msgid "Dynamic Quiz Question tags"
+msgstr "动态考试标签"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:714
+msgid ""
+"Select Question tags from where questions will be selected for the quiz."
+"(required if dynamic enabled)"
+msgstr "动态考试标签将会从考试中选取（若动态考试已启动）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:721
+msgid "Number of Questions in Dynamic Quiz"
+msgstr "动态考试题目数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:722
+msgid ""
+"Enter the number of Questions in the dynamic quiz. (required if dynamic "
+"enabled)."
+msgstr "输入动态考试题目数（若动态考试已启用）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:728
+msgid "Marks per Question in Dynamic Quiz"
+msgstr "给动态考试题设置分值"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:729
+msgid ""
+"Enter the number of marks per Questions in the dynamic quiz. (required if "
+"dynamic enabled)."
+msgstr "输入每个动态考试题的分值（若动态考试已启用）"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:735
+msgid "Randomize Quiz Questions"
+msgstr "随机抽取考试题"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:736
+msgid "Random Question sequence for every quiz"
+msgstr "每个考试题均随机抽取"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:748
+msgid "Quiz Questions"
+msgstr "考试题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:749
+msgid "Quiz questions for Static Quiz only"
+msgstr "静态考试题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:761
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:377
+msgid "Author Name"
+msgstr "作者名"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:762
+msgid "Enter the name of the testimonial author."
+msgstr "输入证书作者名"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:767
+msgid "Designation"
+msgstr "名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:768
+msgid "Enter the testimonial author's designation."
+msgstr "输入证书作者名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:785
+msgid "Associated Courses"
+msgstr "相关课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:786
+msgid "Associated Courses with this product. Enables access to the course."
+msgstr "允许访问课程相关商品"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:792
+msgid "Subscription "
+msgstr "订购"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:793
+msgid "Enable if Product is Subscription Type (Price per month)"
+msgstr "若商品已是订阅类型可启用（每月价格）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:805
+msgid "Subscription Duration"
+msgstr "订购时限"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:806
+msgid "Duration for Subscription Products (in "
+msgstr "商品订购时限"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:811
+msgid "Product Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:822
+msgid "Event Sub-Title"
+msgstr "活动副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:823
+msgid "Event Sub-Title."
+msgstr "活动副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:830
+msgid "Select Course for which the event is valid"
+msgstr "选择有效的课程活动"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:836
+msgid "Connect an Assignment"
+msgstr "链接分配"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:837
+msgid "Select an Assignment which you can connect with this Event"
+msgstr "选择你可以链接到活动"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:843
+msgid "Event Icon"
+msgstr "活动图标"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:844
+msgid "Click on icon to  select an icon for the event"
+msgstr "给活动选择图标"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:849
+msgid "Event Color"
+msgstr "活动颜色"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:850
+msgid "Select color for Event"
+msgstr "给活动选择颜色"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:855
+msgid "Start Date"
+msgstr "开始日期"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:856
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:868
+msgid "Date from which Event Begins"
+msgstr "活动开始日期"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:861
+msgid "End Date"
+msgstr "结束日期"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:862
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:874
+msgid "Date on which Event ends."
+msgstr "活动结束日期"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:867
+msgid "Start Time"
+msgstr "开始时间"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:873
+msgid "End Time"
+msgstr "结束时间"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:879
+msgid "Show Location"
+msgstr "显示位置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:880
+msgid "Show Location and Google map with the event"
+msgstr "用地图显示专题地点"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:893
+msgid "Location of event"
+msgstr "活动地点"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:898
+msgid "Additional Information"
+msgstr "附加信息"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:899
+msgid "Point wise Additional Information regarding the event"
+msgstr "关于活动附件信息"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:904
+msgid "More Information"
+msgstr "更多信息"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:905
+msgid "Supports HTML and shortcodes"
+msgstr "支持HTML、简码"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:910
+#, fuzzy
+msgid "All Day"
+msgstr "全部标签"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:911
+#, fuzzy
+msgid "An all Day event"
+msgstr "所有的事项"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:923
+msgid "Private Event"
+msgstr "私人活动"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:924
+msgid "Only Invited participants can see the Event"
+msgstr "只限受邀请会员可看见活动"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:941
+msgid "Associated Product for Event Access"
+msgstr "活动相关商品"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:942
+msgid "Purchase of this product grants Event access to the member."
+msgstr "成员购买本活动门票"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:953
+msgid "From"
+msgstr "从:"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:954
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:960
+msgid "Date on which Payment was done."
+msgstr "购买截止日期"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:959
+msgid "To"
+msgstr "至"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:965
+msgid "Instructor and Commissions"
+msgstr "讲师与佣金"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:966
+msgid "Instructor commissions"
+msgstr "讲师佣金"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:975
+msgid "Background Image/Pattern"
+msgstr "背景图/类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:976
+msgid "Add background image"
+msgstr "添加背景"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:981
+#, fuzzy
+msgid "Enable Print & PDF"
+msgstr "启动打印"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:982
+#, fuzzy
+msgid ""
+"Displays a Print and Download as PDF Button on top right corner of "
+"certificate"
+msgstr "在证书右上角显示打印按钮"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:994
+#, fuzzy
+msgid "Certificate Width"
+msgstr "证书模板"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:995
+#, fuzzy
+msgid "Add certificate width"
+msgstr "增加新证书"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1000
+#, fuzzy
+msgid "Certificate Height"
+msgstr "证书模板"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1001
+#, fuzzy
+msgid "Add certificate height"
+msgstr "增加新证书"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1006
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1166
+msgid "Custom Class"
+msgstr "自定义类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1007
+msgid "Add Custom Class over Certificate container."
+msgstr "为证书添加自定义类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1012
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1013
+msgid "Add Custom CSS for Certificate."
+msgstr "为证书添加自定义CSS"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1018
+msgid "NOTE:"
+msgstr "提示:"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1019
+#, fuzzy
+msgid ""
+" USE FOLLOWING SHORTCODES TO DISPLAY RELEVANT DATA : <br />1. <strong>"
+"[certificate_student_name]</strong> : Displays Students Name<br />2. <strong>"
+"[certificate_course]</strong> : Displays Course Name<br />3. <strong>"
+"[certificate_student_marks]</strong> : Displays Students Marks in Course<br /"
+">4. <strong>[certificate_student_date]</strong>: Displays date on which "
+"Certificate was awarded to the Student<br />5. <strong>"
+"[certificate_student_email]</strong>: Displays registered email of the "
+"Student<br />6. <strong>[certificate_code]</strong>: Generates unique code "
+"for Student which can be validated from Certificate page.<br />7. <strong>"
+"[course_completion_date]</strong>: Displays course completion date from "
+"course activity."
+msgstr ""
+"使用以下编码显示相关资料：<br />1. <strong>[certificate_student_name]</"
+"strong> : 显示学生名<br />2. <strong>[certificate_course]</strong> : 显示课程"
+"名<br />3. <strong>[certificate_student_marks]</strong> : 显示课程得分<br /"
+">4. <strong>[certificate_student_date]</strong>: 显示学员所获得证书<br />5. "
+"<strong>[certificate_student_email]</strong>: 显示学员注册邮箱<br />6. "
+"<strong>[certificate_code]</strong>: 学员在证书页面将给学员申请唯一的代码."
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1032
+msgid "Assignment Sub-Title"
+msgstr "作业副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1033
+msgid "Assignment Sub-Title."
+msgstr "作业副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1046
+msgid "Assignment Maximum Marks"
+msgstr "作业最高得分"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1047
+msgid "Set Maximum marks for the assignment"
+msgstr "设置作业最高得分"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1053
+#, fuzzy, php-format
+msgid "Assignment Maximum Time limit %s"
+msgstr "作业最大时限"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1054
+msgid "Set Maximum Time limit for Assignment ( in "
+msgstr "设置作业最大时限"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1060
+#, fuzzy
+msgid "Assignment Duration parameter"
+msgstr "自动评估"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1067
+msgid "Include in Course Evaluation"
+msgstr "包含课程评估"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1068
+msgid "Include assignment marks in Course Evaluation"
+msgstr "在课程评估中包含作业得分"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1080
+msgid "Include in Course"
+msgstr "在课程中包含"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1081
+msgid "Assignments marks will be shown/used in course evaluation"
+msgstr "作业得分将展示/用户课程评估中"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1087
+msgid "Assignment Submissions"
+msgstr "提交作业"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1088
+msgid "Select type of assignment submissions"
+msgstr "选择提交作业类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1098
+msgid "Attachment Type"
+msgstr "附件类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1099
+msgid "Select valid attachment types "
+msgstr "选择有效的附件类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1140
+msgid "Attachment Size (in MB)"
+msgstr "附件大小（MB)"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1141
+msgid "Set Maximum Attachment size for upload ( set less than "
+msgstr "设置上传附件大小（不超过"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1152
+msgid "Width (in px)"
+msgstr "宽度（px)"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1153
+msgid "Set Maximum width of popup"
+msgstr "设置弹出窗口最大宽度"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1159
+msgid "Height (in px)"
+msgstr "高度（px)"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1160
+msgid "Set Maximum height of popup "
+msgstr "设置弹出窗口最大高度"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1167
+msgid "Add custom class to popup "
+msgstr "给弹出窗口设置类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1173
+msgid "Add Custom CSS"
+msgstr "添加自定义CSS"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1174
+msgid "Custom CSS for Popup"
+msgstr "弹出窗口自定义CSS"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1205
+msgid "Connect this question to a course"
+msgstr "链接问题到课程中"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1211
+msgid "Connected Unit"
+msgstr "单元已链接"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1212
+msgid "Connect this question to a Unit"
+msgstr "链接次问题到单元中"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1220
+msgid "Post Settings"
+msgstr "文章设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1221
+msgid "Page Settings"
+msgstr "页面设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1223
+msgid "Course Settings"
+msgstr "课程设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1225
+msgid "Course Product"
+msgstr "商品课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1227
+msgid "Course Membership"
+msgstr "课程成员"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1230
+msgid "Unit Settings"
+msgstr "单元设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1232
+msgid "Question Settings"
+msgstr "问题设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1233
+msgid "Quiz Settings"
+msgstr "考试设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1238
+msgid "Testimonial Author Information"
+msgstr "证书作者信息"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1239
+msgid "Payments Settings"
+msgstr "订单设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1240
+msgid "Certificate Template Settings"
+msgstr "证书模板设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1241
+msgid "Popup Settings"
+msgstr "弹出窗口设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1247
+msgid "Product Course Settings"
+msgstr "商品课程设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1252
+msgid "WPLMS Events Settings"
+msgstr "WPLMS活动设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1257
+msgid "WPLMS Assignments Settings"
+msgstr "WPLMS作业设置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/custom_meta_boxes.php:1266
+msgid "Page Builder"
+msgstr "生成页面"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "请输入 Envato Marketplace 用户名"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "请输入您  Envato Marketplace API秘钥"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"set\" 为必填参数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace \"ID de item\" 为必填参数"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "API请求期间，出现意外的HTTP错误"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:376
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "再试一次"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "出现未知错误"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr "插件已更新，但未被激活，请手动激活"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "插件已成功激活"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "更新插件"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "用户名:"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "邮件"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "密码:"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>插件更新已 <span style=\"color:green\">启用</span></p>"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>你输入的<span style=\"color:red\">无效</span>, 自动更新 <span style="
+"\"color:red\">无法启动</span>.</p>"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "编辑秘钥"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p> 无法验证更新已启用</ p>"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "添加秘钥"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "用户名"
+
+# @ text-domain
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:638
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:597
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:613
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:741
+msgid "Email"
+msgstr "邮件"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr " Themeforest 用户名(用于自动更新)"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:11
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:750
+msgid "Select Module"
+msgstr "选择类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:21
+msgid "Select a WPLMS Module Type"
+msgstr "选择WPLMS类型样式"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:24
+msgid "Set Taxonomy"
+msgstr "设置分类"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:26
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:33
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:40
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:386
+msgid "All"
+msgstr "全部"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:28
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:35
+msgid "Optional"
+msgstr "可选"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:31
+msgid "Set Taxonomy Term"
+msgstr "设置分类条件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:38
+msgid "Specific Module/s Ids"
+msgstr "具体类型/ID"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:42
+msgid "Optional, Enter comma saperated modules for more than one module"
+msgstr "可选，输入超过一个类型时用逗号分开"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:45
+msgid "Export content"
+msgstr "导出内容"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:48
+msgid "Export content of the module"
+msgstr "导出类型内容"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:51
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:54
+msgid "Export module settings"
+msgstr "导出模块设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:57
+msgid "Export Taxonomies"
+msgstr "导出分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:60
+msgid "Optional taxonomies and relationships"
+msgstr "可选分类或关系"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:63
+msgid "Export Comments"
+msgstr "导出评论"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:66
+msgid "Exports reviews for courses, Answers for Questions and Assignments"
+msgstr "输出查看课程，回答问题以及作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:69
+msgid "Export connected modules"
+msgstr "导出链接模块"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:72
+msgid ""
+"Export connected modules, like units,quizzes,assignments with courses, "
+"questions with quizzes etc."
+msgstr "导出链接模块，像课程的单元，测试，作业，问答等"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:75
+msgid "Export Users"
+msgstr "导出用户"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:78
+msgid "Export user profiles"
+msgstr "导出用户资料"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:81
+msgid "Export Connected User data"
+msgstr "导出已链接的用户数据"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:84
+msgid "Export user statuses for module/sub-modules"
+msgstr "向模块或者次级模块导出用户状态"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:87
+msgid "Start Point"
+msgstr "开始时间"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:91
+msgid "Starting Key count for module, recommended for larger exports"
+msgstr "开始的模块主要计数，建议较大的输出"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:94
+msgid "Number of Modules"
+msgstr "模块数量"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:98
+msgid "Maximum number of modules to import"
+msgstr "最大导入模块量"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:137
+msgid "Generate Export File"
+msgstr "生成导出文件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:139
+msgid "Download Export File"
+msgstr "下载导出文件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:188
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:226
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:372
+msgid "Type"
+msgstr "类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:189
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:227
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1341
+msgid "Title"
+msgstr "标题"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:190
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:228
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:374
+msgid "Date"
+msgstr "时间"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:191
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:229
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:373
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1415
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1418
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1459
+msgid "Content"
+msgstr "内容:"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:192
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:230
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:376
+msgid "Author ID"
+msgstr "作者ID"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:193
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:231
+msgid "Excerpt"
+msgstr "摘要"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:194
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:232
+msgid "Status"
+msgstr "状态"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:195
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:233
+msgid "Slug"
+msgstr "标签"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:196
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:234
+msgid "Review/Note/Answer Count"
+msgstr "查看/笔记/回答总数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:265
+msgid "Terms"
+msgstr "条件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:278
+msgid "User Details"
+msgstr "用户详情"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:371
+msgid "Connected Post"
+msgstr "文章已链接"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:375
+msgid "Parent ID"
+msgstr "父级ID"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:378
+msgid "Author Email"
+msgstr "作者邮件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:481
+msgid "User Timestamp"
+msgstr "用户时间戳"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.export.php:484
+msgid "User status"
+msgstr "用户状态"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:8
+msgid "IMPORT SETTINGS"
+msgstr "导入设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:10
+#, php-format
+msgid "Select File to upload [ Maximum upload size %s MB(s) ]"
+msgstr "选择上传文件（最大上传  %s MB(s)）"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:12
+msgid "Upload File"
+msgstr "上传文件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:27
+msgid "Invalid parameters."
+msgstr "无效参数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:35
+msgid "No file sent."
+msgstr "未发送文件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:38
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:45
+msgid "Exceeded filesize limit."
+msgstr "超出文件大小限制"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:40
+msgid "Unknown errors."
+msgstr "未知错误"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:58
+msgid "Invalid file format."
+msgstr "文件格式错误"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:62
+msgid "Import Complete"
+msgstr "导入完成"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:64
+msgid "Import Failed"
+msgstr "导入失败"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/class.import.php:239
+msgid "Unable to Create user"
+msgstr "无法创建用户"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:19
+msgid "Unknown error."
+msgstr "未知错误"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:26
+msgid "Please save the changes again."
+msgstr "请保存修改设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:27
+msgid "Some Uknown issue appeared, please contact us."
+msgstr "出现位置错误，请联系我们"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:28
+msgid "Please save the Page Builder changes !"
+msgstr "请保存修改生成页面"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:29
+msgid "Requested Slider was not found, Please check slider post id !"
+msgstr "Slider未找到，请检查Slider发布ID"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:30
+msgid "No Posts Id's found in given Custom Post Type."
+msgstr "自定义文章类型中未找到文章ID"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:31
+msgid "Author Information missing."
+msgstr "未找到作者信息"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:32
+msgid "You do not have permission to do that."
+msgstr "你无权限执行此项"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:33
+msgid "Unable to get tweets from Twitter !"
+msgstr "无法连接到Twitter!"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:34
+msgid "No public tweets found on Twitter !"
+msgstr "未找到发布的tweets"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:35
+msgid "Term : Taxonomy Mismatch: Selected Term does not exist in Taxonomy !"
+msgstr "条款：分类不匹配，所选的条款在分类中不存在"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:36
+msgid ""
+"Post Type : Taxonomy Mismatch: Selected Taxonomy does not exist in Post "
+"Type !"
+msgstr "文章类型：分类不匹配，所选的文章在分类中不存在"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:37
+msgid "Featured Component does not Exist !"
+msgstr "功能组件不存在"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:38
+msgid "Incorrect or Incompatible Audio Format !"
+msgstr "音频格式不正确"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:39
+msgid "Incorrect or Incompatible Video Embed Code !"
+msgstr "视频存在错误代码"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:40
+msgid "Modal ID Incorrect, please recheck !"
+msgstr "Modal ID错误，请检查"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:41
+msgid "Testimonial ID Incorrect, please recheck !"
+msgstr "证书ID错误，请检查"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:42
+msgid "Post ID Incorrect, please recheck !"
+msgstr "文章ID错误，请检查"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:55
+msgid "Seconds"
+msgstr "秒"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:56
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:288
+msgid "Minutes"
+msgstr "分"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:57
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:289
+msgid "Hours"
+msgstr " 小时"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:58
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:290
+msgid "Days"
+msgstr "天"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:59
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:291
+msgid "Weeks"
+msgstr "周"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:60
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:292
+msgid "Months"
+msgstr "月"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/errorhandle.php:61
+msgid "Years"
+msgstr "年"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:8
+msgid "Read more"
+msgstr "更多"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:123
+msgid "REVIEWS"
+msgstr "查看"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:178
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:305
+msgid " Comments"
+msgstr "评论"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:249
+msgid "Event "
+msgstr "活动"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:254
+msgid "Start Date "
+msgstr "开始日期"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:257
+msgid "End Date "
+msgstr "结束日期"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:261
+msgid "Start Time "
+msgstr "开始时间"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:264
+msgid "End Time "
+msgstr "结束时间"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:267
+#, fuzzy
+msgid "All Day "
+msgstr "全部标签"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:267
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:591
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:595
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:599
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:607
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:611
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:615
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1222
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1262
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:983
+msgid "Yes"
+msgstr "是"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:270
+msgid "Frequency "
+msgstr "频率"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:270
+msgid "Every "
+msgstr "每个"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:270
+msgid "for "
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:273
+msgid "Venue "
+msgstr "地点"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/featured.php:276
+msgid "View full details"
+msgstr "查看全部细节"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:97
+#, fuzzy
+msgid "Commissions"
+msgstr "委员会"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:98
+msgid "Admin Functions"
+msgstr "管理员功能"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:99
+msgid "Import/Export"
+msgstr "导入/导出"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:100
+msgid "Touch Points"
+msgstr ""
+
+# @ text-domain
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:101
+#, fuzzy
+msgid "Emails"
+msgstr "邮件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:102
+msgid "AddOns"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:203
+#, fuzzy
+msgid "Settings Saved"
+msgstr "设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:205
+#, fuzzy
+msgid "Unable to Save settings"
+msgstr "无法创建用户"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:211
+msgid "LMS General Settings"
+msgstr "LMS常规设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:215
+msgid "Student Login redirect"
+msgstr "定位学员登录"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:219
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:233
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:553
+msgid "Disable"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:220
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:234
+msgid "Home page"
+msgstr "首页"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:221
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:235
+msgid "Profile page"
+msgstr "档案资料页"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:222
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:236
+msgid "My Courses page"
+msgstr "我的课程页面"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:223
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:238
+msgid "Dashboard page"
+msgstr "控制面板页面"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:224
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:239
+#, fuzzy
+msgid "Same page"
+msgstr "首页"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:226
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:241
+#, fuzzy
+msgid "Default is home page"
+msgstr "默认当前页面"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:229
+msgid "Instructor Login redirect"
+msgstr "定位讲师登录"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:237
+msgid "Instructing Courses page"
+msgstr "讲师课程页面"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:244
+msgid "Disable ajax in Course unit load"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:247
+msgid "Ajax disabled in course unit loads"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:250
+msgid "Hide Members section in Single Course page"
+msgstr "在单课程页面中隐藏会员内容"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:253
+msgid " Hides member section in course pages"
+msgstr "在课程页面中隐藏会员内容"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:256
+msgid "Show curriculum below Course description"
+msgstr "在课程简述下方显示课程目录"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:259
+msgid "Show curriculum below course description"
+msgstr "在课程简述下方显示课程目录"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:262
+#, fuzzy
+msgid "Show Unit Description in Course curriculum"
+msgstr "课程章节"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:265
+msgid "Unit descriptions appear below Unit titles in Course curriculum"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:268
+msgid "Course Timeline Accordion style"
+msgstr "课程时间轴折叠样式"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:271
+msgid "Show curriculum accordion style"
+msgstr "课程时间轴折叠样式"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:274
+msgid "Show User progress in Course Admin"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:277
+msgid ""
+"Small progress bar is displayed for every user below her name in course -> "
+"admin section"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:280
+msgid "Enable Unit/Quiz Start Date time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:283
+msgid "Units and Quizzes start at a particular date and time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:286
+msgid "Enable One session per user"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:289
+msgid "A User can login from one unique user id (excludes administrators)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:292
+msgid "Enable In-Course Quiz"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:295
+msgid "Quizzes open inside course like units"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:298
+msgid "In-Course Quiz questions per page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:301
+msgid "set number of questions appearing per page in in-course quizzes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:304
+msgid "Hide Administrators in Instructors"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:307
+msgid "Hide Administrator in all instructors page & elsewhere"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:310
+#, fuzzy
+msgid "Enable message to Instructor in Course Page"
+msgstr "讲师课程页面"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:313
+msgid "Enables a Message icon to send message to Instructor"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:316
+msgid "Enable Create course button in instrcutor profile menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:318
+msgid "Adds a create course link in intrutor profile menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:322
+#, fuzzy
+msgid "Enable Course Codes"
+msgstr "学习课程的全部学员人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:324
+msgid ""
+"Student can purchase/access courses by using custom defined codes for "
+"courses in course pricing section"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:328
+#, fuzzy
+msgid "Enable Course external link"
+msgstr "学习课程的全部学员人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:330
+msgid ""
+"Connect \"Take this Course\" button with an external link, defined in Course "
+"Pricing section."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:334
+#, fuzzy
+msgid "Unit Comments/Notes"
+msgstr "评论"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:336
+msgid ""
+"Enable Unit Comments only where Unit comments are enabled in post settings."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:340
+msgid "Coming soon courses"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:342
+msgid "Enable coming soon option for courses"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:346
+msgid "Enable Unit Time as Drip Duration"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:348
+msgid "Drip feed is applied based on specified Unit time."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:352
+#, fuzzy
+msgid "Enable Section Drip feed"
+msgstr "可协助的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:354
+msgid "Drip feed is applied section wise instead of unit wise."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:358
+msgid "Enable passing score for Quiz"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:360
+#, fuzzy
+msgid "Student progress to next"
+msgstr "定位学员登录"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:364
+#, fuzzy
+msgid "Hide correct answers"
+msgstr "正确答案 :"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:366
+msgid ""
+"Correct answers in quizzes are not displayed unless student has finished/"
+"submitted the course."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:370
+msgid "Enable negative marking"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:372
+msgid "Enables negative marking for questions in quizzes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:376
+msgid "Show WooCommerce/Pmpro account in profile"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:378
+msgid "Display WooCommerce account in profile"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:382
+#, fuzzy
+msgid "Enable Front end course deletion"
+msgstr "可协助的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:384
+msgid ""
+"Instructors will be able to delete course and related content from front end"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:388
+msgid "Disable Auto allocation of Free courses"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:390
+msgid "Disables auto allocation of free courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:394
+#, fuzzy
+msgid "Show Assignments in Course Curriculum"
+msgstr "课程章节"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:396
+#, fuzzy
+msgid "Assignments will be displayed in Course Curriculum"
+msgstr "作业得分将展示/用户课程评估中"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:400
+#, fuzzy
+msgid "Enable Student menus"
+msgstr "学员总人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:402
+msgid "Adds New menu locations for Students"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:406
+#, fuzzy
+msgid "Enable Instructor menus"
+msgstr "教员总人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:408
+msgid "Adds New menu locations for Instructors"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:412
+#, fuzzy
+msgid "Enable Course forum privacy"
+msgstr "学习课程的全部学员人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:414
+msgid "Only course students can access course forums"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:418
+msgid "Display Submission time in Course/Quiz/Assignment submissions"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:421
+msgid ""
+"Displays time (eg 2 hrs) with manual submissions, * requires activity to be "
+"enabled"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:424
+msgid "Set a terms and conditions page for BuddyPress registration"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:428
+msgid "Set a terms and conditions page in BuddPress registration."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:431
+msgid "Default order in course directory"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:435
+#, fuzzy
+msgid "Recent"
+msgstr "最近"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:436
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:450
+msgid "Alphabetical"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:437
+#, fuzzy
+msgid "Number of Students"
+msgstr "学员人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:438
+msgid "Rating"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:440
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:452
+#, fuzzy
+msgid "Default is menu order"
+msgstr "默认当前页面"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:443
+msgid "Default order in Members directory (clear cookies to test)"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:447
+msgid "None"
+msgstr "无"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:448
+msgid "Last active"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:449
+msgid "Newest registered"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:455
+msgid "Limit Number of Courses per Instructor"
+msgstr "限制每个课程讲师的数量"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:458
+msgid "( 0 for unlimited course per instructor )"
+msgstr "( 0 表示每个讲师的课程无限制 )"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:461
+msgid "Limit Number of Units Created per Instructor"
+msgstr "每个讲师课程单元创建数受限制"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:464
+msgid " ( 0 for unlimited )"
+msgstr "（0为不限制）"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:467
+msgid "Limit Number of Quiz Created per Instructor "
+msgstr "每个讲师的考试创建数受限制"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:470
+msgid "(0 for unlimited course per instructor )"
+msgstr "( 0 表示每个讲师的课程无限制 )"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:501
+msgid "You have reached your monthly post limit"
+msgstr "你已达到每月限制上线"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:506
+msgid "LMS Admin Functions [ For Ad-Hoc Management]"
+msgstr "LMS 管理员功能"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:508
+msgid "Custom Field Value"
+msgstr "自定义文件值"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:509
+msgid "Custom Field for Student Value"
+msgstr "自定义区域的学员值"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:510
+msgid "Current Time Stamp "
+msgstr "当前时间戳"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:554
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:811
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:731
+msgid "Select"
+msgstr "选择"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:587
+msgid "STUDENT"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:589
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:605
+msgid "Message"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:590
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:594
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:598
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:606
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:610
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:614
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1221
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1261
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:983
+msgid "No"
+msgstr "否"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:593
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:609
+#, fuzzy
+msgid "Notification"
+msgstr "位置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:603
+msgid "INSTRUCTOR"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:631
+msgid "Save Settings"
+msgstr "保存设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:635
+#, fuzzy
+msgid "Instructor Commissions"
+msgstr "讲师佣金"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:636
+msgid "Configure and pay commissions to instructors."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:639
+msgid "Set Commissions"
+msgstr "设置职权"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:640
+msgid "Pay Commissions"
+msgstr "支付委托"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:673
+msgid "Field Value Changed"
+msgstr "区域值已修改"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:675
+msgid "Error Field value not changed"
+msgstr "修改区域值发生错误"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:677
+msgid "Error Field value not entered"
+msgstr "输入区域值发生错误"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:690
+msgid "Student Value Changed"
+msgstr "学员值已修改"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:692
+msgid "Student value not changed"
+msgstr "学员值已修改"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:694
+msgid "Student value not entered"
+msgstr "学员值未输入"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:701
+msgid "Set Instructor Commisions"
+msgstr "设置讲师权限"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:705
+msgid "Instructor Commissions Saved"
+msgstr "讲师权限已保"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:707
+msgid "Instructor Commissions not saved, contact Site-Admin !"
+msgstr "讲师权限无法保存，请联系管理员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:716
+msgid "Course Name"
+msgstr "课程名字"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:716
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:22
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:753
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:825
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:741
+msgid "Instructor"
+msgstr "教员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:716
+msgid "PERCENTAGE"
+msgstr "占百分比"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:758
+msgid "Set Commisions"
+msgstr "设置权限"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:763
+msgid "Pay Instructor Commisions"
+msgstr "支付讲师佣金"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:773
+#, php-format
+msgid "Commission Payments on %s"
+msgstr "%s 的佣金已支付"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:781
+msgid " Commission Payments Saved"
+msgstr "支付佣金已保存"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:783
+msgid "Commission payments not saved !"
+msgstr "支付佣金未保存"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:794
+msgid "CHECK NOW"
+msgstr "CHECK NOW!"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:801
+msgid "SET TIME PERIOD"
+msgstr "设定时间"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:811
+msgid "Instructor Name"
+msgstr "讲师名字"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:811
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:741
+msgid "Commission"
+msgstr "委员会"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:811
+msgid "PAYPAL EMAIL"
+msgstr "Paypal邮箱"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:811
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:833
+msgid "Pay via PayPal"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:841
+#, fuzzy
+msgid "Instructor Commission"
+msgstr "讲师佣金"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:850
+msgid "Mark as Paid"
+msgstr "支付已标记"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:870
+msgid "Import/Export WPLMS Elements"
+msgstr "导入/导出WPLMS 部件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:871
+msgid ""
+"Download and upload in CSV format. Import/Export WPLMS elements with user "
+"statuses: Courses, Quizzes, Units, Assignments, Questions and Events."
+msgstr ""
+"下载和上传CSV格式。导入/导出WPLMS与用户状态的要素：课程，测验，单位，分配，问"
+"题和事件。"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:873
+msgid "EXPORT SETTINGS"
+msgstr "导出设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:889
+msgid "User Touch Points"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:890
+msgid ""
+"Set touch points for Students and Instructors in WPLMS. Connect with Student "
+"or Instructor via following touch points"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:902
+#, fuzzy
+msgid "Annoucements"
+msgstr "作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:909
+msgid "News"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:916
+#, fuzzy
+msgid "Course Subscribed"
+msgstr "重新学习课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:923
+#, fuzzy
+msgid "User added to Course"
+msgstr "在课程中包含"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:930
+#, fuzzy
+msgid "User Starts a Course "
+msgstr "在课程中包含"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:938
+#, fuzzy
+msgid "Course Certificate"
+msgstr "毕业证书"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:945
+#, fuzzy
+msgid "Course Badge"
+msgstr "课程名字"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:953
+#, fuzzy
+msgid "Course Reset by Instructor"
+msgstr "教员已评估完成的课程总数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:960
+#, fuzzy
+msgid "Course Retake by User"
+msgstr "重新学习课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:967
+#, fuzzy
+msgid "Course Submit"
+msgstr "课程论坛"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:974
+#, fuzzy
+msgid "Course Evaluation"
+msgstr "包含课程评估"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:981
+#, fuzzy
+msgid "Course Reviews"
+msgstr "重新学习课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:988
+#, fuzzy
+msgid "Unsubscribe Course"
+msgstr "相关课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:995
+msgid "Unit marked complete by User"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1002
+msgid "Unit marked complete by Instructor for Student"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1009
+msgid "Unit marked uncomplete by Instructor for Student"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1016
+msgid "Unit comment added by User"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1024
+msgid "Quiz Start by user"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1031
+#, fuzzy
+msgid "Quiz Submitted by user"
+msgstr "考试副标题"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1038
+#, fuzzy
+msgid "Quiz Reset by Instructor"
+msgstr "教员已完成评估的考试总数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1045
+msgid "Quiz Retake by User"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1052
+#, fuzzy
+msgid "Quiz Evaluation"
+msgstr "自动评估"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1059
+#, fuzzy
+msgid "Assignment Start by user"
+msgstr "作业类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1066
+#, fuzzy
+msgid "Assignment Submitted by user"
+msgstr "作业副标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1073
+#, fuzzy
+msgid "Assignment Evaluation"
+msgstr "自动评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1080
+#, fuzzy
+msgid "Assignment Reset by Instructor"
+msgstr "教员已评估完成的课程总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1087
+#, fuzzy
+msgid "Student applied for Course"
+msgstr "我的课程中学员总数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1094
+msgid "Instructor approves/rejects user application"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1104
+#, fuzzy
+msgid "Email Settings"
+msgstr "页面设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1105
+#, php-format
+msgid "Configure email template for Emails, recommended plugin for emails %s"
+msgstr ""
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1108
+#, fuzzy
+msgid "Email Options"
+msgstr "邮件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1109
+msgid "Account Activation Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1110
+msgid "Forgot Password Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1111
+msgid "Email Schedule"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1112
+#, fuzzy
+msgid "Email Template"
+msgstr "文章模板"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1142
+#, fuzzy
+msgid "Enable HTML emails"
+msgstr "可协助的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1145
+msgid "Enable HTML emails in WPLMS. (* Also save email template)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1148
+msgid "FROM \"Name\""
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1151
+msgid "From Name in emails"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1154
+msgid "FROM \"Email\""
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1157
+msgid "From Email in emails"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1160
+msgid "Charset"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1164
+msgid "UTF"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1165
+msgid "ISO"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1167
+msgid "Set email charset"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1176
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1194
+msgid "Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1179
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1243
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1283
+msgid "Subject in Activation email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1182
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1200
+msgid "Message (supports HTML)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1185
+msgid ""
+"Activation email message, use {{activationlink}} to add the activation link"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1197
+msgid "Subject in forgot password email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1203
+msgid ""
+"Forgot password mail message, user {{forgotlink}} to add the forgot password "
+"link, {{username}} to add User login name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1212
+msgid "Schedule Drip Feed Email"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1217
+#, fuzzy
+msgid "Enable Drip Feed Email"
+msgstr "可协助的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1224
+msgid "Email students when the drip feed units are available"
+msgstr ""
+
+# @ text-domain
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1227
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1267
+#, fuzzy
+msgid "Schedule Email"
+msgstr "邮件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1231
+msgid "Before 24 Hours of unit availability"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1232
+msgid "Before 12 Hours of unit availability"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1233
+msgid "Before 6 Hours of unit availability"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1234
+msgid "Before 1 Hours of unit availability"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1235
+msgid "When Unit is available"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1237
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1277
+msgid "Accuracy of email depends upon site traffic and resources."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1240
+#, fuzzy
+msgid "Drip Feed Mail Subject"
+msgstr "协助时间"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1246
+msgid "Drip Feed Mail Message (supports HTML)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1249
+msgid ""
+"{{unit}} for Unit name, {{course}} for Course name & link, {{user}} for User "
+"name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1252
+msgid "Schedule Course Expiry Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1257
+#, fuzzy
+msgid "Enable Course Expire Email"
+msgstr "学习课程的全部学员人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1264
+#, fuzzy
+msgid "Email students when the course expires"
+msgstr "我的课程中学员总数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1271
+msgid "Before 24 Hours of Course expiry"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1272
+msgid "Before 12 Hours of Course expiry"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1273
+msgid "Before 6 Hours of Course expiry"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1274
+msgid "Before 1 Hours of Course expiry"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1275
+#, fuzzy
+msgid "When Course expires"
+msgstr "重新学习课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1280
+msgid "Course Expire Mail Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1286
+msgid "Course expire Mail Message (supports HTML)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1289
+msgid "{{course}} for Course name & link, {{user}} for User name"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1309
+#, fuzzy
+msgid "Customize Template"
+msgstr "文章模板"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1311
+#, fuzzy
+msgid "Email Bg"
+msgstr "邮件"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1312
+#, fuzzy
+msgid "Email Color"
+msgstr "邮件"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1313
+#, fuzzy
+msgid "Title Bg"
+msgstr "标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1314
+#, fuzzy
+msgid "Title Color"
+msgstr "活动颜色"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1315
+#, fuzzy
+msgid "Greetings BG"
+msgstr "设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1316
+#, fuzzy
+msgid "Greetings Color"
+msgstr "活动颜色"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1317
+msgid "Message BG"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1318
+msgid "Message Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1319
+msgid "Sender BG"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1320
+#, fuzzy
+msgid "Sender Color"
+msgstr "活动颜色"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1321
+msgid "Item BG"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1322
+#, fuzzy
+msgid "Item Color"
+msgstr "活动颜色"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1323
+msgid "Footer BG"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1324
+#, fuzzy
+msgid "Footer Color"
+msgstr "活动颜色"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1327
+#, fuzzy
+msgid "View Generated Template"
+msgstr "证书模板"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1328
+#, fuzzy
+msgid "Restore Default"
+msgstr "默认"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1329
+#, fuzzy
+msgid "Apply Changes"
+msgstr "保存修改"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1358
+#, fuzzy
+msgid "WPLMS S3"
+msgstr "我的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1359
+msgid "Secure files using Amazon S3."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1370
+msgid "WPLMS WooCommerce"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1371
+msgid "Integrate WPLMS with WooCommerce."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1382
+#, fuzzy
+msgid "WPLMS CoAuthors Plus"
+msgstr "我的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1383
+msgid "Integrate  WP CoAuhors plus plugin"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1393
+msgid "WPLMS BadgeOS"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1394
+msgid "Connect BadgeOS badges with WPLMS"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1404
+#, fuzzy
+msgid "WPLMS MyCred"
+msgstr "我的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1405
+msgid "Integrated MyCred points system in WPLMS"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1415
+msgid "WPLMS DW Q&A"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1416
+msgid "Integrate DW Questions & Answer with WPLMS"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1426
+msgid "WPLMS Easy Digital Downloads"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1427
+msgid "Connect Easy Digital downloads with WPLMS"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1437
+msgid "BP Social Connect"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1438
+msgid "Connect your BuddyPress site with Social networks Login &  Registration"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1448
+#, fuzzy
+msgid "BP Profile Cover"
+msgstr "档案资料页"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1449
+#, fuzzy
+msgid "Add cover images to Profiles"
+msgstr "添加图像至相册"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1459
+#, fuzzy
+msgid "WPLMS Custom Certificate Codes"
+msgstr "我的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1460
+msgid "Define custom certificate codes for Certificates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1499
+msgid "Enter License Key"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1502
+msgid "Deactivate"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1506
+msgid "Activate"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1513
+msgid "License Key"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1517
+#, fuzzy
+msgid "Learn more"
+msgstr "更多"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1604
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1621
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1633
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1664
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:292
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:968
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:1315
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:1342
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1626
+msgid "Template saved"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1668
+#, fuzzy
+msgid "Unable to update key."
+msgstr "无法创建用户"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/musettings.php:1672
+msgid "Key Updated."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:35
+#, fuzzy
+msgid "Courses permalink base"
+msgstr "重新学习课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:38
+#, fuzzy
+msgid "Course category base"
+msgstr "课程分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:51
+#, fuzzy
+msgctxt "slug"
+msgid "course-cat"
+msgstr "课程分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:70
+msgid ""
+"These settings control the permalinks used for courses. These settings only "
+"apply when <strong>not using \"default\" permalinks above</strong>."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:86
+#, fuzzy
+msgctxt "default-slug"
+msgid "course"
+msgstr "课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:103
+#, fuzzy
+msgid "Course Directory"
+msgstr "课程分类"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:108
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:124
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:140
+#, fuzzy
+msgid "Custom Base"
+msgstr "自定义类型"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:110
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:126
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:142
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:117
+#, fuzzy
+msgid "Quiz Permalinks"
+msgstr "考试时长"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:133
+#, fuzzy
+msgid "Unit Permalinks"
+msgstr "单元时长"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:147
+#, fuzzy
+msgid "Course Action End points"
+msgstr "重新学习课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:148
+msgid ""
+"Course action points, these endpoints are appended to your course URLs to "
+"handle specific actions. They should be unique."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:152
+#, fuzzy
+msgid "Curriculum"
+msgstr "课程章节"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:154
+#, fuzzy
+msgid "Course Curriculum slug"
+msgstr "课程章节"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:158
+msgid "Activity"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:160
+msgid "Course Activity slug"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:164
+#, fuzzy
+msgid "Members"
+msgstr "PMPro会员"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:166
+#, fuzzy
+msgid "Course Members slug"
+msgstr "课程成员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:170
+msgid "Admin"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:172
+#, fuzzy
+msgid "Course Admin slug"
+msgstr "课程设置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:176
+#, fuzzy
+msgid "Submissions"
+msgstr "设置职权"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:178
+msgid "Course Admin - Submissions slug"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:184
+msgid "Course Admin - Statistics slug"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:252
+#, fuzzy
+msgctxt "slug"
+msgid "course"
+msgstr "课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/permalinks.php:281
+msgctxt "default-slug"
+msgid "shop"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:20
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:28
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:70
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:76
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:80
+msgid "Overview"
+msgstr "查看"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:23
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:754
+msgid "Students"
+msgstr "学员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:24
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:805
+msgid "Download Stats"
+msgstr "下载统计表"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:29
+msgid "My Courses"
+msgstr "我的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:71
+msgid "Daily"
+msgstr "每天"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:72
+msgid "Monthly"
+msgstr "每月"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:73
+msgid "Custom"
+msgstr "自定义"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:77
+msgid "Most Students"
+msgstr "大部分学员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:81
+msgid "Popular"
+msgstr "流行的"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:138
+msgid "Subscriptions"
+msgstr "订购"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:143
+msgid "Number of students"
+msgstr "学员人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:180
+msgid "Custom Date Selection"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:236
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1052
+msgid "Total Students"
+msgstr "学员总人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:237
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:243
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:249
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:255
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:261
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:585
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:591
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:597
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:603
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:609
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:931
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:937
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:943
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1054
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1060
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1066
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1170
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1176
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1182
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1454
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1460
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1466
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1472
+msgid "n/a"
+msgstr "n/a"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:242
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:929
+msgid "Total Instructors"
+msgstr "教员总人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:248
+msgid "Total Course Taken"
+msgstr "课程订购总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:254
+msgid "Total Badges"
+msgstr "徽章总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:260
+msgid "Total Certificates"
+msgstr "证书总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:268
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1189
+msgid "This year's monthly subscriptions"
+msgstr "本年度月订购"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:270
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1191
+msgid "This month's daily subscriptions"
+msgstr "本月度订购"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:366
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1292
+msgid "Number of Courses Started"
+msgstr "开始课程数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:583
+msgid "Total Students taking courses"
+msgstr "学员订购课程数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:589
+msgid "Courses Started By Students"
+msgstr "学员已开始学习课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:595
+msgid "Total Courses Finished by Students"
+msgstr "学员已完成的课程总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:601
+msgid "Total Units Finished by Students"
+msgstr "学员已完成的单元总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:607
+msgid "Total Quiz Finished by Students"
+msgstr "学员已完成的考试总数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:651
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1084
+msgid "Prev"
+msgstr "上一个"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:660
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1093
+msgid "Next"
+msgstr "下一个"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:747
+msgid "Download Standard Reports"
+msgstr "下载标准报告"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:807
+msgid "Generate report"
+msgstr "生成报告"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:935
+msgid "Total Courses Evaluated by Instructor"
+msgstr "教员已评估完成的课程总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:941
+msgid "Total Quiz Evaluated by Instructor"
+msgstr "教员已完成评估的考试总数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1058
+msgid "Total Active Students"
+msgstr "已激活学员总人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1064
+msgid "Total Course Students "
+msgstr "学习课程的全部学员人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1168
+msgid "Total Students in My Courses"
+msgstr "我的课程中学员总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1174
+msgid "Total Badges given in My Courses"
+msgstr "我的课程中获得徽章的学员总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1180
+msgid "Total Certificates given in My Courses"
+msgstr "我的课程中获得证书的学员总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1452
+msgid "Total Students taking my courses"
+msgstr "学习我的课程的学员总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1458
+msgid "My Courses Finished by Students"
+msgstr "完成我的课程的学员总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1464
+msgid "My Units Finished by Students"
+msgstr "学员完成我的单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/statistics.php:1470
+msgid "My Quiz Finished by Students"
+msgstr "学员完成我的考试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:216
+msgid "Please Check Terms & Conditions"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:238
+msgid " I agree to these Terms and Conditions"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:335
+#, fuzzy
+msgid "Assignment :"
+msgstr "作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:356
+msgid "Quiz passing score"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:357
+msgid ""
+"Passing score for quiz. Combined with Prev.Unit/Quiz lock the user progress "
+"can be restricted."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:370
+msgid "SET QUIZ PASSING SCORE"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:395
+msgid "NEGATIVE MARKS PER QUESTION"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:412
+msgid "Negative Marks per Question"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:413
+#, fuzzy
+msgid "Deduct marks for a Wrong answer."
+msgstr "给正确答案打分"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:506
+msgid "COMING SOON"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:521
+msgid "Coming soon Mode"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:522
+#, fuzzy
+msgid "Enable Coming soon mode"
+msgstr "学习课程的全部学员人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:550
+msgid "Coming Soon mode"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:555
+#, fuzzy
+msgid "Enable"
+msgstr "启动打印"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:727
+#, fuzzy
+msgid "Top Menu for Students"
+msgstr "学习课程的全部学员人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:728
+#, fuzzy
+msgid "Main Menu for Students"
+msgstr "大部分学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:729
+#, fuzzy
+msgid "Mobile Menu for Students"
+msgstr "学员人数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:736
+#, fuzzy
+msgid "Top Menu for Instructor"
+msgstr "教员"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:737
+#, fuzzy
+msgid "Main Menu for Instructor"
+msgstr "教员"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:738
+#, fuzzy
+msgid "Mobile Menu for Instructor"
+msgstr "教员"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:750
+#, fuzzy
+msgid "Create a Course"
+msgstr "免费课程"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:778
+#, fuzzy
+msgid "Make Instructor"
+msgstr "教员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:820
+msgid "There was some error"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:822
+#, fuzzy
+msgid "Make Student"
+msgstr "大部分学员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:840
+msgid "Send Message"
+msgstr ""
+
+# @ text-domain
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:844
+#, fuzzy
+msgid "Send Email"
+msgstr "邮件"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:924
+#, fuzzy
+msgid "Take this Course"
+msgstr "在课程中包含"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:943
+msgid "My Orders"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:954
+#, fuzzy
+msgid "My Membership"
+msgstr "PMPro会员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:973
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:979
+msgid "Code does not exist. Please check the code."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:990
+#, fuzzy
+msgid "Course code applied"
+msgstr "重新学习课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:999
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1011
+msgid "Congratulations! You are now added to the course."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1001
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1013
+msgid "User already in course."
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1004
+#, fuzzy
+msgid "Maximum number of usage for course code exhausted"
+msgstr "同时学习课程学员最多人数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1035
+#, fuzzy
+msgid "Course Codes"
+msgstr "课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1036
+msgid "Enter Course codes (XXX|2,YYY|4)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1051
+msgid "Set Course purchase codes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1052
+msgid ""
+"Student can gain access to Course using course codes (multiple codes comma "
+"separated, usage count pipe saperate eg : xxx|2,yyy|4)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1061
+msgid "Access Date"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1062
+#, fuzzy
+msgid "Date on which unit is accessible"
+msgstr "活动结束日期"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1067
+msgid "Access Time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1068
+msgid "Time after which unit is accessible"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1102
+msgid "Unit access date"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1103
+msgid "Access date"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1105
+msgid "Unit access time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1106
+msgid "Access time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1249
+msgid "<strong>ERROR</strong>: User already logged in."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1259
+msgid "External Course button link"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1260
+msgid "Connect Course button to an external page (Leave blank to skip)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1261
+msgid "Enter the external page url. Leave blank or 0 to skip"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1295
+#, fuzzy
+msgid "WPLMS Course codes widget"
+msgstr "我的课程页面"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1297
+#, fuzzy
+msgid "WPLMS Course Codes"
+msgstr "我的课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1321
+msgid "Submit"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1336
+#, fuzzy
+msgid "Enter Course code"
+msgstr "链接课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1337
+msgid "Place holder text"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/includes/tips.php:1342
+msgid "Course Codes input box text"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:381
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:543
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:547
+#, fuzzy, php-format
+msgid "Select a %s"
+msgstr "选择"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:392
+#, fuzzy, php-format
+msgid "Select multiple %s"
+msgstr "选择问题类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:470
+msgid "Latitude"
+msgstr "经度"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:471
+msgid "Longitude"
+msgstr "纬度"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:472
+msgid "Closest Matching Address"
+msgstr "最匹配地址"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:475
+msgid "Street Address"
+msgstr "街"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:476
+msgid "City"
+msgstr "市"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:477
+msgid "State"
+msgstr "省"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:478
+msgid "Zip/Pin Code"
+msgstr "邮编"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:479
+msgid "Country"
+msgstr "国家"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:496
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:519
+msgid "Buddypress Groups is not Active"
+msgstr "Buddypress群组未激活"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:504
+msgid "Select groups"
+msgstr "选择群组"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:525
+msgid "Add Section"
+msgstr "添加章节"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:556
+#, fuzzy
+msgid "Select "
+msgstr "选择"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:567
+msgid "Select Taxonomy"
+msgstr "选择分类"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:601
+#, fuzzy
+msgid "Add Question"
+msgstr "全部问题"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:614
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:615
+#, fuzzy
+msgid "Type Question"
+msgstr "题库"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:622
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:643
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:661
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:681
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:711
+msgid "Add More"
+msgstr "添加更多"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:725
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:733
+msgid "Marks for a Correct answer"
+msgstr "给正确答案打分"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:737
+msgid "Total marks for the Quiz :"
+msgstr "考试总成绩:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:763
+msgid "Delete image"
+msgstr "删除图像"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:763
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:826
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:905
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:968
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:1047
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:1110
+msgid "Delete"
+msgstr "删除"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:777
+msgid "Add Gallery images"
+msgstr "添加相册"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:803
+msgid "Add Images to Gallery"
+msgstr "添加图像至相册"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:805
+msgid "Add to Gallery"
+msgstr "添加相册"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:905
+msgid "Delete audio file"
+msgstr "删除音频文件"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:919
+msgid "Add Audio Files"
+msgstr "添加音频文件"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:945
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:947
+msgid "Add Audio"
+msgstr "添加音频"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:1047
+msgid "Delete video file"
+msgstr "删除视频文件"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:1061
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:1087
+msgid "Add Video Files"
+msgstr "添加视频文件"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/meta_box.php:1089
+msgid "Add Video"
+msgstr "添加视频"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:713
+msgid "Loading.."
+msgstr "读取...."
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:714
+msgid "No more to load"
+msgstr "无更多"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:983
+msgid "Confirm Delete?"
+msgstr "确认删除？"
+
+# @ vibe-customtypes
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:983
+msgid "Saving..."
+msgstr "保存..."
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:983
+msgid "Saved."
+msgstr "保存"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1020
+msgid "Carousels/Rotating Blocks"
+msgstr "滑块"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1024
+msgid "Title/Heading"
+msgstr "标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1026
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1166
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1273
+msgid "Heading"
+msgstr "标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1030
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1169
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1276
+msgid "Show Title"
+msgstr "显示标题"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1037
+#, fuzzy
+msgid "Show more link"
+msgstr "显示更多"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1044
+msgid "More Link (User redirected to this page on click)"
+msgstr "更多（用户可直接点击页面）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1050
+msgid "Show Controls"
+msgstr "显示控制板"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1057
+msgid ""
+"Enter Post Type<br /><span style=\"font-size:11px;\">(Select Post Type from "
+"Posts/Courses/Clients/Products ...)</span>"
+msgstr ""
+"输入文章类型<br /><span style=\"font-size:11px;\">(从文章中选择类型/课程/用"
+"户/商品 ...)</span>"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1060
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1178
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1285
+msgid "post"
+msgstr "文章"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1064
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1289
+msgid ""
+"Enter Taxonomy Slug (optional)<br /><span style=\"font-size:11px;\">(A "
+"\"Taxonomy\" is a grouping mechanism for posts. Like Category for Posts, "
+"Tags for Posts, Portfolio Type for Portfolio etc.. <a href=\"http://codex."
+"wordpress.org/Taxonomies\">more</a>)</span> "
+msgstr ""
+"Enter Taxonomy Slug (optional)<br /><span style=\"font-size:11px;\">(A "
+"\"Taxonomy\" is a grouping mechanism for posts. Like Category for Posts, "
+"Tags for Posts, Portfolio Type for Portfolio etc.. <a href=\"http://codex."
+"wordpress.org/Taxonomies\">more</a>)</span> "
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1070
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1295
+msgid "Enter Taxonomy Term Name (optional, only if above is selected): "
+msgstr "输入分类条款名（可选，仅在选择上方）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1075
+msgid "Or Enter Specific Post Ids"
+msgstr "或输入文章具体ID"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1080
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1191
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1306
+msgid "Course Types [Only for Post type = Course]"
+msgstr "课程类型 [文章类型与课程相同]"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1090
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1201
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1316
+msgid "recent"
+msgstr "最近"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1093
+msgid "Carousel/Rotating Block Style"
+msgstr "滑块样式"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1096
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1207
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1322
+msgid "excerpt"
+msgstr "摘要"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1099
+msgid "Auto slide/rotate"
+msgstr "自动滑块"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1105
+msgid "Width each crousel block"
+msgstr "滑块宽度"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1107
+msgid "268"
+msgstr "268"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1110
+msgid "Maximum Number of blocks in One screen"
+msgstr "单屏显示最多滑块数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1112
+msgid "4"
+msgstr "4"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1115
+msgid "Minimum Number of blocks in one Screen"
+msgstr "单屏显示最多滑块数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1117
+msgid "2"
+msgstr "2"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1120
+msgid "Total Number of Blocks"
+msgstr "模块最多数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1122
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1228
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1357
+msgid "6"
+msgstr "6"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1126
+msgid "Excerpt Length in Block (in characters)"
+msgstr "模块摘要长度（单位：字符）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1128
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1223
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1377
+msgid "100"
+msgstr "100"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1131
+msgid "Show Link button on image hover"
+msgstr "显示悬停图像按钮"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1137
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1244
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1388
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1423
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1504
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1556
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1599
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1631
+msgid "Show Advanced settings"
+msgstr "显示最高级设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1142
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1249
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1393
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1434
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1515
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1561
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1604
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1636
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1732
+msgid "* Custom Class name (Add Custom Class to this Block)"
+msgstr "* 自定义名（给模块添加自定义）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1146
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1253
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1397
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1438
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1519
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1565
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1608
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1640
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1736
+msgid "* Class for on containing Layout column"
+msgstr "* 布局含有栏数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1150
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1257
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1401
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1442
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1523
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1569
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1612
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1644
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1740
+msgid ""
+"* Add Custom CSS (Use <strong>.</strong> for class name, <strong>:hover</"
+"strong> for hover styles etc..)"
+msgstr ""
+"* 添加自定义 CSS (Use <strong>.</strong> 类型名称, <strong>:悬停</strong> 悬"
+"停风格等"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1160
+msgid "Filterable Posts"
+msgstr "过滤文章"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1164
+msgid "Filterable Block Title"
+msgstr "过滤模块名"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1175
+msgid "Select a Post Type"
+msgstr "选择文章类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1181
+#, fuzzy
+msgid ""
+"Enter relevant Taxonomy name used for Filter buttons (example : course-cat,"
+"event-type..)"
+msgstr "输入用于过滤按钮的分类名"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1186
+msgid "Enter terms (comma saperated term slugs) to be \"excluded\" in filters"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1204
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1319
+msgid "Featured Media Block Style"
+msgstr "推荐媒体模块风格"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1210
+msgid "Show All link"
+msgstr "显示全部链接"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1216
+msgid "Column Width (in px)"
+msgstr "栏宽度（px)"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1221
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1375
+msgid "Excerpt Length (in characters)"
+msgstr "摘要长度（单位：字节）"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1226
+msgid "Total Number of blocks"
+msgstr "模块总数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1231
+msgid "Show Pagination"
+msgstr "显示分页"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1238
+msgid "Show Link [Links to Post]"
+msgstr "显示链接"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1267
+msgid "Post Grid"
+msgstr "文章网格"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1271
+msgid "Grid Title"
+msgstr "网格名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1282
+msgid "Custom Post Type"
+msgstr "自定义文章类型"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1301
+msgid "Or Enter Specific Post Ids (comma saperated)"
+msgstr "或输入指定文章ID"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1326
+msgid "Grid Masonry Layout"
+msgstr "网格布局"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1333
+msgid "Grid Columns"
+msgstr "网格栏数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1345
+msgid "Masonry Grid Column Width(in px)"
+msgstr "网格宽度（px)"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1350
+msgid "Spacing between Columns (in px)"
+msgstr "栏间隙（px)"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1355
+msgid "Total Number of Blocks in Grid"
+msgstr "总网格数"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1361
+msgid "Infinite Scroll"
+msgstr "无限滚动"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1368
+msgid "Enable Pagination (If infinite scroll is off)"
+msgstr "启用分页"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1381
+msgid "Show Link"
+msgstr "显示链接"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1410
+msgid "WP Editor"
+msgstr "wp编辑器"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1413
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1454
+msgid "Reference Title"
+msgstr "参考名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1428
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1509
+msgid ""
+"* On-Load CSS3 Animation effect on the block (<a href=\"http://vibethemes."
+"com/forums/showthread.php?914-CSS3-Animation-Effects&p=2488\" target=\"_blank"
+"\">more</a>)"
+msgstr ""
+"* 加载 CSS3动态画面效果模块 (<a href=\"http://vibethemes.com/forums/"
+"showthread.php?914-CSS3-Animation-Effects&p=2488\" target=\"_blank\">more</"
+"a>)"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1451
+msgid "Parallax Content"
+msgstr "视差量"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1456
+msgid "Parallax Title"
+msgstr "视差名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1464
+msgid "Upload Parallax Background image"
+msgstr "上传视差背景图像"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1469
+msgid "Background Effect"
+msgstr "背景效果"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1472
+msgid "Image Scrolls with scroll"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1473
+msgid "Image Static with Scroll"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1474
+msgid "Full Parallax Static with Scroll"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1479
+msgid "Parallax Block Height (in px)"
+msgstr "视差模块高度（px)"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1484
+msgid "Parallax value (Scroll senstivity, lower value means higher scroll)"
+msgstr "视差值（即滚动敏感度，越小就滚动越明显）"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1489
+msgid "Adjust background (in px)"
+msgstr "栏宽度（px)"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1494
+msgid "Top Padding(in px)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1499
+msgid "Bottom Padding(in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1548
+msgid "Revolution Slider"
+msgstr "Revolution Slider"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1551
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1594
+msgid "Select Slider"
+msgstr "选择Slider"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1591
+msgid "Layer Slider"
+msgstr "Layer Slider"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1625
+msgid "Select a Sidebar"
+msgstr "选择侧边栏"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1628
+msgid "MainSidebar"
+msgstr "MainSidebar"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1652
+msgid "FlexSlider"
+msgstr "FlexSlider"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1655
+msgid "Slider ID (for reference & Css)"
+msgstr "Slider ID (for reference & Css)"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1660
+msgid "Slide Style"
+msgstr "Slide Style"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1672
+msgid "Animation Effect"
+msgstr "动画效果"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1674
+msgid "fade"
+msgstr "渐变"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1674
+msgid "slide"
+msgstr "slide"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1679
+msgid "Slider settings"
+msgstr "Slider设置"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1684
+msgid "Auto slide Images"
+msgstr "自动播放slider"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1690
+msgid "Loop Slides"
+msgstr "循环播放slider"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1696
+msgid "Randomize Slides"
+msgstr "随机slider"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1702
+msgid "Show Slider Direction arrows"
+msgstr "Show Slider Direction arrows"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1708
+msgid "Show Slider Control buttons"
+msgstr "Show Slider Control buttons"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1714
+msgid "Animation Duration (in ms)"
+msgstr "动画时长 (in ms)"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1720
+msgid "Auto Animation Speed (in ms)"
+msgstr "自动播放速度（in ms)"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1725
+msgid "Pause Slider On Hover"
+msgstr "暂停slider并悬停"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1757
+msgid "1/2 Column"
+msgstr "1/2 列"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1758
+msgid "1/3 Column"
+msgstr "1/3 列"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1759
+msgid "1/4 Column"
+msgstr "1/4 列"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1760
+#, fuzzy
+msgid "1/4 Column & 1/2 Column"
+msgstr "1/2 列"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1761
+msgid "2/3 Column"
+msgstr "2/3 列"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1762
+msgid "3/4 Column"
+msgstr "3/4 列"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1763
+msgid "Full-Width Resizable Column"
+msgstr "全宽度可调整大小的列"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1764
+msgid "FullScreen Stripe with Container"
+msgstr "箱内全屏条纹"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1765
+msgid "FullScreen Stripe"
+msgstr "全屏条纹"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1790
+msgid "COLUMNS"
+msgstr "纵列"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1791
+msgid "CONTENT"
+msgstr "内容"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1792
+msgid "SAVED LAYOUTS"
+msgstr "保存布局"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1843
+msgid "Enter name of Sample Layout"
+msgstr "输入样板布局名称"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1844
+msgid "Save Layout"
+msgstr "保存布局"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1854
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1946
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:2064
+msgid "Save Changes"
+msgstr "保存修改"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1855
+msgid "Save as New Layout"
+msgstr "另存为"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:1856
+msgid "Generated Shortcode"
+msgstr "短代码已生成"
+
+# @ vibe-customtypes
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php:2141
+msgid "Show Page Content"
+msgstr "显示页面内容"
+
+#~ msgid "Payments History"
+#~ msgstr "支付历史"
+
+# @ vibe-customtypes
+#~ msgid "Duration between consecutive Drip feed units (in "
+#~ msgstr "连续协助的时间"
+
+# @ vibe-customtypes
+#, fuzzy
+#~ msgid "Survey/Practice Settings"
+#~ msgstr "页面设置"
+
+#~ msgid "Comments"
+#~ msgstr "评论"
+
+#, fuzzy
+#~ msgid "Course Directory / Category"
+#~ msgstr "课程分类"
+
+# @ vibe-customtypes
+#, fuzzy
+#~ msgid "Quiz Course"
+#~ msgstr "课程"
+
+# @ vibe-customtypes
+#, fuzzy
+#~ msgid "Unit Course"
+#~ msgstr "课程"
+
+#~ msgid "Select One"
+#~ msgstr "选择一个"
