@@ -152,9 +152,9 @@ function wplms_show_notes_discussion($unit_id){
           <?php    
               
 
-              $per_page = get_option('comments_per_page');
-              if(!is_numeric($per_page))
-                $per_page = 5;
+               // $per_page = get_option('comments_per_page');
+              // if(!is_numeric($per_page))
+                $per_page = 9999;
               
               $comments_count = get_comments(array('post_id'=>$unit_id,'count'=>true,'parent'=>0));
               $max = ceil($comments_count/$per_page);
@@ -189,6 +189,129 @@ function wplms_show_notes_discussion($unit_id){
       <a class="add_comment"><?php printf(__('Ask Question','vibe'),$more); ?></a>
       <div id="add_unit_comment" class="add_unit_comment_text hide">
         <textarea></textarea>
+        <a class="button post_question"><?php _e('Post Question','vibe'); ?></a>
+        <a class="button cancel"><?php _e('Cancel','vibe'); ?></a>
+      </div>
+      </div>
+      <?php
+  }
+}
+
+add_action('wplms_show_notes_discussion_assignment','wplms_show_notes_discussion_assignment',10,2);
+function wplms_show_notes_discussion_assignment($unit_id, $user_id=''){
+
+  global $post;
+   if ($user_id == ''){ 
+       $user_id = get_current_user_id();
+    }
+    $usersIDs[] = $user_id;
+
+  //administrator,instructor
+      global $wpdb;
+    $blog_id = get_current_blog_id();
+    $user_query = new WP_User_Query( array(
+        'meta_query' => array(
+            'relation' => 'OR',
+            array(
+                'key' => $wpdb->get_blog_prefix( $blog_id ) . 'capabilities',
+                'value' => 'administrator',
+                'compare' => 'like'
+            ),
+            array(
+                'key' => $wpdb->get_blog_prefix( $blog_id ) . 'capabilities',
+                'value' => 'instructor',
+                'compare' => 'like'
+            )
+        )
+    ) );
+    $users = $user_query->get_results();
+    foreach ($users as $key => $value) {
+      $usersIDs[]=$value->ID;
+    }
+
+    $usersIDs=implode( ',', $usersIDs );
+    /////////////////////////////////////////////////////
+
+  $notes_style = vibe_get_option('notes_style');
+  $unit_comments = vibe_get_option('unit_comments');
+  
+  if(isset($notes_style) && is_numeric($notes_style) && is_numeric($unit_comments) && is_user_logged_in()){
+    ?>
+      <div id="discussion" data-unit="<?php echo $unit_id; ?>" data-user="<?php echo $user_id; ?>" class="">
+      <h3 class="heading"><?php _e('Discussion','vibe'); 
+      print_r($usersIDs);
+      $user_id_comment = $user_id;
+        $user_id = get_current_user_id();
+        $post_author = get_post_field('post_author',$unit_id,true);
+        $post_authors = array($post_author);
+        if(function_exists('get_coauthors')){
+          $post_authors = get_coauthors( $unit_id );
+        }
+        if( in_array($user_id,$post_authors) || current_user_can('manage_posts')) { 
+          edit_post_link(__('Manage','vibe'),'','',$unit_id);
+        }
+      ?>
+      </h3>
+      <ol class="commentlist">
+          <?php    
+              
+
+              // $per_page = get_option('comments_per_page');
+              // if(!is_numeric($per_page))
+                $per_page = 9999;
+              
+              $comments_count = get_comments(array('post_id'=>$unit_id,'count'=>true,'parent'=>0));
+              $max = ceil($comments_count/$per_page);
+
+              $offset = 0;
+              $comments = get_comments(array(
+                  'post_id' => $unit_id,
+                  'offset' => 0,
+                  //'number' => $per_page,
+                  'author__in'=>$usersIDs,
+                  'status' => 'approve',
+                  'meta_key' => 'user_id_comment',
+                  'meta_value' => $user_id_comment
+              ));
+              // $query = "SELECT * FROM $wpdb->comments 
+              //         WHERE comment_post_ID = $unit_id 
+              //         AND user_id IN ($usersIDs) 
+              //         AND comment_approved = 1
+              //         ORDER BY comment_date ASC";
+              // $comments = $wpdb->get_results( $query );
+
+             
+
+              wp_list_comments(array(
+                  'avatar_size' => 120,
+                  'callback' => 'wplms_unit_comment' //Show the latest comments at the top of the list
+              ), $comments);
+
+
+          ?>
+      </ol>
+    <?php
+
+      if($comments_count > $per_page){
+        $more = $comments_count - $per_page;
+        
+        if($max > 1){
+          ?>
+            <a class="load_more_comments right" data-page="1" data-max="<?php echo $max; ?>" data-per="<?php echo $per_page; ?>"><?php printf(__('Load more (<span>%s</span>)','vibe'),$more); ?></a>
+          <?php
+        }
+      }
+      ?>
+      <a class="add_comment"><?php printf(__('Ask Question','vibe'),$more); ?></a>
+      <div id="add_unit_comment" class="add_unit_comment_text hide">
+          <?php
+          $content = '';
+          $editor_id = 'mycustomeditor';
+
+          wp_editor( $content, $editor_id );
+
+          
+          ?>
         <a class="button post_question"><?php _e('Post Question','vibe'); ?></a>
         <a class="button cancel"><?php _e('Cancel','vibe'); ?></a>
       </div>
@@ -235,9 +358,13 @@ function wplms_unit_comment($comment, $args, $depth) {
           <?php if ( $comment->comment_approved == '0' ) : ?>
           <em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.' ); ?></em>
           <?php endif; ?>
-              <?php comment_text(); ?>
-              <div class="reply">
-                  <a><?php _e('REPLY','vibe');?></a>
+              <?php $mycomment = get_comment_text();
+          //$crayon = '<pre class="lang:html toolbar:always mark:1">' . $mycomment . '</pre>';
+            // Add Crayon to content
+            
+               echo CrayonWP::highlight($mycomment); ?>
+              <div class="reply" data-parent="<?php comment_ID()?>">
+                 <a ><?php _e('REPLY','vibe');?></a>
               </div>
           </div>
       </div>

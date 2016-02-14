@@ -78,7 +78,7 @@ if($user_id == $post->post_author || current_user_can('manage_options'))
     <div class="container">
         <div class="row">
             <div class="col-md-9 col-sm-8">
-                    <div class="content">
+                    <div id="unit_content" class="unit_content">
                         <div id="assignment" class="main_content">
                             <?php do_action('wplms_assignment_before_content'); 
                             ?>
@@ -121,7 +121,11 @@ if($user_id == $post->post_author || current_user_can('manage_options'))
                             }
                             ?>
                         </div>
-                        <?php do_action('wplms_assignment_after_content'); ?> 
+                         <?php do_action('wplms_assignment_after_content'); 
+
+                        do_action('wplms_show_notes_discussion_assignment',get_the_ID());
+                        wp_nonce_field('security','hash');
+                        ?> 
                     </div>
                 <?php
                 

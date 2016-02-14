@@ -44,3 +44,31 @@ include_once 'setup/wplms-install.php';
 get_template_part('vibe','options');
 
 
+add_filter('comment_form_defaults', 'tinymce_comment_enable');
+function tinymce_comment_enable ( $args ) {
+    ob_start();
+    wp_editor('', 'comment', array('tinymce'));
+    $args['comment_field'] = ob_get_clean();
+    return $args;
+}
+
+
+add_filter( 'comment_form_defaults', 'remove_comment_form_allowed_tags' );
+function remove_comment_form_allowed_tags( $defaults ) {
+
+	$defaults['comment_notes_after'] = '';
+	return $defaults;
+
+}
+
+function override_mce_options($initArray) {
+    $opts = '*[*]';
+    $initArray['valid_elements'] = $opts;
+    $initArray['extended_valid_elements'] = $opts;
+    return $initArray;
+}
+add_filter('tiny_mce_before_init', 'override_mce_options');
+
+// Allow tag PRE in comment post (it need for notes ans submissoin system in assignment module, for highlight syntax code)
+
+$allowedtags['pre'] = array();
